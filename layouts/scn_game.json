@@ -18,9 +18,9 @@
     "gridOffsetY": 0,
     "gridOffsetZ": 0,
     "gridColor": 10401023,
-    "gridAlpha": 0.8,
+    "gridAlpha": 0.4,
     "snap": true,
-    "zoomFactor": 0.4163025217733325,
+    "zoomFactor": 0.3526904934771228,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -37,8 +37,8 @@
       "name": "obj_player",
       "persistentUuid": "1c6ddcd3-7296-4a41-be9c-39c3cce304ec",
       "width": 64,
-      "x": 928,
-      "y": 416,
+      "x": 896,
+      "y": 480,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -200,6 +200,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -450,9 +451,11 @@
       "conditions": [
         {
           "type": {
-            "value": "AnyKeyPressed"
+            "value": "BooleanVariable"
           },
           "parameters": [
+            "PlayerData.CameFromMainMenu",
+            "False",
             ""
           ]
         }
@@ -460,13 +463,12 @@
       "actions": [
         {
           "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+            "value": "Scene"
           },
           "parameters": [
-            "txt_display",
-            "Text",
-            "=",
-            "LastPressedKey()"
+            "",
+            "\"scn_menu\"",
+            "yes"
           ]
         }
       ]

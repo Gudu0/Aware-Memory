@@ -401,6 +401,11 @@
       "type": "structure",
       "children": [
         {
+          "name": "CameFromMainMenu",
+          "type": "boolean",
+          "value": false
+        },
+        {
           "name": "HardMode",
           "type": "boolean",
           "value": false

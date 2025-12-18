@@ -1067,6 +1067,16 @@
       "actions": [
         {
           "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "PlayerData.CameFromMainMenu",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "Scene"
           },
           "parameters": [

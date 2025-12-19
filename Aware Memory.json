@@ -11,7 +11,7 @@
     "antialiasingMode": "MSAA",
     "antialisingEnabledOnMobile": false,
     "folderProject": true,
-    "orientation": "landscape",
+    "orientation": "default",
     "packageName": "org.gudu0",
     "pixelsRounding": false,
     "projectUuid": "cebfcbdd-9298-4fa3-8e76-3c93b127c2be",
@@ -20,7 +20,7 @@
     "templateSlug": "",
     "version": "1.0.0",
     "name": "Aware Memory",
-    "description": "",
+    "description": "factory sim",
     "author": "Alexander Bagnall",
     "windowWidth": 1920,
     "windowHeight": 1080,
@@ -78,14 +78,13 @@
       "showWatermark": true
     },
     "authorIds": [
-      "BGKdyneYhLOCnF5XHhq73BlqQ9f1"
+      "z6vCk1cxi7XHhZhpwQ4BLhCjdey1"
     ],
     "authorUsernames": [
-      "Gudu0"
+      "gudu01"
     ],
     "categories": [],
     "playableDevices": [
-      "mobile",
       "mobile"
     ],
     "extensionProperties": [],
@@ -338,6 +337,3193 @@
         "name": "spr_game_background",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/8BitOperatorPlus8Regular_Edited.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\8BitOperatorPlus8Regular_Edited.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/15c1797cbcb41c3a753b6bbb21cfa60284cfaf81c9891c3abf78a8e0e1cacf59_8BitOperatorPlus8Regular_Edited.png",
+          "name": "8BitOperatorPlus8Regular_Edited.png"
+        }
+      },
+      {
+        "file": "assets/Small Blue Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small Blue Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/f80ae062891a0a4612c0160ed931165461392019f89a8545f28c195f645ebc48_Small Blue Button_Hovered.png",
+          "name": "Small Blue Button_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Small Blue Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small Blue Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/c22b15c77047f1545806141e1129900bdc985d191b7ab5ebaae834a90c270ed2_Small Blue Button_Idle.png",
+          "name": "Small Blue Button_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Small Blue Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small Blue Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/9e01b09016c6a200b53a55cac3cf34f083785eb6b9f55de490a71ad352858b36_Small Blue Button_Pressed.png",
+          "name": "Small Blue Button_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/8BitOperatorPlus8Regular_Edited.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets\\8BitOperatorPlus8Regular_Edited.fnt",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/6b410f07a3a02e721a49d41795e84b56707ef28ac4d095d55f1fd1093760e134_8BitOperatorPlus8Regular_Edited.fnt",
+          "name": "8BitOperatorPlus8Regular_Edited.fnt"
+        }
+      },
+      {
+        "file": "conveyor_sprites.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile016.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile017.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile019.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile020.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile021.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile022.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile023.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile024.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile025.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile026.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile027.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile028.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile029.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile030.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile031.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile032.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile074.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile074.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile075.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile075.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile076.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile076.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile077.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile077.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile078.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile078.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile079.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile079.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile080.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile080.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile081.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile081.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile082.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile082.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile083.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile083.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile084.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile084.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile085.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile085.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile086.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile086.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile087.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile087.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile088.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile088.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile089.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile089.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile090.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile090.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile091.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile091.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile092.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile092.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile093.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile093.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile094.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile094.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile095.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile095.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile096.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile096.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile097.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile097.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile098.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile098.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile099.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile099.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile100.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile101.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile101.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile102.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile102.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile103.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile103.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile104.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile104.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tile105.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile105.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_07.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_09.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_15.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_17.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_19.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_21.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_22.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_24.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_26.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_28.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_30.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_32.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_34.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_36.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_38.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_40.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_42.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_44.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_46.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_46.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_48.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_50.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_52.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_54.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_54.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_56.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_56.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_57.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_59.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_59.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_60.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "conveyor_sprites_62.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "conveyor_sprites_62.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile016.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile017.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile019.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile020.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile021.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile022.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile023.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile024.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile025.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile026.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile027.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile028.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile029.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile030.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_right/tile031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_right\\tile031.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile074.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile074.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile074.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile075.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile075.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile075.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile076.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile076.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile076.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile077.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile077.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile077.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile078.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile078.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile078.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile079.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile079.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile079.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile080.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile080.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile080.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile081.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile081.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile081.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile082.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile082.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile082.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile083.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile083.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile083.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile084.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile084.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile084.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile085.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile085.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile085.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile086.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile086.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile086.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile087.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile087.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile087.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile088.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile088.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile088.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile089.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile089.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile089.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile090.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile090.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile090.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile091.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile091.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile091.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile092.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile092.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile092.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile093.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile093.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile093.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile094.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile094.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile094.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile095.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile095.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile095.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile096.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile096.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile096.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile097.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile097.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile097.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile098.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile098.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile098.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile099.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile099.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile099.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile100.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile100.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile100.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile101.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_left\\tile101.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile102.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile102.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile102.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile103.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile103.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile103.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile104.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile104.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile104.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_left/tile105.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_left/tile105.png\",\"extension\":\".png\"}",
+        "name": "assets\\conveyor_left\\tile105.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_07.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_09.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_15.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_17.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_19.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_21.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_22.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_24.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_26.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_28.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_30.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_32.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_34.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_36.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_38.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_40.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_42.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_44.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_46.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_46.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_48.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_50.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_52.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_54.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_54.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_56.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_56.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_57.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_59.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_59.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_60.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_up/conveyor_sprites_62.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_up\\conveyor_sprites_62.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up18",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up19",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up20",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up21",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up22",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up23",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up24",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up25",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up26",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up27",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up28",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up29",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up30",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up31",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up32",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up33",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up34",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up35",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up36",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up37",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up38",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up39",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up40",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up41.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up41",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up42",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up43.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up43",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up44.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up44",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up45.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up45",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up46.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up46",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up47.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up47",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up48.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up48",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up49.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up49",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up50",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up51.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up51",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up52.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up52",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up53.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up53",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up54.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up54",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up55.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up55",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up56.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up56",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up57.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up57",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up58.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up58",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up59.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up59",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up60.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up60",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up61.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up61",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up62.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up62",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up63.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up63",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up64.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up64",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_07.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_09.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_15.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_17.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_19.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_21.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_23.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_25.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_27.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_29.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_31.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_33.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_35.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_37.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_39.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_39.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_41.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_43.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_45.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_47.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_47.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_49.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_49.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_51.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_51.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_53.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_53.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_55.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_55.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_57.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_58.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_58.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_60.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_62.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_62.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/conveyor_down/conveyor_sprites_63.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\conveyor_down\\conveyor_sprites_63.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down18",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down19",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down20",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down21",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down22",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down23",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down24",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down25",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down26",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down27",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down28",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down29",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down30",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down31",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down32",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "player",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "player2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "player3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player_back.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "player_back",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right18",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right19",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right20",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right21",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right22",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right23",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right24",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right25",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right26",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right27",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right28",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right29",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right30",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right31",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right32",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left18",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left19",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left20",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left21",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left22",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left23",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left24",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left25",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left26",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left27",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left28",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left29",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left30",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left31",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left32",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left33",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -373,6 +3559,11 @@
           "value": "d"
         },
         {
+          "name": "rotate_item",
+          "type": "string",
+          "value": "r"
+        },
+        {
           "name": "up_move",
           "type": "string",
           "value": "w"
@@ -380,7 +3571,6 @@
       ]
     },
     {
-      "folded": true,
       "name": "Menu",
       "type": "structure",
       "children": [
@@ -406,14 +3596,28 @@
           "value": false
         },
         {
+          "name": "CanPlace",
+          "type": "boolean",
+          "value": false
+        },
+        {
           "name": "HardMode",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "PlaceRotation",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "PlacingMachine",
+          "type": "string",
+          "value": "Conveyor"
         }
       ]
     },
     {
-      "folded": true,
       "name": "MovementVariables",
       "type": "structure",
       "children": [
@@ -428,6 +3632,11 @@
           "value": true
         }
       ]
+    },
+    {
+      "name": "conveyorTimer",
+      "type": "number",
+      "value": -1
     }
   ],
   "layouts": [
@@ -440,7 +3649,12 @@
       "referenceTo": "/layouts/scn_menu"
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/ext_place"
+    }
+  ],
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

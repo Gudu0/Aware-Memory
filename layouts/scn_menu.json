@@ -18,9 +18,9 @@
     "gridOffsetY": 0,
     "gridOffsetZ": 0,
     "gridColor": 10401023,
-    "gridAlpha": 0.8,
+    "gridAlpha": 0.2,
     "snap": true,
-    "zoomFactor": 0.376877203675088,
+    "zoomFactor": 0.36458333333333454,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -368,6 +368,39 @@
       "x": 1344,
       "y": 704,
       "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "btn_credits",
+      "persistentUuid": "4c540759-ba1c-440b-b0af-09e8e6066fb5",
+      "width": 96,
+      "x": 1792,
+      "y": 960,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "txt_credit",
+      "persistentUuid": "dd53e8db-42b7-4efc-8eeb-fc88f166571a",
+      "width": 0,
+      "x": 1209,
+      "y": 288,
+      "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -948,6 +981,63 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "80b9ddd78c8727888bb53c7524f443682746667b1ba493c223114c04e7661bbf",
+      "name": "btn_credits",
+      "persistentUuid": "26503ac4-8d95-410e-b404-7d0b4a74718e",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Small Blue Button2",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LabelText": "Credits",
+        "PressedLabelOffsetY": 2
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "txt_credit",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Credits:\nhttps://opengameart.org/content/conveyor-belt-spriteset - Gary Shaw",
+      "font": "Roboto-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Credits:\nhttps://opengameart.org/content/conveyor-belt-spriteset - Gary Shaw",
+        "font": "Roboto-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1014,6 +1104,12 @@
             "objectName": "btn_keybind_right_move"
           }
         ]
+      },
+      {
+        "objectName": "btn_credits"
+      },
+      {
+        "objectName": "txt_credit"
       }
     ]
   },
@@ -1047,6 +1143,14 @@
             "",
             "yes",
             "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "txt_credit"
           ]
         }
       ]
@@ -1112,10 +1216,61 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsFocused"
+          },
+          "parameters": [
+            "btn_credits",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "txt_credit",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "PanelSpriteButton::PanelSpriteButton::IsFocused"
+          },
+          "parameters": [
+            "btn_credits",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "txt_credit"
+          ]
+        }
+      ]
+    },
+    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Options Menu",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

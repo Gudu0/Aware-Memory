@@ -3072,7 +3072,7 @@
                 }
               ],
               "string": "Button",
-              "font": "Roboto-Regular.ttf",
+              "font": "Roboto-Regular22.ttf",
               "textAlignment": "center",
               "characterSize": 40,
               "color": {
@@ -3095,7 +3095,7 @@
                 "smoothed": true,
                 "underlined": false,
                 "text": "Button",
-                "font": "Roboto-Regular.ttf",
+                "font": "Roboto-Regular22.ttf",
                 "textAlignment": "center",
                 "verticalTextAlignment": "center",
                 "characterSize": 40,
@@ -3401,7 +3401,7 @@
                 }
               ],
               "string": "Button",
-              "font": "Roboto-Regular.ttf",
+              "font": "Roboto-Regular22.ttf",
               "textAlignment": "center",
               "characterSize": 40,
               "color": {
@@ -3424,7 +3424,7 @@
                 "smoothed": true,
                 "underlined": false,
                 "text": "Button",
-                "font": "Roboto-Regular.ttf",
+                "font": "Roboto-Regular22.ttf",
                 "textAlignment": "center",
                 "verticalTextAlignment": "center",
                 "characterSize": 40,
@@ -4050,7 +4050,7 @@
                 }
               ],
               "string": "Button",
-              "font": "Roboto-Regular.ttf",
+              "font": "Roboto-Regular22.ttf",
               "textAlignment": "center",
               "characterSize": 40,
               "color": {
@@ -4073,7 +4073,7 @@
                 "smoothed": true,
                 "underlined": false,
                 "text": "Button",
-                "font": "Roboto-Regular.ttf",
+                "font": "Roboto-Regular22.ttf",
                 "textAlignment": "center",
                 "verticalTextAlignment": "center",
                 "characterSize": 40,

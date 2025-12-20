@@ -85,6 +85,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Set Highlight",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -225,6 +226,16 @@
                 "pnt_place_highlight",
                 "\"148;15;15\""
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.HoverMachine",
+                "True",
+                ""
+              ]
             }
           ]
         },
@@ -286,327 +297,346 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.HoverMachine",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.CanAfford",
+                "False",
+                ""
+              ]
             }
           ],
-          "events": [
+          "actions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.Money",
-                    "<",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.CanPlace",
-                    "False",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::FillColor"
-                  },
-                  "parameters": [
-                    "pnt_place_highlight",
-                    "\"224;88;88\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::OutlineColor"
-                  },
-                  "parameters": [
-                    "pnt_place_highlight",
-                    "\"148;15;15\""
-                  ]
-                }
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.CanPlace",
+                "False",
+                ""
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.PlacingMachine",
-                    "=",
-                    "\"obj_conveyor\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.Money",
-                    "<",
-                    "10"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.CanPlace",
-                    "False",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::FillColor"
-                  },
-                  "parameters": [
-                    "pnt_place_highlight",
-                    "\"224;88;88\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::OutlineColor"
-                  },
-                  "parameters": [
-                    "pnt_place_highlight",
-                    "\"148;15;15\""
-                  ]
-                }
+              "type": {
+                "value": "PrimitiveDrawing::FillColor"
+              },
+              "parameters": [
+                "pnt_place_highlight",
+                "\"224;88;88\""
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.PlacingMachine",
-                    "=",
-                    "\"obj_conveyorCenterer\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.Money",
-                    "<",
-                    "15"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.CanPlace",
-                    "False",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::FillColor"
-                  },
-                  "parameters": [
-                    "pnt_place_highlight",
-                    "\"224;88;88\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::OutlineColor"
-                  },
-                  "parameters": [
-                    "pnt_place_highlight",
-                    "\"148;15;15\""
-                  ]
-                }
+              "type": {
+                "value": "PrimitiveDrawing::OutlineColor"
+              },
+              "parameters": [
+                "pnt_place_highlight",
+                "\"148;15;15\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.CanAfford",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PrimitiveDrawing::FillColor"
+              },
+              "parameters": [
+                "pnt_place_highlight",
+                "\"55;189;95\""
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.PlacingMachine",
-                    "=",
-                    "\"obj_smelter\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.Money",
-                    "<",
-                    "35"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.CanPlace",
-                    "False",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::FillColor"
-                  },
-                  "parameters": [
-                    "pnt_place_highlight",
-                    "\"224;88;88\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::OutlineColor"
-                  },
-                  "parameters": [
-                    "pnt_place_highlight",
-                    "\"148;15;15\""
-                  ]
-                }
+              "type": {
+                "value": "PrimitiveDrawing::OutlineColor"
+              },
+              "parameters": [
+                "pnt_place_highlight",
+                "\"8;105;17\""
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.PlacingMachine",
-                    "=",
-                    "\"obj_spawner\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.Money",
-                    "<",
-                    "100"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.CanPlace",
-                    "False",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::FillColor"
-                  },
-                  "parameters": [
-                    "pnt_place_highlight",
-                    "\"224;88;88\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::OutlineColor"
-                  },
-                  "parameters": [
-                    "pnt_place_highlight",
-                    "\"148;15;15\""
-                  ]
-                }
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.CanPlace",
+                "True",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Afford",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.CanAfford",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PlayerData.Money",
+                "<",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.CanAfford",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "PlayerData.PlacingMachine",
+                "=",
+                "\"obj_conveyor\""
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.PlacingMachine",
-                    "=",
-                    "\"obj_sell\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.Money",
-                    "<",
-                    "100"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.CanPlace",
-                    "False",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::FillColor"
-                  },
-                  "parameters": [
-                    "pnt_place_highlight",
-                    "\"224;88;88\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::OutlineColor"
-                  },
-                  "parameters": [
-                    "pnt_place_highlight",
-                    "\"148;15;15\""
-                  ]
-                }
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PlayerData.Money",
+                "<",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.CanAfford",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "PlayerData.PlacingMachine",
+                "=",
+                "\"obj_conveyorCenterer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PlayerData.Money",
+                "<",
+                "15"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.CanAfford",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "PlayerData.PlacingMachine",
+                "=",
+                "\"obj_spawner\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PlayerData.Money",
+                "<",
+                "100"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.CanAfford",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "PlayerData.PlacingMachine",
+                "=",
+                "\"obj_smelter\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PlayerData.Money",
+                "<",
+                "35"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.CanAfford",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "PlayerData.PlacingMachine",
+                "=",
+                "\"obj_sell\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PlayerData.Money",
+                "<",
+                "100"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.CanAfford",
+                "False",
+                ""
               ]
             }
           ]
@@ -1114,6 +1144,12 @@
                     "=",
                     "\"obj_spawner\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -1160,6 +1196,12 @@
                     "=",
                     "\"obj_smelter\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -1208,6 +1250,12 @@
                     "=",
                     "\"obj_sell\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -1235,6 +1283,12 @@
                     "=",
                     "\"obj_conveyor\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -1262,6 +1316,12 @@
                     "=",
                     "\"obj_conveyorCenterer\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -1414,6 +1474,16 @@
                 "",
                 "\"Right\""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.HoverMachine",
+                "True",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -1426,14 +1496,56 @@
                 "pnt_place_highlight.X()",
                 "pnt_place_highlight.Y()"
               ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "grp_machine",
+                    "type",
+                    "=",
+                    "\"obj_sell\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PlayerData.Money",
+                    "+",
+                    "100"
+                  ]
+                }
+              ]
             },
             {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "grp_machine",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "grp_machine",
+                    ""
+                  ]
+                }
               ]
             }
           ]

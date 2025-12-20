@@ -3806,6 +3806,11 @@
           "value": false
         },
         {
+          "name": "CanAfford",
+          "type": "boolean",
+          "value": true
+        },
+        {
           "name": "CanPlace",
           "type": "boolean",
           "value": false
@@ -3814,6 +3819,11 @@
           "name": "HardMode",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "HoverMachine",
+          "type": "boolean",
+          "value": true
         },
         {
           "name": "ItemCount",

@@ -503,7 +503,7 @@
         },
         {
           "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Item",
+          "object": "manipulatable",
           "conditions": [],
           "actions": [],
           "events": [
@@ -516,7 +516,7 @@
                   },
                   "parameters": [
                     "grp_machine",
-                    "Item",
+                    "manipulatable",
                     "",
                     "",
                     ""
@@ -545,7 +545,7 @@
                       },
                       "parameters": [
                         "grp_machine",
-                        "Item.CenterX()",
+                        "manipulatable.CenterX()",
                         "Item.CenterY()",
                         ""
                       ]
@@ -584,7 +584,7 @@
                             "value": "AddForceXY"
                           },
                           "parameters": [
-                            "Item",
+                            "manipulatable",
                             "100",
                             "0",
                             ""
@@ -612,7 +612,7 @@
                             "value": "AddForceXY"
                           },
                           "parameters": [
-                            "Item",
+                            "manipulatable",
                             "-100",
                             "0",
                             ""
@@ -640,7 +640,7 @@
                             "value": "AddForceXY"
                           },
                           "parameters": [
-                            "Item",
+                            "manipulatable",
                             "0",
                             "-100",
                             ""
@@ -668,7 +668,7 @@
                             "value": "AddForceXY"
                           },
                           "parameters": [
-                            "Item",
+                            "manipulatable",
                             "0",
                             "100",
                             ""
@@ -702,9 +702,8 @@
           "comment": "Centering"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Item",
+          "object": "manipulatable",
           "conditions": [],
           "actions": [],
           "events": [
@@ -716,7 +715,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Item",
+                    "manipulatable",
                     "obj_conveyorCenterer",
                     "",
                     "",
@@ -731,8 +730,8 @@
                   },
                   "parameters": [
                     "obj_conveyorCenterer",
-                    "Item.CenterX()",
-                    "Item.CenterY()"
+                    "manipulatable.CenterX()",
+                    "manipulatable.CenterY()"
                   ]
                 },
                 {
@@ -795,7 +794,7 @@
                         "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
-                        "abs(Item.CenterY() - obj_conveyorCenterer.CenterY())",
+                        "abs(manipulatable.CenterY() - obj_conveyorCenterer.CenterY())",
                         ">",
                         "1"
                       ]
@@ -809,7 +808,7 @@
                       "parameters": [
                         "dy",
                         "=",
-                        "obj_conveyorCenterer.CenterY() - Item.CenterY()"
+                        "obj_conveyorCenterer.CenterY() - manipulatable.CenterY()"
                       ]
                     }
                   ],
@@ -824,7 +823,7 @@
                             "value": "AddForceXY"
                           },
                           "parameters": [
-                            "Item",
+                            "manipulatable",
                             "0",
                             "sign(dy) * 100",
                             ""
@@ -872,7 +871,7 @@
                         "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
-                        "abs(Item.CenterX() - obj_conveyorCenterer.CenterX())",
+                        "abs(manipulatable.CenterX() - obj_conveyorCenterer.CenterX())",
                         ">",
                         "1"
                       ]
@@ -886,7 +885,7 @@
                       "parameters": [
                         "dx",
                         "=",
-                        "obj_conveyorCenterer.CenterX() - Item.CenterX()"
+                        "obj_conveyorCenterer.CenterX() - manipulatable.CenterX()"
                       ]
                     }
                   ],
@@ -901,7 +900,7 @@
                             "value": "AddForceXY"
                           },
                           "parameters": [
-                            "Item",
+                            "manipulatable",
                             "sign(dx) * 100",
                             "0",
                             ""
@@ -949,7 +948,7 @@
                         "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
-                        "abs(Item.CenterX() - obj_conveyorCenterer.CenterX())",
+                        "abs(manipulatable.CenterX() - obj_conveyorCenterer.CenterX())",
                         ">",
                         "1"
                       ]
@@ -963,7 +962,7 @@
                       "parameters": [
                         "dx",
                         "=",
-                        "obj_conveyorCenterer.CenterX() - Item.CenterX()"
+                        "obj_conveyorCenterer.CenterX() - manipulatable.CenterX()"
                       ]
                     }
                   ],
@@ -978,7 +977,7 @@
                             "value": "AddForceXY"
                           },
                           "parameters": [
-                            "Item",
+                            "manipulatable",
                             "sign(dx) * 100",
                             "0",
                             ""

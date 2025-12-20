@@ -76,7 +76,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Set Highlight",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -314,7 +313,33 @@
               "parameters": [
                 "PlayerData.PlacingMachine",
                 "=",
-                "\"Conveyor\""
+                "\"obj_conveyor\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Num2\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "PlayerData.PlacingMachine",
+                "=",
+                "\"obj_conveyorCenterer\""
               ]
             }
           ]
@@ -418,11 +443,12 @@
           "actions": [
             {
               "type": {
-                "value": "Create"
+                "value": "CreateByName"
               },
               "parameters": [
                 "",
-                "obj_conveyor",
+                "grp_machine",
+                "PlayerData.PlacingMachine",
                 "pnt_place_highlight.X()",
                 "pnt_place_highlight.Y()",
                 "\"Decor\""
@@ -433,7 +459,7 @@
                 "value": "PickNearest"
               },
               "parameters": [
-                "obj_conveyor",
+                "grp_machine",
                 "pnt_place_highlight.X()",
                 "pnt_place_highlight.Y()"
               ]
@@ -460,7 +486,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "obj_conveyor",
+                    "grp_machine",
                     "Animation",
                     "=",
                     "\"right\""
@@ -471,7 +497,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
                   },
                   "parameters": [
-                    "obj_conveyor",
+                    "grp_machine",
                     "Animation",
                     "=",
                     "1"
@@ -499,7 +525,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "obj_conveyor",
+                    "grp_machine",
                     "Animation",
                     "=",
                     "\"down\""
@@ -510,7 +536,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
                   },
                   "parameters": [
-                    "obj_conveyor",
+                    "grp_machine",
                     "Animation",
                     "=",
                     "1"
@@ -538,7 +564,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "obj_conveyor",
+                    "grp_machine",
                     "Animation",
                     "=",
                     "\"left\""
@@ -549,10 +575,10 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
                   },
                   "parameters": [
-                    "obj_conveyor",
+                    "grp_machine",
                     "Animation",
                     "=",
-                    "-1"
+                    "1"
                   ]
                 }
               ]
@@ -577,7 +603,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "obj_conveyor",
+                    "grp_machine",
                     "Animation",
                     "=",
                     "\"up\""
@@ -588,7 +614,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
                   },
                   "parameters": [
-                    "obj_conveyor",
+                    "grp_machine",
                     "Animation",
                     "=",
                     "1"
@@ -627,7 +653,7 @@
                 "value": "PickNearest"
               },
               "parameters": [
-                "obj_conveyor",
+                "grp_machine",
                 "pnt_place_highlight.X()",
                 "pnt_place_highlight.Y()"
               ]
@@ -637,7 +663,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "obj_conveyor",
+                "grp_machine",
                 ""
               ]
             }

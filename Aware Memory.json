@@ -85,6 +85,7 @@
     ],
     "categories": [],
     "playableDevices": [
+      "mobile",
       "mobile"
     ],
     "extensionProperties": [],
@@ -3524,6 +3525,94 @@
         "name": "left33",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/gold.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "gold",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/gold_ore.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/gold_ore.png\"}",
+        "name": "gold_ore",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right_center.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/right_center.png\"}",
+        "name": "right_center",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left34",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up65.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up65",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down33",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/right33.png\"}",
+        "name": "right33",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/left35.png\"}",
+        "name": "left35",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up66.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/up66.png\"}",
+        "name": "up66",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/down34.png\"}",
+        "name": "down34",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -3606,6 +3695,11 @@
           "value": false
         },
         {
+          "name": "ItemCount",
+          "type": "number",
+          "value": 1
+        },
+        {
           "name": "PlaceRotation",
           "type": "number",
           "value": 0
@@ -3613,7 +3707,7 @@
         {
           "name": "PlacingMachine",
           "type": "string",
-          "value": "Conveyor"
+          "value": "obj_conveyor"
         }
       ]
     },
@@ -3634,9 +3728,14 @@
       ]
     },
     {
-      "name": "conveyorTimer",
+      "name": "conveyorTimerNL",
       "type": "number",
       "value": -1
+    },
+    {
+      "name": "conveyorTimerL",
+      "type": "number",
+      "value": 33
     }
   ],
   "layouts": [
@@ -3653,6 +3752,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/ext_place"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/ext_machines"
     }
   ],
   "eventsFunctionsExtensions": [

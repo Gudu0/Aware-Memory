@@ -298,7 +298,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "PlacedMachine Setting",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -323,6 +322,17 @@
                   },
                   "parameters": [
                     "PlayerData.PlacingMachine",
+                    "=",
+                    "\"obj_conveyor\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "obj_machine_ghost",
+                    "Animation",
                     "=",
                     "\"obj_conveyor\""
                   ]
@@ -352,6 +362,17 @@
                     "=",
                     "\"obj_conveyorCenterer\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "obj_machine_ghost",
+                    "Animation",
+                    "=",
+                    "\"obj_conveyorCenterer\""
+                  ]
                 }
               ]
             },
@@ -378,6 +399,54 @@
                     "=",
                     "\"obj_spawner\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "obj_machine_ghost",
+                    "Animation",
+                    "=",
+                    "\"obj_spawner\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextJustPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Num4\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "PlayerData.PlacingMachine",
+                    "=",
+                    "\"obj_sell\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "obj_machine_ghost",
+                    "Animation",
+                    "=",
+                    "\"obj_sell\""
+                  ]
                 }
               ]
             }
@@ -397,6 +466,7 @@
           "comment": "Rotate"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -418,6 +488,16 @@
                 "PlayerData.PlaceRotation",
                 "+",
                 "90"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "obj_machine_ghost",
+                "=",
+                "PlayerData.PlaceRotation"
               ]
             }
           ],
@@ -464,6 +544,7 @@
           "comment": "Place"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {

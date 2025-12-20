@@ -3621,6 +3621,30 @@
         "name": "right34",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/right_center.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\right_center.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\right33.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\right34.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },

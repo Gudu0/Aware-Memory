@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.4,
     "snap": true,
-    "zoomFactor": 1.6215651521552439,
+    "zoomFactor": 0.430340380220773,
     "windowMask": false,
     "selectedLayer": "Decor"
   },
@@ -843,6 +843,39 @@
           "value": "down"
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 34,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "txt_machine_cost",
+      "persistentUuid": "68aff45e-9867-4d8b-a757-62bbdc8deb31",
+      "width": 160,
+      "x": 1728,
+      "y": 896,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Decor",
+      "name": "txt_machine_values",
+      "persistentUuid": "86b86168-3406-448a-a608-acaf504dda20",
+      "width": 0,
+      "x": 608,
+      "y": -288,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -7109,6 +7142,49 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "txt_machine_cost",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "10$",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "10$",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 30,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -7117,6 +7193,12 @@
       {
         "folderName": "txts",
         "children": [
+          {
+            "objectName": "txt_machine_cost"
+          },
+          {
+            "objectName": "txt_machine_values"
+          },
           {
             "objectName": "txt_player_message"
           },
@@ -7165,9 +7247,6 @@
       },
       {
         "objectName": "obj_machine_ghost"
-      },
-      {
-        "objectName": "txt_machine_values"
       }
     ]
   },

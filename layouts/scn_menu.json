@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.2,
     "snap": true,
-    "zoomFactor": 0.36458333333333454,
+    "zoomFactor": 0.5079575118131747,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -395,12 +395,12 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "txt_credit",
-      "persistentUuid": "dd53e8db-42b7-4efc-8eeb-fc88f166571a",
+      "name": "btxt_credit",
+      "persistentUuid": "2cd15a53-6908-4b53-8ee8-654bf8db79cd",
       "width": 0,
-      "x": 1209,
-      "y": 288,
-      "zOrder": 22,
+      "x": 1216,
+      "y": 335,
+      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1007,7 +1007,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Credits:\nhttps://opengameart.org/content/conveyor-belt-spriteset - Gary Shaw",
+      "string": "Credits:\nMe - Gudu0\nhttps://opengameart.org/content/conveyor-belt-spriteset - Gary Shaw",
       "font": "Roboto-Regular.ttf",
       "textAlignment": "center",
       "characterSize": 20,
@@ -1030,13 +1030,31 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Credits:\nhttps://opengameart.org/content/conveyor-belt-spriteset - Gary Shaw",
+        "text": "Credits:\nMe - Gudu0\nhttps://opengameart.org/content/conveyor-belt-spriteset - Gary Shaw",
         "font": "Roboto-Regular.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
         "characterSize": 20,
         "lineHeight": 0,
         "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "btxt_credit",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Credits:\nMe - Gudu0\nhttps://opengameart.org/content/conveyor-belt-spriteset - Gary Shaw\n[color=#FFFFFF1A]ChatGPT - OpenAI[/color]",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "center",
+        "verticalTextAlignment": "top"
       }
     }
   ],
@@ -1110,6 +1128,9 @@
       },
       {
         "objectName": "txt_credit"
+      },
+      {
+        "objectName": "btxt_credit"
       }
     ]
   },
@@ -1234,7 +1255,7 @@
             "value": "Montre"
           },
           "parameters": [
-            "txt_credit",
+            "btxt_credit",
             ""
           ]
         }
@@ -1260,7 +1281,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "txt_credit"
+            "btxt_credit"
           ]
         }
       ]
@@ -2603,7 +2624,7 @@
       "isLocked": false,
       "name": "options layer",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {

@@ -1185,7 +1185,7 @@
       {
         "file": "assets/conveyor_right/tile000.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/conveyor_right/tile000.png\",\"extension\":\".png\"}",
         "name": "assets\\conveyor_right\\tile000.png",
         "smoothed": true,
         "userAdded": false
@@ -3625,7 +3625,7 @@
       {
         "file": "assets/right_center.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/right_center.png\",\"extension\":\".png\"}",
         "name": "assets\\right_center.png",
         "smoothed": true,
         "userAdded": false
@@ -3633,7 +3633,7 @@
       {
         "file": "assets/right33.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/right33.png\",\"extension\":\".png\"}",
         "name": "assets\\right33.png",
         "smoothed": true,
         "userAdded": false
@@ -3641,8 +3641,24 @@
       {
         "file": "assets/right34.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/right34.png\",\"extension\":\".png\"}",
         "name": "assets\\right34.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/right35.png\"}",
+        "name": "right35",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right36",
         "smoothed": true,
         "userAdded": false
       }
@@ -3711,6 +3727,11 @@
       "name": "PlayerData",
       "type": "structure",
       "children": [
+        {
+          "name": "CamZoom",
+          "type": "number",
+          "value": 1.2
+        },
         {
           "name": "CameFromMainMenu",
           "type": "boolean",

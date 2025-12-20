@@ -580,16 +580,6 @@
                 "+",
                 "90"
               ]
-            },
-            {
-              "type": {
-                "value": "SetAngle"
-              },
-              "parameters": [
-                "obj_machine_ghost",
-                "=",
-                "PlayerData.PlaceRotation"
-              ]
             }
           ],
           "events": [
@@ -616,6 +606,22 @@
                     "PlayerData.PlaceRotation",
                     "=",
                     "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "obj_machine_ghost",
+                    "=",
+                    "PlayerData.PlaceRotation"
                   ]
                 }
               ]

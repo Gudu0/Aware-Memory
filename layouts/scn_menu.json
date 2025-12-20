@@ -66,6 +66,12 @@
         },
         {
           "name": "txt_keybind_label_right_move"
+        },
+        {
+          "name": "sld_maxItems"
+        },
+        {
+          "name": "txt_maxItems_label"
         }
       ]
     }
@@ -401,6 +407,38 @@
       "x": 1216,
       "y": 335,
       "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "options layer",
+      "name": "sld_maxItems",
+      "persistentUuid": "379dea48-8c90-49a5-8aea-82ad09fe5169",
+      "width": 0,
+      "x": 153,
+      "y": 417,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "options layer",
+      "name": "txt_maxItems_label",
+      "persistentUuid": "724e43e1-2b79-4f48-aa41-3feb90790e73",
+      "width": 0,
+      "x": 149,
+      "y": 320,
+      "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1056,6 +1094,65 @@
         "align": "center",
         "verticalTextAlignment": "top"
       }
+    },
+    {
+      "assetStoreId": "05b0eb2d13ff37b70927d0184d4705e9c39c0b8fece7463127c4fe9eb65bb422",
+      "name": "sld_maxItems",
+      "type": "PanelSpriteSlider::PanelSpriteSlider",
+      "variant": "Small Plastic Green Round Slider",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LabelMargin": 8,
+        "BarLeftPadding": 31,
+        "BarRightPadding": 31,
+        "InitialValue": 100,
+        "MaxValue": 1000
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "txt_maxItems_label",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Max Number of Items: 100",
+      "font": "11ed64262caf521cd24c19af2a005d28c4618e6a36c62ae3fc25353d157feeaf_MetalMania-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Max Number of Items: 100",
+        "font": "11ed64262caf521cd24c19af2a005d28c4618e6a36c62ae3fc25353d157feeaf_MetalMania-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1084,6 +1181,9 @@
       },
       {
         "objectName": "spr_options_background"
+      },
+      {
+        "objectName": "sld_maxItems"
       },
       {
         "objectName": "txt_difficulty_label"
@@ -1131,6 +1231,9 @@
       },
       {
         "objectName": "btxt_credit"
+      },
+      {
+        "objectName": "txt_maxItems_label"
       }
     ]
   },
@@ -1291,7 +1394,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Options Menu",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2542,6 +2644,43 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+          },
+          "parameters": [
+            "sld_maxItems",
+            "="
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "PlayerData.MaxItems",
+            "=",
+            "sld_maxItems.Value()"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "txt_maxItems_label",
+            "Text",
+            "=",
+            "\"Max Number of Items: \" + ToString(sld_maxItems.Value())"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -2624,7 +2763,7 @@
       "isLocked": false,
       "name": "options layer",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {

@@ -3,7 +3,6 @@
   "name": "ext_machines",
   "events": [
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -128,6 +127,35 @@
                     "Animation",
                     "=",
                     "obj_spawner.rotation"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "obj_smelter",
+                    "type",
+                    "=",
+                    "\"obj_smelter\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "obj_smelter",
+                    "Animation",
+                    "=",
+                    "obj_smelter.rotation"
                   ]
                 }
               ]
@@ -905,7 +933,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Item Spawning",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -921,7 +948,7 @@
                 "obj_spawner",
                 "\"time_since_spawned\"",
                 ">=",
-                "0.8"
+                "0.1"
               ]
             },
             {
@@ -931,7 +958,7 @@
               "parameters": [
                 "PlayerData.ItemCount",
                 "<",
-                "100"
+                "PlayerData.MaxItems"
               ]
             }
           ],

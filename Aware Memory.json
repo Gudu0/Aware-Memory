@@ -3661,6 +3661,74 @@
         "name": "right36",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/right37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/right37.png\"}",
+        "name": "right37",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right38",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down35",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left36",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Small Plastic Green Round Slider Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Slider Border.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/308609c5db4c7f741d0ea6ce46b7245524c9e48682f23c670ec81ea08f5917e5_Small Plastic Green Round Slider Border.png",
+          "name": "Small Plastic Green Round Slider Border.png"
+        }
+      },
+      {
+        "file": "assets/Small Plastic Green Round Slider Thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Slider Thumb.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/f1fe4aaaa4d6da59e2bf6b9411de1f013b5d86c5cacda01f99226c78f427f606_Small Plastic Green Round Slider Thumb.png",
+          "name": "Small Plastic Green Round Slider Thumb.png"
+        }
+      },
+      {
+        "file": "assets/Transparent.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
+          "name": "Transparent.png"
+        }
       }
     ]
   },
@@ -3753,6 +3821,11 @@
           "value": 1
         },
         {
+          "name": "MaxItems",
+          "type": "number",
+          "value": 100
+        },
+        {
           "name": "Money",
           "type": "number",
           "value": 0
@@ -3824,6 +3897,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/spritetoggleswitch"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspriteslider"
     }
   ],
   "externalLayouts": []

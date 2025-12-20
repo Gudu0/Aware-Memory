@@ -33,7 +33,7 @@
             "pnt_place_highlight",
             "0",
             "0",
-            "\"Decor\""
+            "\"player\""
           ]
         },
         {
@@ -85,7 +85,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Set Highlight",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -267,6 +266,16 @@
                 "",
                 "yes"
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.CanAfford",
+                "True",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -354,51 +363,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "PlayerData.CanAfford",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PrimitiveDrawing::FillColor"
-              },
-              "parameters": [
-                "pnt_place_highlight",
-                "\"55;189;95\""
-              ]
-            },
-            {
-              "type": {
-                "value": "PrimitiveDrawing::OutlineColor"
-              },
-              "parameters": [
-                "pnt_place_highlight",
-                "\"8;105;17\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "PlayerData.CanPlace",
-                "True",
-                ""
-              ]
-            }
-          ]
         }
       ],
       "parameters": []
@@ -408,7 +372,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Afford",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -658,6 +621,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "PlacedMachine Setting",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1077,12 +1041,12 @@
                 },
                 {
                   "type": {
-                    "value": "StringVariable"
+                    "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "PlayerData.PlacingMachine",
-                    "!=",
-                    "\"0\""
+                    "PlayerData.CanAfford",
+                    "True",
+                    ""
                   ]
                 },
                 {
@@ -1160,7 +1124,7 @@
                   "parameters": [
                     "obj_spawner",
                     "pnt_place_highlight.X()",
-                    "pnt_place_highlight.X()"
+                    "pnt_place_highlight.Y()"
                   ]
                 },
                 {
@@ -1212,18 +1176,7 @@
                   "parameters": [
                     "obj_smelter",
                     "pnt_place_highlight.X()",
-                    "pnt_place_highlight.X()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResizableCapability::ResizableBehavior::SetSize"
-                  },
-                  "parameters": [
-                    "obj_smelter",
-                    "Resizable",
-                    "32",
-                    "32"
+                    "pnt_place_highlight.Y()"
                   ]
                 },
                 {
@@ -1464,6 +1417,7 @@
           "comment": "Delete"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1529,6 +1483,142 @@
                     "PlayerData.Money",
                     "+",
                     "100"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "grp_machine",
+                    "type",
+                    "=",
+                    "\"obj_spawner\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PlayerData.Money",
+                    "+",
+                    "100"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "grp_machine",
+                    "type",
+                    "=",
+                    "\"obj_smelter\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PlayerData.Money",
+                    "+",
+                    "35"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "grp_machine",
+                    "type",
+                    "=",
+                    "\"obj_conveyorCenterer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PlayerData.Money",
+                    "+",
+                    "15"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "grp_machine",
+                    "type",
+                    "=",
+                    "\"obj_conveyor\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PlayerData.Money",
+                    "+",
+                    "10"
                   ]
                 }
               ]

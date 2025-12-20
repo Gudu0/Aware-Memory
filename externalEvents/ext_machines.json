@@ -3,6 +3,7 @@
   "name": "ext_machines",
   "events": [
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -22,6 +23,115 @@
           "parameters": [
             "obj_spawner",
             "\"time_since_spawned\""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "setting initial rotation"
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "grp_machine",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "obj_conveyor",
+                    "type",
+                    "=",
+                    "\"obj_conveyor\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "obj_conveyor",
+                    "Animation",
+                    "=",
+                    "obj_conveyor.rotation"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "obj_conveyorCenterer",
+                    "type",
+                    "=",
+                    "\"obj_conveyorCenterer\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "obj_conveyorCenterer",
+                    "Animation",
+                    "=",
+                    "obj_conveyorCenterer.rotation"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "obj_spawner",
+                    "type",
+                    "=",
+                    "\"obj_spawner\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "obj_spawner",
+                    "Animation",
+                    "=",
+                    "obj_spawner.rotation"
+                  ]
+                }
+              ]
+            }
           ]
         }
       ]
@@ -191,7 +301,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "player on conveyor movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -204,7 +313,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "obj_conveyor",
+                "grp_machine",
                 "obj_player",
                 "",
                 "",
@@ -213,10 +322,21 @@
             },
             {
               "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "grp_machine",
+                "type",
+                "!=",
+                "\"obj_sell\""
+              ]
+            },
+            {
+              "type": {
                 "value": "PickNearest"
               },
               "parameters": [
-                "obj_conveyor",
+                "grp_machine",
                 "obj_player.CenterX()",
                 "obj_player.CenterY() - 48",
                 ""
@@ -231,7 +351,7 @@
               "parameters": [
                 "conveyorIndex",
                 "=",
-                "obj_conveyor.Animation::Index()"
+                "grp_machine.Animation::Index()"
               ]
             }
           ],
@@ -382,7 +502,6 @@
           "comment": "Movement on machine"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Item",
           "conditions": [],
@@ -402,140 +521,159 @@
                     "",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "PickNearest"
-                  },
-                  "parameters": [
-                    "grp_machine",
-                    "Item.CenterX()",
-                    "Item.CenterY()",
-                    ""
-                  ]
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "conveyorIndex",
-                    "=",
-                    "grp_machine.Animation::Index()"
-                  ]
-                }
-              ],
+              "actions": [],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "NumberVariable"
+                        "value": "StringObjectVariable"
                       },
                       "parameters": [
-                        "conveyorIndex",
-                        "=",
-                        "0"
+                        "grp_machine",
+                        "type",
+                        "!=",
+                        "\"obj_sell\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PickNearest"
+                      },
+                      "parameters": [
+                        "grp_machine",
+                        "Item.CenterX()",
+                        "Item.CenterY()",
+                        ""
                       ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "AddForceXY"
-                      },
-                      "parameters": [
-                        "Item",
-                        "100",
-                        "0",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberVariable"
+                        "value": "SetNumberVariable"
                       },
                       "parameters": [
                         "conveyorIndex",
                         "=",
-                        "1"
+                        "grp_machine.Animation::Index()"
                       ]
                     }
                   ],
-                  "actions": [
+                  "events": [
                     {
-                      "type": {
-                        "value": "AddForceXY"
-                      },
-                      "parameters": [
-                        "Item",
-                        "-100",
-                        "0",
-                        ""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "conveyorIndex",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AddForceXY"
+                          },
+                          "parameters": [
+                            "Item",
+                            "100",
+                            "0",
+                            ""
+                          ]
+                        }
                       ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
+                    },
                     {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "conveyorIndex",
-                        "=",
-                        "2"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "conveyorIndex",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AddForceXY"
+                          },
+                          "parameters": [
+                            "Item",
+                            "-100",
+                            "0",
+                            ""
+                          ]
+                        }
                       ]
-                    }
-                  ],
-                  "actions": [
+                    },
                     {
-                      "type": {
-                        "value": "AddForceXY"
-                      },
-                      "parameters": [
-                        "Item",
-                        "0",
-                        "-100",
-                        ""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "conveyorIndex",
+                            "=",
+                            "2"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AddForceXY"
+                          },
+                          "parameters": [
+                            "Item",
+                            "0",
+                            "-100",
+                            ""
+                          ]
+                        }
                       ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
+                    },
                     {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "conveyorIndex",
-                        "=",
-                        "3"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AddForceXY"
-                      },
-                      "parameters": [
-                        "Item",
-                        "0",
-                        "100",
-                        ""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "conveyorIndex",
+                            "=",
+                            "3"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AddForceXY"
+                          },
+                          "parameters": [
+                            "Item",
+                            "0",
+                            "100",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -706,7 +844,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "up/down"
+                  "comment": "up"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -726,7 +864,74 @@
                             "=",
                             "2"
                           ]
-                        },
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "abs(Item.CenterX() - obj_conveyorCenterer.CenterX())",
+                        ">",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "dx",
+                        "=",
+                        "obj_conveyorCenterer.CenterX() - Item.CenterX()"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Repeat",
+                      "repeatExpression": "1",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AddForceXY"
+                          },
+                          "parameters": [
+                            "Item",
+                            "sign(dx) * 100",
+                            "0",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "down"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
                         {
                           "type": {
                             "value": "NumberVariable"
@@ -812,6 +1017,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Item Spawning",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -827,7 +1033,7 @@
                 "obj_spawner",
                 "\"time_since_spawned\"",
                 ">=",
-                "1"
+                "0.8"
               ]
             },
             {
@@ -837,7 +1043,7 @@
               "parameters": [
                 "PlayerData.ItemCount",
                 "<",
-                "20"
+                "100"
               ]
             }
           ],
@@ -876,8 +1082,8 @@
                   "parameters": [
                     "",
                     "Item",
-                    "obj_spawner.X() + 32",
-                    "obj_spawner.Y()",
+                    "obj_spawner.CenterX() + 8",
+                    "obj_spawner.CenterY()",
                     "\"items\""
                   ]
                 },
@@ -916,8 +1122,8 @@
                   "parameters": [
                     "",
                     "Item",
-                    "obj_spawner.X() - 32",
-                    "obj_spawner.Y()",
+                    "obj_spawner.CenterX() - 8",
+                    "obj_spawner.CenterY()",
                     "\"items\""
                   ]
                 },
@@ -956,8 +1162,8 @@
                   "parameters": [
                     "",
                     "Item",
-                    "obj_spawner.X()",
-                    "obj_spawner.Y() + 32",
+                    "obj_spawner.CenterX()",
+                    "obj_spawner.CenterY() - 8",
                     "\"items\""
                   ]
                 },
@@ -996,8 +1202,8 @@
                   "parameters": [
                     "",
                     "Item",
-                    "obj_spawner.X()",
-                    "obj_spawner.Y() - 32",
+                    "obj_spawner.CenterX()",
+                    "obj_spawner.CenterY() + 8",
                     "\"items\""
                   ]
                 },
@@ -1058,6 +1264,55 @@
             "PlayerData.ItemCount",
             "=",
             "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Item",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Item",
+            "obj_sell",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "PlayerData.Money",
+            "+",
+            "Item.value"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "PlayerData.ItemCount",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Item",
+            ""
           ]
         }
       ]

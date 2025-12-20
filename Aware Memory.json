@@ -3613,6 +3613,14 @@
         "name": "down34",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/right34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right34",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -3698,6 +3706,11 @@
           "name": "ItemCount",
           "type": "number",
           "value": 1
+        },
+        {
+          "name": "Money",
+          "type": "number",
+          "value": 0
         },
         {
           "name": "PlaceRotation",

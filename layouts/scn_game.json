@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.4,
     "snap": true,
-    "zoomFactor": 1.91403418733135,
+    "zoomFactor": 0.9538618542089573,
     "windowMask": false,
     "selectedLayer": "Decor"
   },
@@ -36,6 +36,17 @@
         },
         {
           "name": "obj_spawner"
+        },
+        {
+          "name": "obj_sell"
+        }
+      ]
+    },
+    {
+      "name": "manipulatable",
+      "objects": [
+        {
+          "name": "Item"
         }
       ]
     }
@@ -64,14 +75,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 96,
+      "height": 64,
       "keepRatio": true,
       "layer": "player",
       "name": "obj_player",
       "persistentUuid": "368be27a-17bc-4569-93c2-83f0ce29c250",
-      "width": 64,
-      "x": 928,
-      "y": 544,
+      "width": 32,
+      "x": 864,
+      "y": 704,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -87,7 +98,7 @@
       "persistentUuid": "5f8ebfcb-bb26-4e3a-94c0-5b4965f7e82c",
       "width": 0,
       "x": 96,
-      "y": 160,
+      "y": 96,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -123,7 +134,18 @@
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "obj_conveyor"
+        },
+        {
+          "name": "rotation",
+          "type": "string",
+          "value": "right"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -139,7 +161,18 @@
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "obj_conveyor"
+        },
+        {
+          "name": "rotation",
+          "type": "string",
+          "value": "right"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -155,7 +188,18 @@
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "obj_conveyor"
+        },
+        {
+          "name": "rotation",
+          "type": "string",
+          "value": "right"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -171,7 +215,18 @@
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "obj_conveyor"
+        },
+        {
+          "name": "rotation",
+          "type": "string",
+          "value": "right"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -187,7 +242,13 @@
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "obj_conveyor"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -203,7 +264,13 @@
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "obj_conveyor"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -219,7 +286,13 @@
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "obj_conveyor"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -235,7 +308,18 @@
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "obj_conveyor"
+        },
+        {
+          "name": "rotation",
+          "type": "string",
+          "value": "left"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -251,7 +335,18 @@
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "obj_conveyor"
+        },
+        {
+          "name": "rotation",
+          "type": "string",
+          "value": "down"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -267,7 +362,18 @@
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "obj_conveyor"
+        },
+        {
+          "name": "rotation",
+          "type": "string",
+          "value": "down"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -278,12 +384,23 @@
       "name": "obj_conveyor",
       "persistentUuid": "a5471932-c47e-4118-b579-6c23b2a41699",
       "width": 0,
-      "x": 832,
-      "y": 832,
+      "x": 768,
+      "y": 800,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "obj_conveyor"
+        },
+        {
+          "name": "rotation",
+          "type": "string",
+          "value": "down"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -299,7 +416,18 @@
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "obj_conveyor"
+        },
+        {
+          "name": "rotation",
+          "type": "string",
+          "value": "down"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -315,7 +443,18 @@
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "obj_conveyor"
+        },
+        {
+          "name": "rotation",
+          "type": "string",
+          "value": "up"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -331,7 +470,18 @@
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "obj_conveyor"
+        },
+        {
+          "name": "rotation",
+          "type": "string",
+          "value": "up"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -347,7 +497,18 @@
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "obj_conveyor"
+        },
+        {
+          "name": "rotation",
+          "type": "string",
+          "value": "up"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -363,7 +524,18 @@
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "obj_conveyor"
+        },
+        {
+          "name": "rotation",
+          "type": "string",
+          "value": "up"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -379,7 +551,18 @@
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "obj_conveyor"
+        },
+        {
+          "name": "rotation",
+          "type": "string",
+          "value": "down"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -395,7 +578,18 @@
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "obj_conveyor"
+        },
+        {
+          "name": "rotation",
+          "type": "string",
+          "value": "left"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -411,7 +605,18 @@
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "obj_conveyor"
+        },
+        {
+          "name": "rotation",
+          "type": "string",
+          "value": "up"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -427,7 +632,18 @@
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "obj_conveyor"
+        },
+        {
+          "name": "rotation",
+          "type": "string",
+          "value": "right"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -443,7 +659,18 @@
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "obj_conveyorCenterer"
+        },
+        {
+          "name": "rotation",
+          "type": "string",
+          "value": "right"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -459,7 +686,18 @@
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "obj_conveyorCenterer"
+        },
+        {
+          "name": "rotation",
+          "type": "string",
+          "value": "down"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -475,7 +713,13 @@
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "obj_conveyorCenterer"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -491,7 +735,18 @@
       "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "type",
+          "type": "string",
+          "value": "obj_conveyorCenterer"
+        },
+        {
+          "name": "rotation",
+          "type": "string",
+          "value": "up"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -507,7 +762,58 @@
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "rotation",
+          "type": "string",
+          "value": "right"
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "value": "obj_spawner"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "Decor",
+      "name": "txt_money",
+      "persistentUuid": "72ad1723-5b21-4316-bdda-c24159256ce4",
+      "width": 576,
+      "x": 1248,
+      "y": 64,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Decor",
+      "name": "obj_sell",
+      "persistentUuid": "7ead6343-bcc9-4943-b11e-f52379c923c8",
+      "width": 0,
+      "x": 832,
+      "y": 832,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "rotation",
+          "persistentUuid": "df7def1a-1cf4-4701-8296-90cd9b2c9748",
+          "type": "string",
+          "value": "none"
+        }
+      ]
     }
   ],
   "objects": [
@@ -638,7 +944,18 @@
       "name": "obj_conveyor",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "rotation",
+          "type": "string",
+          "value": "left"
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "value": "eee"
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -5339,7 +5656,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Move with the wasd\nHold E to see the placeability of machines\nPress R to rotate the machine\nClick while the highlight is green to place\nRight click to delete.",
+      "string": "Move with the wasd\nHold E to see the placeability of machines\nPress R to rotate the machine\nClick while the highlight is green to place\nRight click to delete.\nUse the number keys to select machines",
       "font": "Roboto-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 30,
@@ -5362,7 +5679,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Move with the wasd\nHold E to see the placeability of machines\nPress R to rotate the machine\nClick while the highlight is green to place\nRight click to delete.",
+        "text": "Move with the wasd\nHold E to see the placeability of machines\nPress R to rotate the machine\nClick while the highlight is green to place\nRight click to delete.\nUse the number keys to select machines",
         "font": "Roboto-Regular.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -5377,7 +5694,23 @@
       "name": "Item",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "value",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "smelted",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -5400,10 +5733,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 8,
+                    "y": 8
                   },
                   "customCollisionMask": [
                     [
@@ -5438,7 +5771,18 @@
       "name": "obj_conveyorCenterer",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "rotation",
+          "type": "string",
+          "value": "left"
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "value": "eee"
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -5646,7 +5990,18 @@
       "name": "obj_spawner",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "rotation",
+          "type": "string",
+          "value": "left"
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "value": "eee"
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -5847,6 +6202,267 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "txt_money",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0$",
+      "font": "mononoki-Regular.ttf",
+      "textAlignment": "right",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0$",
+        "font": "mononoki-Regular.ttf",
+        "textAlignment": "right",
+        "verticalTextAlignment": "center",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "obj_sell",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "rotation",
+          "persistentUuid": "df7def1a-1cf4-4701-8296-90cd9b2c9748",
+          "type": "string",
+          "value": "left"
+        },
+        {
+          "name": "type",
+          "persistentUuid": "12cc7fbd-755e-4cfe-8123-cbd32755d5a1",
+          "type": "string",
+          "value": "obj_sell"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "right34",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "right34",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "right34",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "down",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "right34",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -5855,6 +6471,9 @@
       {
         "folderName": "machines",
         "children": [
+          {
+            "objectName": "obj_sell"
+          },
           {
             "objectName": "obj_conveyorCenterer"
           },
@@ -5877,6 +6496,9 @@
       },
       {
         "objectName": "txt_help"
+      },
+      {
+        "objectName": "txt_money"
       },
       {
         "objectName": "Item"
@@ -6394,6 +7016,23 @@
         "includeConfig": 0
       },
       "target": "ext_machines"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "txt_money",
+            "Text",
+            "=",
+            "PlayerData.Money + \"$\""
+          ]
+        }
+      ]
     }
   ],
   "layers": [

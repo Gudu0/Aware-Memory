@@ -301,7 +301,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Item/player movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -519,6 +518,7 @@
           "comment": "Centering"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "manipulatable",
           "conditions": [],
@@ -820,6 +820,78 @@
                   "name": "dx",
                   "type": "number",
                   "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Smelter"
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "manipulatable",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Item",
+                    "obj_smelter",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Item",
+                    "smelted",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Item",
+                    "value",
+                    "*",
+                    "1.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Item",
+                    "smelted",
+                    "True",
+                    "1.5"
+                  ]
                 }
               ]
             }

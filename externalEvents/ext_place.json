@@ -336,6 +336,17 @@
                     "=",
                     "\"obj_conveyor\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "obj_machine_ghost",
+                    "Resizable",
+                    "96",
+                    "96"
+                  ]
                 }
               ]
             },
@@ -372,6 +383,17 @@
                     "Animation",
                     "=",
                     "\"obj_conveyorCenterer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "obj_machine_ghost",
+                    "Resizable",
+                    "96",
+                    "96"
                   ]
                 }
               ]
@@ -410,6 +432,17 @@
                     "=",
                     "\"obj_spawner\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "obj_machine_ghost",
+                    "Resizable",
+                    "96",
+                    "96"
+                  ]
                 }
               ]
             },
@@ -447,6 +480,65 @@
                     "=",
                     "\"obj_sell\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "obj_machine_ghost",
+                    "Resizable",
+                    "96",
+                    "96"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextJustPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Num5\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "PlayerData.PlacingMachine",
+                    "=",
+                    "\"obj_smelter\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "obj_machine_ghost",
+                    "Animation",
+                    "=",
+                    "\"obj_smelting\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "obj_machine_ghost",
+                    "Resizable",
+                    "96",
+                    "96"
+                  ]
                 }
               ]
             }
@@ -466,7 +558,6 @@
           "comment": "Rotate"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -544,7 +635,6 @@
           "comment": "Place"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -652,6 +742,44 @@
                   "parameters": [
                     "obj_spawner",
                     "\"time_since_spawned\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "PlayerData.PlacingMachine",
+                    "=",
+                    "\"obj_smelter\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "obj_smelter",
+                    "pnt_place_highlight.X()",
+                    "pnt_place_highlight.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "obj_smelter",
+                    "Resizable",
+                    "32",
+                    "32"
                   ]
                 }
               ]

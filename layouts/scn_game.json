@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.4,
     "snap": true,
-    "zoomFactor": 0.33005600491659703,
+    "zoomFactor": 0.580015523990495,
     "windowMask": false,
     "selectedLayer": "Decor"
   },
@@ -39,6 +39,9 @@
         },
         {
           "name": "obj_sell"
+        },
+        {
+          "name": "obj_smelter"
         }
       ]
     },
@@ -95,7 +98,7 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "player",
+      "layer": "",
       "name": "txt_help",
       "persistentUuid": "5f8ebfcb-bb26-4e3a-94c0-5b4965f7e82c",
       "width": 0,
@@ -822,20 +825,44 @@
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "type",
+          "persistentUuid": "12bc29f2-835d-43f3-97f8-9f262896ee08",
+          "type": "string",
+          "value": "obj_smelter"
+        }
+      ]
     },
     {
       "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "Decor",
+      "layer": "",
       "name": "txt_secret",
       "persistentUuid": "9154edea-d6e3-4438-aa0f-e01f3c9f1b70",
       "width": 0,
       "x": 84,
       "y": -282,
       "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "player",
+      "name": "txt_player_message",
+      "persistentUuid": "41cdeb55-036d-491c-bf16-1b7d931e37ee",
+      "width": 320,
+      "x": 768,
+      "y": 608,
+      "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -995,11 +1022,6 @@
           "name": "type",
           "type": "string",
           "value": "eee"
-        },
-        {
-          "name": "active",
-          "type": "boolean",
-          "value": true
         }
       ],
       "effects": [],
@@ -5827,11 +5849,6 @@
           "name": "type",
           "type": "string",
           "value": "eee"
-        },
-        {
-          "name": "active",
-          "type": "boolean",
-          "value": true
         }
       ],
       "effects": [],
@@ -6051,11 +6068,6 @@
           "name": "type",
           "type": "string",
           "value": "eee"
-        },
-        {
-          "name": "active",
-          "type": "boolean",
-          "value": true
         }
       ],
       "effects": [],
@@ -6320,11 +6332,6 @@
           "persistentUuid": "12cc7fbd-755e-4cfe-8123-cbd32755d5a1",
           "type": "string",
           "value": "obj_sell"
-        },
-        {
-          "name": "active",
-          "type": "boolean",
-          "value": true
         }
       ],
       "effects": [],
@@ -6726,6 +6733,54 @@
               ]
             }
           ]
+        },
+        {
+          "name": "obj_smelting",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "right36",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -6735,7 +6790,21 @@
       "name": "obj_smelter",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "rotation",
+          "persistentUuid": "81cba3ad-de5d-4056-afe3-929acf0ec719",
+          "type": "string",
+          "value": "left"
+        },
+        {
+          "hasMixedValues": true,
+          "name": "type",
+          "persistentUuid": "12bc29f2-835d-43f3-97f8-9f262896ee08",
+          "type": "string",
+          "value": "eee"
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -6832,6 +6901,49 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "txt_player_message",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "You can't sell yourself!",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "You can't sell yourself!",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 30,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -6840,6 +6952,9 @@
       {
         "folderName": "txts",
         "children": [
+          {
+            "objectName": "txt_player_message"
+          },
           {
             "objectName": "txt_money"
           },
@@ -6942,6 +7057,14 @@
             "Opacity",
             "=",
             "220"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "txt_player_message"
           ]
         }
       ]
@@ -7285,6 +7408,62 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "obj_player",
+                "obj_sell",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "txt_player_message",
+                "=",
+                "obj_player.CenterX()",
+                "=",
+                "obj_player.CenterY() - 96"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "txt_player_message",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "txt_player_message"
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -7360,6 +7539,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Camera",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

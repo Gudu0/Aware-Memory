@@ -77,6 +77,15 @@
             "txt_machine_cost",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"place\""
+          ]
         }
       ]
     },
@@ -94,7 +103,7 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "KeyFromTextReleased"
               },
               "parameters": [
                 "",
@@ -105,24 +114,31 @@
           "actions": [
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "SetBooleanVariable"
               },
               "parameters": [
-                "snapX",
-                "=",
-                "floor(CursorX(\"Decor\", )/32)*32"
+                "PlayerData.PlaceOn",
+                "Toggle",
+                ""
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "BooleanVariable"
               },
               "parameters": [
-                "snapY",
-                "=",
-                "floor(CursorY(\"Decor\", )/32)*32"
+                "PlayerData.PlaceOn",
+                "True",
+                ""
               ]
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "value": "MettreXY"
@@ -130,9 +146,9 @@
               "parameters": [
                 "pnt_place_highlight",
                 "=",
-                "snapX",
+                "PlayerData.CellX * 32",
                 "=",
-                "snapY"
+                "PlayerData.CellY * 32"
               ]
             },
             {
@@ -146,18 +162,6 @@
                 "32",
                 "32"
               ]
-            }
-          ],
-          "variables": [
-            {
-              "name": "snapX",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "name": "snapY",
-              "type": "number",
-              "value": 0
             }
           ]
         },
@@ -409,7 +413,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Afford",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -724,7 +727,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Placement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -734,7 +736,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "PlacedMachine Setting",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1168,6 +1169,7 @@
           "comment": "Rotate"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1261,6 +1263,25 @@
               "subInstructions": [
                 {
                   "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "PlayerData.PlaceOn",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BooleanVariable"
                   },
                   "parameters": [
@@ -1281,20 +1302,13 @@
                 },
                 {
                   "type": {
-                    "value": "MouseButtonFromTextPressed"
+                    "value": "CompareTimer"
                   },
                   "parameters": [
                     "",
-                    "\"Left\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "KeyboardControls.interact"
+                    "\"place\"",
+                    ">",
+                    "0.03"
                   ]
                 }
               ]
@@ -1309,8 +1323,8 @@
                 "",
                 "grp_machine",
                 "PlayerData.PlacingMachine",
-                "pnt_place_highlight.X()",
-                "pnt_place_highlight.Y()",
+                "PlayerData.CellX * 32",
+                "PlayerData.CellY * 32",
                 "\"Decor\""
               ]
             },
@@ -1320,8 +1334,8 @@
               },
               "parameters": [
                 "grp_machine",
-                "pnt_place_highlight.X()",
-                "pnt_place_highlight.Y()"
+                "CursorX(\"Decor\")",
+                "CursorY(\"Decor\")"
               ]
             }
           ],
@@ -1353,8 +1367,8 @@
                   },
                   "parameters": [
                     "obj_spawner",
-                    "pnt_place_highlight.X()",
-                    "pnt_place_highlight.Y()"
+                    "CursorX(\"Decor\")",
+                    "CursorY(\"Decor\")"
                   ]
                 },
                 {
@@ -1374,6 +1388,17 @@
                     "PlayerData.Money",
                     "-",
                     "100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "obj_spawner",
+                    "type",
+                    "=",
+                    "\"obj_spawner\""
                   ]
                 }
               ]
@@ -1405,8 +1430,8 @@
                   },
                   "parameters": [
                     "obj_smelter",
-                    "pnt_place_highlight.X()",
-                    "pnt_place_highlight.Y()"
+                    "CursorX(\"Decor\")",
+                    "CursorY(\"Decor\")"
                   ]
                 },
                 {
@@ -1417,6 +1442,17 @@
                     "PlayerData.Money",
                     "-",
                     "35"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "obj_smelter",
+                    "type",
+                    "=",
+                    "\"obj_smelter\""
                   ]
                 }
               ]
@@ -1484,6 +1520,17 @@
                     "-",
                     "10"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "obj_conveyor",
+                    "type",
+                    "=",
+                    "\"obj_conveyor\""
+                  ]
                 }
               ]
             },
@@ -1516,6 +1563,17 @@
                     "PlayerData.Money",
                     "-",
                     "15"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "obj_conveyorCenterer",
+                    "type",
+                    "=",
+                    "\"obj_conveyorCenterer\""
                   ]
                 }
               ]
@@ -1550,6 +1608,17 @@
                     "-",
                     "55"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "obj_crusher",
+                    "type",
+                    "=",
+                    "\"obj_crusher\""
+                  ]
                 }
               ]
             },
@@ -1582,6 +1651,17 @@
                     "PlayerData.Money",
                     "-",
                     "85"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "obj_polisher",
+                    "type",
+                    "=",
+                    "\"obj_polisher\""
                   ]
                 }
               ]
@@ -1697,6 +1777,21 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"place\""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -1713,6 +1808,7 @@
           "comment": "Delete"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1742,8 +1838,8 @@
               },
               "parameters": [
                 "grp_machine",
-                "pnt_place_highlight.X()",
-                "pnt_place_highlight.Y()"
+                "CursorX(\"Decor\")",
+                "CursorY(\"Decor\")"
               ]
             }
           ],

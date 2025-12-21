@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.4,
     "snap": true,
-    "zoomFactor": 0.36605362360933374,
+    "zoomFactor": 0.4466455957238555,
     "windowMask": false,
     "selectedLayer": "Decor"
   },
@@ -63,7 +63,18 @@
       ]
     }
   ],
-  "variables": [],
+  "variables": [
+    {
+      "name": "spawnMax",
+      "type": "number",
+      "value": 1000000000000
+    },
+    {
+      "name": "spawned",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -220,710 +231,16 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "Decor",
-      "name": "obj_smelter",
-      "persistentUuid": "9a97170e-68cc-4202-93e2-c7cff1aa481e",
-      "width": 0,
-      "x": 608,
-      "y": 864,
-      "zOrder": 39,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "rotation",
-          "type": "string",
-          "value": "right"
-        },
-        {
-          "name": "type",
-          "type": "string",
-          "value": "obj_smelter"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Decor",
-      "name": "obj_sell",
-      "persistentUuid": "c7cf2ed1-8660-469b-a876-ad4eebccd65d",
-      "width": 0,
-      "x": 640,
-      "y": 864,
-      "zOrder": 43,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "rotation",
-          "persistentUuid": "df7def1a-1cf4-4701-8296-90cd9b2c9748",
-          "type": "string",
-          "value": "right"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Decor",
-      "name": "obj_conveyorCenterer",
-      "persistentUuid": "45fa3f8b-cd58-4ff0-b89b-980950c09f52",
-      "width": 0,
-      "x": 576,
-      "y": 864,
-      "zOrder": 44,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "rotation",
-          "type": "string",
-          "value": "right"
-        },
-        {
-          "name": "type",
-          "type": "string",
-          "value": "obj_conveyorCenterer"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Decor",
-      "name": "obj_conveyor",
-      "persistentUuid": "54b12793-63de-4941-9579-029df9f5cf62",
-      "width": 0,
-      "x": 544,
-      "y": 864,
-      "zOrder": 46,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "rotation",
-          "type": "string",
-          "value": "right"
-        },
-        {
-          "name": "type",
-          "type": "string",
-          "value": "obj_conveyor"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Decor",
-      "name": "obj_smelter",
-      "persistentUuid": "f9eb4481-7792-4ddb-bb6b-2cfb836afc50",
-      "width": 0,
-      "x": 608,
-      "y": 896,
-      "zOrder": 39,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "rotation",
-          "type": "string",
-          "value": "down"
-        },
-        {
-          "name": "type",
-          "type": "string",
-          "value": "obj_smelter"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Decor",
-      "name": "obj_sell",
-      "persistentUuid": "4d091f1e-1426-4315-90d2-33c2890c74dc",
-      "width": 0,
-      "x": 640,
-      "y": 896,
-      "zOrder": 43,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "rotation",
-          "persistentUuid": "df7def1a-1cf4-4701-8296-90cd9b2c9748",
-          "type": "string",
-          "value": "down"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Decor",
-      "name": "obj_conveyorCenterer",
-      "persistentUuid": "379e98a7-7efb-48fa-a55f-40e4c9c0f5d7",
-      "width": 0,
-      "x": 576,
-      "y": 896,
-      "zOrder": 44,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "rotation",
-          "type": "string",
-          "value": "down"
-        },
-        {
-          "name": "type",
-          "type": "string",
-          "value": "obj_conveyorCenterer"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Decor",
-      "name": "obj_conveyor",
-      "persistentUuid": "c2ec0936-6313-4dc7-a04b-c09189d0cf11",
-      "width": 0,
-      "x": 544,
-      "y": 896,
-      "zOrder": 46,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "rotation",
-          "type": "string",
-          "value": "down"
-        },
-        {
-          "name": "type",
-          "type": "string",
-          "value": "obj_conveyor"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Decor",
-      "name": "obj_smelter",
-      "persistentUuid": "1320724c-8bbb-4362-8167-23d0d352468a",
-      "width": 0,
-      "x": 608,
-      "y": 928,
-      "zOrder": 39,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "rotation",
-          "type": "string",
-          "value": "left"
-        },
-        {
-          "name": "type",
-          "type": "string",
-          "value": "obj_smelter"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Decor",
-      "name": "obj_sell",
-      "persistentUuid": "ae8f5a23-d926-4f64-a657-43405be143cb",
-      "width": 0,
-      "x": 640,
-      "y": 928,
-      "zOrder": 43,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "rotation",
-          "persistentUuid": "df7def1a-1cf4-4701-8296-90cd9b2c9748",
-          "type": "string",
-          "value": "left"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Decor",
-      "name": "obj_conveyorCenterer",
-      "persistentUuid": "99088452-4d47-471f-8066-ebf29986f97b",
-      "width": 0,
-      "x": 576,
-      "y": 928,
-      "zOrder": 44,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "rotation",
-          "type": "string",
-          "value": "left"
-        },
-        {
-          "name": "type",
-          "type": "string",
-          "value": "obj_conveyorCenterer"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Decor",
-      "name": "obj_conveyor",
-      "persistentUuid": "d523d2ba-03b8-4c4a-b79a-3af86c02bf6e",
-      "width": 0,
-      "x": 544,
-      "y": 928,
-      "zOrder": 46,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "rotation",
-          "type": "string",
-          "value": "left"
-        },
-        {
-          "name": "type",
-          "type": "string",
-          "value": "obj_conveyor"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Decor",
-      "name": "obj_smelter",
-      "persistentUuid": "046b87fc-3f69-40a0-90c3-dc853b888e83",
-      "width": 0,
-      "x": 608,
-      "y": 960,
-      "zOrder": 39,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "rotation",
-          "type": "string",
-          "value": "up"
-        },
-        {
-          "name": "type",
-          "type": "string",
-          "value": "obj_smelter"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Decor",
-      "name": "obj_sell",
-      "persistentUuid": "3206b967-2f67-45a1-a3f5-fea53355f603",
-      "width": 0,
-      "x": 640,
-      "y": 960,
-      "zOrder": 43,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "rotation",
-          "persistentUuid": "df7def1a-1cf4-4701-8296-90cd9b2c9748",
-          "type": "string",
-          "value": "up"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Decor",
-      "name": "obj_conveyorCenterer",
-      "persistentUuid": "565ac801-1688-4306-8ac8-69424fcba1ed",
-      "width": 0,
-      "x": 576,
-      "y": 960,
-      "zOrder": 44,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "rotation",
-          "type": "string",
-          "value": "up"
-        },
-        {
-          "name": "type",
-          "type": "string",
-          "value": "obj_conveyorCenterer"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Decor",
-      "name": "obj_conveyor",
-      "persistentUuid": "e684946b-7a3c-44b8-8b61-4b1c647e2334",
-      "width": 0,
-      "x": 544,
-      "y": 960,
-      "zOrder": 46,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "rotation",
-          "type": "string",
-          "value": "up"
-        },
-        {
-          "name": "type",
-          "type": "string",
-          "value": "obj_conveyor"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Decor",
-      "name": "obj_conveyor",
-      "persistentUuid": "fc7f0f28-f62d-4604-bc5d-cd4ec6fb2c1f",
-      "width": 0,
-      "x": 864,
-      "y": 736,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "type",
-          "type": "string",
-          "value": "obj_conveyor"
-        },
-        {
-          "name": "rotation",
-          "type": "string",
-          "value": "right"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Decor",
-      "name": "obj_conveyor",
-      "persistentUuid": "88e5bc28-e19b-439f-ba06-81b09369fac9",
-      "width": 0,
-      "x": 896,
-      "y": 832,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "type",
-          "type": "string",
-          "value": "obj_conveyor"
-        },
-        {
-          "name": "rotation",
-          "type": "string",
-          "value": "down"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Decor",
-      "name": "obj_conveyor",
-      "persistentUuid": "ce165b4e-0987-4da2-90d5-e55307908ac0",
-      "width": 0,
-      "x": 896,
-      "y": 864,
-      "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "type",
-          "type": "string",
-          "value": "obj_conveyor"
-        },
-        {
-          "name": "rotation",
-          "type": "string",
-          "value": "down"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Decor",
-      "name": "obj_conveyor",
-      "persistentUuid": "4a31c450-de59-4042-9bc9-d7561e537b82",
-      "width": 0,
-      "x": 896,
-      "y": 768,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "type",
-          "type": "string",
-          "value": "obj_conveyor"
-        },
-        {
-          "name": "rotation",
-          "type": "string",
-          "value": "down"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Decor",
-      "name": "obj_conveyorCenterer",
-      "persistentUuid": "b82e9eff-3484-48fb-bfd1-0320fde0424f",
-      "width": 0,
-      "x": 704,
-      "y": 736,
-      "zOrder": 25,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "type",
-          "type": "string",
-          "value": "obj_conveyorCenterer"
-        },
-        {
-          "name": "rotation",
-          "type": "string",
-          "value": "right"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Decor",
-      "name": "obj_conveyorCenterer",
-      "persistentUuid": "db605c1b-68ca-47f5-b89d-810d3fea3794",
-      "width": 0,
-      "x": 896,
-      "y": 736,
-      "zOrder": 26,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "type",
-          "type": "string",
-          "value": "obj_conveyorCenterer"
-        },
-        {
-          "name": "rotation",
-          "type": "string",
-          "value": "down"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Decor",
-      "name": "obj_spawner",
-      "persistentUuid": "cf1a537b-d54d-441b-9029-e7e5e8c7a51c",
-      "width": 0,
-      "x": 672,
-      "y": 736,
-      "zOrder": 29,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "rotation",
-          "type": "string",
-          "value": "right"
-        },
-        {
-          "name": "type",
-          "type": "string",
-          "value": "obj_spawner"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Decor",
-      "name": "obj_sell",
-      "persistentUuid": "74bd8129-328c-4293-8f1f-c77a0be58866",
-      "width": 0,
-      "x": 896,
-      "y": 896,
-      "zOrder": 31,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "rotation",
-          "persistentUuid": "df7def1a-1cf4-4701-8296-90cd9b2c9748",
-          "type": "string",
-          "value": "none"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "Decor",
-      "name": "obj_smelter",
-      "persistentUuid": "f5e7fe2c-6458-432c-8a62-d281df644eee",
-      "width": 32,
-      "x": 896,
-      "y": 800,
-      "zOrder": 36,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "type",
-          "type": "string",
-          "value": "obj_smelter"
-        },
-        {
-          "name": "rotation",
-          "type": "string",
-          "value": "down"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Decor",
-      "name": "obj_conveyor",
-      "persistentUuid": "e436b810-4a88-49ed-be25-ceb5a2d29964",
-      "width": 0,
-      "x": 736,
-      "y": 736,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "type",
-          "type": "string",
-          "value": "obj_conveyor"
-        },
-        {
-          "name": "rotation",
-          "type": "string",
-          "value": "right"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Decor",
-      "name": "obj_conveyor",
-      "persistentUuid": "631b1df5-f440-4697-97eb-e438636ebfe4",
+      "layer": "UI",
+      "name": "txt_test",
+      "persistentUuid": "18ed8ba6-4c68-43b1-974f-74a3122eb521",
       "width": 0,
       "x": 800,
-      "y": 736,
-      "zOrder": 12,
+      "y": 553,
+      "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "type",
-          "type": "string",
-          "value": "obj_conveyor"
-        },
-        {
-          "name": "rotation",
-          "type": "string",
-          "value": "right"
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -931,26 +248,15 @@
       "height": 0,
       "keepRatio": true,
       "layer": "Decor",
-      "name": "obj_conveyor",
-      "persistentUuid": "73ce6984-f1f8-4020-882c-7b6c2fd77290",
+      "name": "Item",
+      "persistentUuid": "729cd13f-1b48-4aab-ab8b-cac93cb26677",
       "width": 0,
-      "x": 768,
-      "y": 736,
-      "zOrder": 12,
+      "x": 0,
+      "y": 0,
+      "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "type",
-          "type": "string",
-          "value": "obj_conveyor"
-        },
-        {
-          "name": "rotation",
-          "type": "string",
-          "value": "right"
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -958,28 +264,127 @@
       "height": 0,
       "keepRatio": true,
       "layer": "Decor",
-      "name": "obj_crusher",
-      "persistentUuid": "1aad0c00-2cd6-4d7d-b4f4-538c42371c3b",
+      "name": "Item",
+      "persistentUuid": "c485d977-15e9-4b79-9c15-ff000da9fb48",
       "width": 0,
-      "x": 832,
-      "y": 736,
-      "zOrder": 47,
+      "x": 32,
+      "y": 0,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "type",
-          "persistentUuid": "d46b545a-2ef3-43f5-9545-76de7b0f8463",
-          "type": "string",
-          "value": "obj_crusher"
-        },
-        {
-          "name": "rotation",
-          "persistentUuid": "18e623e4-6698-487e-8a5b-70bce36b1300",
-          "type": "string",
-          "value": "right"
-        }
-      ]
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Decor",
+      "name": "Item",
+      "persistentUuid": "a44c1689-ec12-4024-be55-2b8e21225e1d",
+      "width": 0,
+      "x": 0,
+      "y": 32,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Decor",
+      "name": "Item",
+      "persistentUuid": "84f6eacc-2d8c-4b0e-bf5a-0da29517c693",
+      "width": 0,
+      "x": 32,
+      "y": 32,
+      "zOrder": 52,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Decor",
+      "name": "Item",
+      "persistentUuid": "4f2570b4-efa1-4ff0-ba33-d7f6569bb64f",
+      "width": 0,
+      "x": 0,
+      "y": 64,
+      "zOrder": 53,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Decor",
+      "name": "Item",
+      "persistentUuid": "f3e2bad4-a72a-4e27-a34a-e93bdb88c1e5",
+      "width": 0,
+      "x": 32,
+      "y": 64,
+      "zOrder": 54,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Decor",
+      "name": "Item",
+      "persistentUuid": "2154f074-071f-4497-837d-66959f71d380",
+      "width": 0,
+      "x": 64,
+      "y": 64,
+      "zOrder": 55,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Decor",
+      "name": "Item",
+      "persistentUuid": "d45f7895-aa4b-4f9c-8222-702bfb3b4582",
+      "width": 0,
+      "x": 64,
+      "y": 32,
+      "zOrder": 56,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Decor",
+      "name": "Item",
+      "persistentUuid": "3731e2d3-0c17-45be-acb7-e4aba75ac030",
+      "width": 0,
+      "x": 64,
+      "y": 0,
+      "zOrder": 57,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -5922,7 +5327,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "gold_ore",
+          "name": "ore",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -5940,10 +5345,10 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 8,
-                    "y": 8
+                    "x": 16,
+                    "y": 18.5
                   },
                   "customCollisionMask": [
                     [
@@ -5962,6 +5367,55 @@
                       {
                         "x": 1,
                         "y": 10
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "dust",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "dust",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 7.5,
+                    "y": 7.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 16,
+                    "y": 18.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 13
+                      },
+                      {
+                        "x": 17,
+                        "y": 13
+                      },
+                      {
+                        "x": 27,
+                        "y": 23
+                      },
+                      {
+                        "x": 6,
+                        "y": 23
                       }
                     ]
                   ]
@@ -7852,6 +7306,49 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "txt_test",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Hovering over: x0, y0",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Hovering over: x0, y0",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -7860,6 +7357,9 @@
       {
         "folderName": "txts",
         "children": [
+          {
+            "objectName": "txt_test"
+          },
           {
             "objectName": "txt_machine_cost"
           },
@@ -7985,6 +7485,14 @@
           },
           "parameters": [
             "txt_player_message"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "txt_test"
           ]
         }
       ]
@@ -8639,6 +8147,59 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "PlayerData.CellX",
+            "=",
+            "floor(CursorX(\"Decor\") / 32)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "PlayerData.CellY",
+            "=",
+            "floor(CursorY(\"Decor\") / 32)"
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "txt_test",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "txt_test",
+            "Text",
+            "=",
+            "\"Hovering over: x\" + PlayerData.CellX + \", y\" + PlayerData.CellY"
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Link",

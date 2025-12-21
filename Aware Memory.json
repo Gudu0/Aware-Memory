@@ -1511,6 +1511,14 @@
         "name": "up3",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/dust.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/dust.png\"}",
+        "name": "dust",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1558,6 +1566,7 @@
       ]
     },
     {
+      "folded": true,
       "name": "Menu",
       "type": "structure",
       "children": [
@@ -1598,6 +1607,16 @@
           "value": false
         },
         {
+          "name": "CellX",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "CellY",
+          "type": "number",
+          "value": 0
+        },
+        {
           "name": "HardMode",
           "type": "boolean",
           "value": false
@@ -1613,16 +1632,6 @@
           "value": 1
         },
         {
-          "name": "LastPlaceX",
-          "type": "number",
-          "value": -999999999
-        },
-        {
-          "name": "LastPlaceY",
-          "type": "number",
-          "value": -999999999
-        },
-        {
           "name": "MaxItems",
           "type": "number",
           "value": 100
@@ -1631,6 +1640,11 @@
           "name": "Money",
           "type": "number",
           "value": 99999
+        },
+        {
+          "name": "PlaceOn",
+          "type": "boolean",
+          "value": false
         },
         {
           "name": "PlaceRotation",
@@ -1665,6 +1679,23 @@
       "name": "conveyorTimerNL",
       "type": "number",
       "value": -1
+    },
+    {
+      "name": "Grid",
+      "type": "structure",
+      "children": [
+        {
+          "name": "0",
+          "type": "structure",
+          "children": [
+            {
+              "name": "0",
+              "type": "structure",
+              "children": []
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "conveyorTimerL",

@@ -1222,11 +1222,52 @@
             },
             {
               "type": {
-                "value": "Delete"
+                "value": "SetNumberObjectVariable"
               },
               "parameters": [
-                "Item",
-                ""
+                "obj_sell",
+                "earned",
+                "+",
+                "Item.value"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Item",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "txt_test",
+                    "obj_sell",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "txt_test",
+                    "Text",
+                    "=",
+                    "ToString(floorTo(obj_sell.earned,1)) + \"$\""
+                  ]
+                }
               ]
             }
           ]
@@ -1239,6 +1280,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Item Spawning",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

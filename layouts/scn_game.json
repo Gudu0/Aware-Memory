@@ -5923,6 +5923,11 @@
           "name": "type",
           "type": "string",
           "value": "obj_sell"
+        },
+        {
+          "name": "earned",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],

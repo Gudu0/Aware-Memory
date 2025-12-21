@@ -1350,6 +1350,83 @@
                   "parameters": [
                     "PlayerData.PlacingMachine",
                     "=",
+                    "\"obj_sell\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PlayerData.Money",
+                    "-",
+                    "100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "txt_test",
+                    "obj_sell.X()",
+                    "obj_sell.Y() - 24",
+                    "\"Decor\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "txt_test",
+                    "Text",
+                    "=",
+                    "\"0$\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "obj_sell",
+                    "txt_test"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "obj_sell",
+                    "earned",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "PlayerData.PlacingMachine",
+                    "=",
                     "\"obj_spawner\""
                   ]
                 },
@@ -1453,39 +1530,6 @@
                     "type",
                     "=",
                     "\"obj_smelter\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.PlacingMachine",
-                    "=",
-                    "\"obj_sell\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.Money",
-                    "-",
-                    "100"
                   ]
                 }
               ]
@@ -1808,7 +1852,6 @@
           "comment": "Delete"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1874,6 +1917,26 @@
                     "PlayerData.Money",
                     "+",
                     "100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "txt_test",
+                    "obj_sell",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "txt_test",
+                    ""
                   ]
                 }
               ]

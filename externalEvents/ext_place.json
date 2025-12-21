@@ -794,7 +794,7 @@
                     "txt_machine_cost",
                     "Text",
                     "=",
-                    "\"10$\""
+                    "\"Conveyor - 10$\""
                   ]
                 }
               ]
@@ -853,7 +853,7 @@
                     "txt_machine_cost",
                     "Text",
                     "=",
-                    "\"15$\""
+                    "\"Centerer - 15$\""
                   ]
                 }
               ]
@@ -912,7 +912,7 @@
                     "txt_machine_cost",
                     "Text",
                     "=",
-                    "\"100$\""
+                    "\"Spawner - 100$\""
                   ]
                 }
               ]
@@ -971,7 +971,7 @@
                     "txt_machine_cost",
                     "Text",
                     "=",
-                    "\"100$\""
+                    "\"Sellpad - 100$\""
                   ]
                 }
               ]
@@ -1030,7 +1030,7 @@
                     "txt_machine_cost",
                     "Text",
                     "=",
-                    "\"35$\""
+                    "\"Smelter - 35$\""
                   ]
                 }
               ]
@@ -1089,7 +1089,7 @@
                     "txt_machine_cost",
                     "Text",
                     "=",
-                    "\"55$\""
+                    "\"Crusher - 55$\""
                   ]
                 }
               ]
@@ -1148,7 +1148,7 @@
                     "txt_machine_cost",
                     "Text",
                     "=",
-                    "\"85$\""
+                    "\"Polisher - 85$\""
                   ]
                 }
               ]
@@ -1253,6 +1253,7 @@
           "comment": "Place"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1852,6 +1853,7 @@
           "comment": "Delete"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {

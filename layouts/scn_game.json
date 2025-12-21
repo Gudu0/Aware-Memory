@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.4,
     "snap": true,
-    "zoomFactor": 0.4466455957238555,
+    "zoomFactor": 0.5100060009292621,
     "windowMask": false,
     "selectedLayer": "Decor"
   },
@@ -231,22 +231,6 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "UI",
-      "name": "txt_test",
-      "persistentUuid": "18ed8ba6-4c68-43b1-974f-74a3122eb521",
-      "width": 0,
-      "x": 800,
-      "y": 553,
-      "zOrder": 48,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
       "layer": "Decor",
       "name": "Item",
       "persistentUuid": "729cd13f-1b48-4aab-ab8b-cac93cb26677",
@@ -408,11 +392,11 @@
       "height": 0,
       "keepRatio": true,
       "layer": "Decor",
-      "name": "txt_test",
-      "persistentUuid": "33862ab7-3e9f-4cd6-a545-98e25453dccd",
+      "name": "txt_checkimg_label",
+      "persistentUuid": "988fe37d-030a-4a5a-93db-2a0df65412f7",
       "width": 0,
-      "x": 1654,
-      "y": -641,
+      "x": 1600,
+      "y": -608,
       "zOrder": 59,
       "numberProperties": [],
       "stringProperties": [],
@@ -6868,10 +6852,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "10$",
+      "string": "Conveyor - 10$",
       "font": "",
       "textAlignment": "center",
-      "characterSize": 30,
+      "characterSize": 20,
       "color": {
         "b": 0,
         "g": 0,
@@ -6891,11 +6875,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "10$",
+        "text": "Conveyor - 10$",
         "font": "",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
-        "characterSize": 30,
+        "characterSize": 20,
         "lineHeight": 0,
         "color": "0;0;0"
       }
@@ -7355,10 +7339,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Figure it out :)",
-      "font": "63ed629ffceb2e323f5c3b471bdc70d24d2188f548e8ab5520bd2321a331c791_Tangerine-Bold.ttf",
+      "string": "",
+      "font": "assets\\fonts\\Roboto-Regular.ttf",
       "textAlignment": "left",
-      "characterSize": 80,
+      "characterSize": 20,
       "color": {
         "b": 0,
         "g": 0,
@@ -7366,7 +7350,7 @@
       },
       "content": {
         "bold": true,
-        "isOutlineEnabled": true,
+        "isOutlineEnabled": false,
         "isShadowEnabled": false,
         "italic": false,
         "outlineColor": "255;255;255",
@@ -7378,11 +7362,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Figure it out :)",
-        "font": "63ed629ffceb2e323f5c3b471bdc70d24d2188f548e8ab5520bd2321a331c791_Tangerine-Bold.ttf",
+        "text": "",
+        "font": "assets\\fonts\\Roboto-Regular.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 80,
+        "characterSize": 20,
         "lineHeight": 0,
         "color": "0;0;0"
       }
@@ -7446,6 +7430,49 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "txt_checkimg_label",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Figure it out!",
+      "font": "assets\\fonts\\Roboto-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 80,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Figure it out!",
+        "font": "assets\\fonts\\Roboto-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 80,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -7455,7 +7482,13 @@
         "folderName": "txts",
         "children": [
           {
+            "objectName": "obj_checks_img"
+          },
+          {
             "objectName": "txt_test"
+          },
+          {
+            "objectName": "txt_checkimg_label"
           },
           {
             "objectName": "txt_machine_cost"
@@ -7485,9 +7518,6 @@
           },
           {
             "objectName": "obj_sell"
-          },
-          {
-            "objectName": "obj_checks_img"
           },
           {
             "objectName": "obj_conveyorCenterer"

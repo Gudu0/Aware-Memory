@@ -385,6 +385,38 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Decor",
+      "name": "obj_checks_img",
+      "persistentUuid": "a9b921f0-b22a-40b5-94f2-0b3102e59501",
+      "width": 0,
+      "x": 1280,
+      "y": -560,
+      "zOrder": 58,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Decor",
+      "name": "txt_test",
+      "persistentUuid": "33862ab7-3e9f-4cd6-a545-98e25453dccd",
+      "width": 0,
+      "x": 1654,
+      "y": -641,
+      "zOrder": 59,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -7314,7 +7346,7 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "txt_test",
       "smoothed": true,
@@ -7323,18 +7355,18 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Hovering over: x0, y0",
-      "font": "",
+      "string": "Figure it out :)",
+      "font": "63ed629ffceb2e323f5c3b471bdc70d24d2188f548e8ab5520bd2321a331c791_Tangerine-Bold.ttf",
       "textAlignment": "left",
-      "characterSize": 20,
+      "characterSize": 80,
       "color": {
         "b": 0,
         "g": 0,
         "r": 0
       },
       "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
+        "bold": true,
+        "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
         "outlineColor": "255;255;255",
@@ -7346,14 +7378,74 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Hovering over: x0, y0",
-        "font": "",
+        "text": "Figure it out :)",
+        "font": "63ed629ffceb2e323f5c3b471bdc70d24d2188f548e8ab5520bd2321a331c791_Tangerine-Bold.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 20,
+        "characterSize": 80,
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "obj_checks_img",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Screenshot 2025-12-20 215716.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1098,
+                        "y": 0
+                      },
+                      {
+                        "x": 1098,
+                        "y": 496
+                      },
+                      {
+                        "x": 0,
+                        "y": 496
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -7393,6 +7485,9 @@
           },
           {
             "objectName": "obj_sell"
+          },
+          {
+            "objectName": "obj_checks_img"
           },
           {
             "objectName": "obj_conveyorCenterer"
@@ -7491,14 +7586,6 @@
           "parameters": [
             "txt_player_message"
           ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "txt_test"
-          ]
         }
       ]
     },
@@ -7544,7 +7631,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Multi Way",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8175,33 +8261,6 @@
             "PlayerData.CellY",
             "=",
             "floor(CursorY(\"Decor\") / 32)"
-          ]
-        }
-      ]
-    },
-    {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "txt_test",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "txt_test",
-            "Text",
-            "=",
-            "\"Hovering over: x\" + PlayerData.CellX + \", y\" + PlayerData.CellY"
           ]
         }
       ]

@@ -909,7 +909,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Smelt Check",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -1033,7 +1032,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Crush Check",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -1120,7 +1118,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Polish Check",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -1183,6 +1180,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Item",
           "conditions": [

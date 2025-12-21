@@ -1519,6 +1519,25 @@
         "name": "dust",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Screenshot 2025-12-20 215716.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2025-12-20 215716.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tangerine-Bold.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "63ed629ffceb2e323f5c3b471bdc70d24d2188f548e8ab5520bd2321a331c791_Tangerine-Bold.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/63ed629ffceb2e323f5c3b471bdc70d24d2188f548e8ab5520bd2321a331c791_Tangerine-Bold.ttf",
+          "name": "gdevelop-asset-store"
+        }
       }
     ]
   },

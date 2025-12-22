@@ -975,6 +975,16 @@
                     "=",
                     "ToString(floorTo(obj_sell.earned,1)) + \"$\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "txt_sellpad_label",
+                    "=",
+                    "txt_money.X() + txt_money.Width() - txt_sellpad_label.Width()"
+                  ]
                 }
               ]
             }

@@ -1445,7 +1445,7 @@
                   "parameters": [
                     "",
                     "txt_sellpad_label",
-                    "txt_money.X() + txt_money.Width() - txt_sellpad_label.Width() - 64",
+                    "txt_money.X()+ txt_money.Width() - txt_sellpad_label.Width() - 64",
                     "txt_money.Y() + 64",
                     "\"UI\""
                   ]

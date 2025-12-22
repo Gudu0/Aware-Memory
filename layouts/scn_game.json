@@ -22,7 +22,7 @@
     "snap": true,
     "zoomFactor": 0.39115674681480606,
     "windowMask": false,
-    "selectedLayer": "options"
+    "selectedLayer": "Decor"
   },
   "objectsGroups": [
     {
@@ -589,6 +589,23 @@
       "x": 224,
       "y": 864,
       "zOrder": 64,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 59,
+      "keepRatio": true,
+      "layer": "options",
+      "name": "txt_sellpad_label",
+      "persistentUuid": "a26ef8d7-8808-4943-b455-9dd478691add",
+      "width": 569,
+      "x": 1863,
+      "y": 419,
+      "zOrder": 65,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -10539,7 +10556,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "",
+      "string": "0$",
       "font": "assets\\fonts\\Roboto-Regular.ttf",
       "textAlignment": "right",
       "characterSize": 50,
@@ -10562,7 +10579,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "",
+        "text": "0$",
         "font": "assets\\fonts\\Roboto-Regular.ttf",
         "textAlignment": "right",
         "verticalTextAlignment": "center",

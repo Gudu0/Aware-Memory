@@ -139,14 +139,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/gold_ore.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/gold_ore.png\"}",
-        "name": "gold_ore",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/down/down.png",
         "kind": "image",
         "metadata": "",
@@ -1165,31 +1157,15 @@
       {
         "file": "assets/conveyorCenterer/down33.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/conveyorCenterer/down33.png\",\"extension\":\".png\"}",
         "name": "assets\\conveyorCenterer\\down33.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/conveyorCenterer/up65.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/conveyorCenterer/up65.png\",\"extension\":\".png\"}",
-        "name": "assets\\conveyorCenterer\\up65.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/conveyorCenterer/left34.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\conveyorCenterer\\left34.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "file": "assets/smelter/right39.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/smelter/right39.png\",\"extension\":\".png\"}",
         "name": "assets\\smelter\\right39.png",
         "smoothed": true,
         "userAdded": false
@@ -1197,7 +1173,7 @@
       {
         "file": "assets/smelter/left37.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/smelter/left37.png\",\"extension\":\".png\"}",
         "name": "assets\\smelter\\left37.png",
         "smoothed": true,
         "userAdded": false
@@ -1205,7 +1181,7 @@
       {
         "file": "assets/smelter/up67.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/smelter/up67.png\",\"extension\":\".png\"}",
         "name": "assets\\smelter\\up67.png",
         "smoothed": true,
         "userAdded": false
@@ -1213,7 +1189,7 @@
       {
         "file": "assets/smelter/down36.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/smelter/down36.png\",\"extension\":\".png\"}",
         "name": "assets\\smelter\\down36.png",
         "smoothed": true,
         "userAdded": false
@@ -1483,7 +1459,7 @@
       {
         "file": "assets/down.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/down.png\"}",
         "name": "down",
         "smoothed": false,
         "userAdded": false
@@ -1499,7 +1475,7 @@
       {
         "file": "assets/left2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/left2.png\"}",
         "name": "left2",
         "smoothed": false,
         "userAdded": false
@@ -1507,7 +1483,7 @@
       {
         "file": "assets/up3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/up3.png\"}",
         "name": "up3",
         "smoothed": false,
         "userAdded": false
@@ -1526,33 +1502,6 @@
         "metadata": "",
         "name": "Screenshot 2025-12-20 215716.png",
         "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Tangerine-Bold.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "63ed629ffceb2e323f5c3b471bdc70d24d2188f548e8ab5520bd2321a331c791_Tangerine-Bold.ttf",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/63ed629ffceb2e323f5c3b471bdc70d24d2188f548e8ab5520bd2321a331c791_Tangerine-Bold.ttf",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "file": "assets/ore.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "ore",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/gold.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\gold.png",
-        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1833,7 +1782,7 @@
         "metadata": "",
         "name": "assets\\sounds\\smelt.wav",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": false
       },
@@ -1862,22 +1811,12 @@
         }
       },
       {
-        "file": "assets/sounds/place.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\sounds\\place.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/sounds/sell.wav",
         "kind": "audio",
         "metadata": "",
         "name": "assets\\sounds\\sell.wav",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": false
       },
@@ -2174,163 +2113,579 @@
         "userAdded": false
       },
       {
-        "file": "assets/up4.png",
+        "file": "assets/up24.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "up4",
+        "name": "up24",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/up5.png",
+        "file": "assets/up25.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "up5",
+        "name": "up25",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/up6.png",
+        "file": "assets/up26.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "up6",
+        "name": "up26",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/up7.png",
+        "file": "assets/up27.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "up7",
+        "name": "up27",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/up8.png",
+        "file": "assets/up28.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "up8",
+        "name": "up28",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/up9.png",
+        "file": "assets/up29.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "up9",
+        "name": "up29",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/up10.png",
+        "file": "assets/up30.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "up10",
+        "name": "up30",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/up11.png",
+        "file": "assets/up31.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "up11",
+        "name": "up31",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/up12.png",
+        "file": "assets/up32.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "up12",
+        "name": "up32",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/up13.png",
+        "file": "assets/up33.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "up13",
+        "name": "up33",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/up14.png",
+        "file": "assets/up34.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "up14",
+        "name": "up34",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/up15.png",
+        "file": "assets/up35.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "up15",
+        "name": "up35",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/up16.png",
+        "file": "assets/up36.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "up16",
+        "name": "up36",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/up17.png",
+        "file": "assets/up37.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "up17",
+        "name": "up37",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/up18.png",
+        "file": "assets/up38.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "up18",
+        "name": "up38",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/up19.png",
+        "file": "assets/up39.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "up19",
+        "name": "up39",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/up20.png",
+        "file": "assets/up40.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "up20",
+        "name": "up40",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/up21.png",
+        "file": "assets/up41.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "up21",
+        "name": "up41",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/up22.png",
+        "file": "assets/up42.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "up22",
+        "name": "up42",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/up23.png",
+        "file": "assets/up43.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "up23",
+        "name": "up43",
         "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up44.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up44",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up45.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up45",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up46.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up46",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up47.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up47",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up48.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up48",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up49.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up49",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up50",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up51.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up51",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up52.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up52",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up53.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up53",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up54.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up54",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up55.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up55",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down18",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down19",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down20",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down21",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down22",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down23",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down24",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down25",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down26",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down27",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down28",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down29",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down30",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down31",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down32",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right35",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left35",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up56.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up56",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down33",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/right36.png\"}",
+        "name": "right36",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/right37.png\"}",
+        "name": "right37",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left36",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up57.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up57",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down34",
+        "smoothed": false,
         "userAdded": false
       }
     ]

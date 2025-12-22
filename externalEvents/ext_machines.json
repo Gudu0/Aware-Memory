@@ -229,7 +229,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Conveyor Syncing",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -337,6 +336,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Checks and movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1004,88 +1004,55 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "obj_spawner",
-                "\"time_since_spawned\"",
-                ">=",
-                "PlayerData.SpawnCooldown"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "PlayerData.ItemCount",
-                "<",
-                "PlayerData.MaxItems"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "spawned",
-                "<",
-                "spawnMax"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "obj_spawner",
-                "\"time_since_spawned\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "spawned",
-                "+",
-                "1"
-              ]
-            }
-          ],
+          "folded": true,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "obj_spawner",
+          "conditions": [],
+          "actions": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                    "value": "CompareObjectTimer"
                   },
                   "parameters": [
                     "obj_spawner",
-                    "Animation",
-                    "=",
-                    "\"right\""
+                    "\"time_since_spawned\"",
+                    ">=",
+                    "PlayerData.SpawnCooldown"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PlayerData.ItemCount",
+                    "<",
+                    "PlayerData.MaxItems"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "spawned",
+                    "<",
+                    "spawnMax"
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "Create"
+                    "value": "ResetObjectTimer"
                   },
                   "parameters": [
-                    "",
-                    "Item",
-                    "obj_spawner.CenterX() + 8",
-                    "obj_spawner.CenterY()",
-                    "\"items\""
+                    "obj_spawner",
+                    "\"time_since_spawned\""
                   ]
                 },
                 {
@@ -1093,129 +1060,171 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "PlayerData.ItemCount",
+                    "spawned",
                     "+",
                     "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                  },
-                  "parameters": [
-                    "obj_spawner",
-                    "Animation",
-                    "=",
-                    "\"left\""
                   ]
                 }
               ],
-              "actions": [
+              "events": [
                 {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Item",
-                    "obj_spawner.CenterX() - 8",
-                    "obj_spawner.CenterY()",
-                    "\"items\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "obj_spawner",
+                        "Animation",
+                        "=",
+                        "\"right\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Item",
+                        "obj_spawner.CenterX() + 8",
+                        "obj_spawner.CenterY()",
+                        "\"items\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.ItemCount",
+                        "+",
+                        "1"
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.ItemCount",
-                    "+",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                  },
-                  "parameters": [
-                    "obj_spawner",
-                    "Animation",
-                    "=",
-                    "\"up\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Item",
-                    "obj_spawner.CenterX()",
-                    "obj_spawner.CenterY() - 8",
-                    "\"items\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.ItemCount",
-                    "+",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                  },
-                  "parameters": [
-                    "obj_spawner",
-                    "Animation",
-                    "=",
-                    "\"down\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Item",
-                    "obj_spawner.CenterX()",
-                    "obj_spawner.CenterY() + 8",
-                    "\"items\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "obj_spawner",
+                        "Animation",
+                        "=",
+                        "\"left\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Item",
+                        "obj_spawner.CenterX() - 8",
+                        "obj_spawner.CenterY()",
+                        "\"items\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.ItemCount",
+                        "+",
+                        "1"
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.ItemCount",
-                    "+",
-                    "1"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "obj_spawner",
+                        "Animation",
+                        "=",
+                        "\"up\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Item",
+                        "obj_spawner.CenterX()",
+                        "obj_spawner.CenterY() - 8",
+                        "\"items\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.ItemCount",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "obj_spawner",
+                        "Animation",
+                        "=",
+                        "\"down\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Item",
+                        "obj_spawner.CenterX()",
+                        "obj_spawner.CenterY() + 8",
+                        "\"items\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.ItemCount",
+                        "+",
+                        "1"
+                      ]
+                    }
                   ]
                 }
               ]

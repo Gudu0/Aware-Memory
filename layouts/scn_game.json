@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.4,
     "snap": true,
-    "zoomFactor": 0.3000035299583916,
+    "zoomFactor": 0.47727553269342676,
     "windowMask": false,
     "selectedLayer": "Decor"
   },
@@ -775,13 +775,13 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
+              "looping": false,
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.05,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right2.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor36.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -794,30 +794,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right3.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor37.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -830,30 +811,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right4.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor38.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -866,30 +828,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right5.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor39.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -902,30 +845,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right6.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor40.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -938,30 +862,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right7.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor41.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -974,30 +879,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right8.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor42.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1010,30 +896,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right9.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor43.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1046,30 +913,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right10.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor44.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1082,30 +930,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right11.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor45.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1118,30 +947,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right12.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor46.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1154,30 +964,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right13.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor47.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1190,30 +981,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right14.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor48.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1226,30 +998,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right15.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor49.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1262,30 +1015,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right16.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor50.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1298,30 +1032,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right17.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor51.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1334,30 +1049,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right18.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor52.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1370,30 +1066,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right19.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor53.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1406,30 +1083,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right20.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor54.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1442,30 +1100,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right21.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor55.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1478,30 +1117,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right22.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor56.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1514,30 +1134,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right23.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor57.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1550,30 +1151,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right24.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor58.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1586,30 +1168,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right25.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor59.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1622,30 +1185,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right26.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor60.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1658,30 +1202,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right27.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor61.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1694,30 +1219,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right28.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor62.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1730,30 +1236,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right29.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor63.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1766,30 +1253,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right30.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor64.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1802,30 +1270,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right36.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor65.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1838,30 +1287,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right37.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor66.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1874,30 +1304,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right31.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor67.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1910,26 +1321,7 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -1940,13 +1332,13 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
+              "looping": false,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.05,
+              "timeBetweenFrames": 0.2,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left33.png",
+                  "image": "assets\\Conveyor\\left\\left33.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1954,35 +1346,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left32.png",
+                  "image": "assets\\Conveyor\\left\\left32.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1990,35 +1363,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left31.png",
+                  "image": "assets\\Conveyor\\left\\left31.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2026,35 +1380,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left30.png",
+                  "image": "assets\\Conveyor\\left\\left30.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2062,35 +1397,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left29.png",
+                  "image": "assets\\Conveyor\\left\\left29.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2098,35 +1414,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left28.png",
+                  "image": "assets\\Conveyor\\left\\left28.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2134,35 +1431,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left27.png",
+                  "image": "assets\\Conveyor\\left\\left27.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2170,35 +1448,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left26.png",
+                  "image": "assets\\Conveyor\\left\\left26.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2206,35 +1465,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left25.png",
+                  "image": "assets\\Conveyor\\left\\left25.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2242,35 +1482,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left24.png",
+                  "image": "assets\\Conveyor\\left\\left24.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2278,35 +1499,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left23.png",
+                  "image": "assets\\Conveyor\\left\\left23.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2314,35 +1516,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left22.png",
+                  "image": "assets\\Conveyor\\left\\left22.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2350,35 +1533,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left21.png",
+                  "image": "assets\\Conveyor\\left\\left21.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2386,35 +1550,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left20.png",
+                  "image": "assets\\Conveyor\\left\\left20.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2422,35 +1567,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left19.png",
+                  "image": "assets\\Conveyor\\left\\left19.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2458,35 +1584,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left18.png",
+                  "image": "assets\\Conveyor\\left\\left18.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2494,35 +1601,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left17.png",
+                  "image": "assets\\Conveyor\\left\\left17.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2530,35 +1618,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left16.png",
+                  "image": "assets\\Conveyor\\left\\left16.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2566,35 +1635,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left15.png",
+                  "image": "assets\\Conveyor\\left\\left15.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2602,35 +1652,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left14.png",
+                  "image": "assets\\Conveyor\\left\\left14.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2638,35 +1669,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left13.png",
+                  "image": "assets\\Conveyor\\left\\left13.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2674,35 +1686,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left12.png",
+                  "image": "assets\\Conveyor\\left\\left12.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2710,35 +1703,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left11.png",
+                  "image": "assets\\Conveyor\\left\\left11.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2746,35 +1720,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left10.png",
+                  "image": "assets\\Conveyor\\left\\left10.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2782,35 +1737,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left9.png",
+                  "image": "assets\\Conveyor\\left\\left9.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2818,35 +1754,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left8.png",
+                  "image": "assets\\Conveyor\\left\\left8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2854,35 +1771,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left7.png",
+                  "image": "assets\\Conveyor\\left\\left7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2890,35 +1788,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left6.png",
+                  "image": "assets\\Conveyor\\left\\left6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2926,35 +1805,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left5.png",
+                  "image": "assets\\Conveyor\\left\\left5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2962,35 +1822,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left4.png",
+                  "image": "assets\\Conveyor\\left\\left4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2998,35 +1839,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left3.png",
+                  "image": "assets\\Conveyor\\left\\left3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3034,35 +1856,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\left\\left2.png",
+                  "image": "assets\\Conveyor\\left\\left2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3070,31 +1873,12 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -3105,13 +1889,13 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
+              "looping": false,
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.05,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up33.png",
+                  "image": "assets\\Conveyor\\up\\up33.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3124,30 +1908,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up34.png",
+                  "image": "assets\\Conveyor\\up\\up34.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3160,30 +1925,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up35.png",
+                  "image": "assets\\Conveyor\\up\\up35.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3196,30 +1942,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up36.png",
+                  "image": "assets\\Conveyor\\up\\up36.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3232,30 +1959,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up37.png",
+                  "image": "assets\\Conveyor\\up\\up37.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3268,30 +1976,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up38.png",
+                  "image": "assets\\Conveyor\\up\\up38.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3304,30 +1993,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up39.png",
+                  "image": "assets\\Conveyor\\up\\up39.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3340,30 +2010,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up40.png",
+                  "image": "assets\\Conveyor\\up\\up40.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3376,30 +2027,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up41.png",
+                  "image": "assets\\Conveyor\\up\\up41.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3412,30 +2044,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up42.png",
+                  "image": "assets\\Conveyor\\up\\up42.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3448,30 +2061,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up43.png",
+                  "image": "assets\\Conveyor\\up\\up43.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3484,30 +2078,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up44.png",
+                  "image": "assets\\Conveyor\\up\\up44.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3520,30 +2095,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up45.png",
+                  "image": "assets\\Conveyor\\up\\up45.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3556,30 +2112,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up46.png",
+                  "image": "assets\\Conveyor\\up\\up46.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3592,30 +2129,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up47.png",
+                  "image": "assets\\Conveyor\\up\\up47.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3628,30 +2146,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up48.png",
+                  "image": "assets\\Conveyor\\up\\up48.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3664,30 +2163,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up49.png",
+                  "image": "assets\\Conveyor\\up\\up49.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3700,30 +2180,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up50.png",
+                  "image": "assets\\Conveyor\\up\\up50.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3736,30 +2197,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up51.png",
+                  "image": "assets\\Conveyor\\up\\up51.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3772,30 +2214,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up52.png",
+                  "image": "assets\\Conveyor\\up\\up52.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3808,30 +2231,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up53.png",
+                  "image": "assets\\Conveyor\\up\\up53.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3844,30 +2248,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up54.png",
+                  "image": "assets\\Conveyor\\up\\up54.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3880,30 +2265,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up55.png",
+                  "image": "assets\\Conveyor\\up\\up55.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3916,30 +2282,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up56.png",
+                  "image": "assets\\Conveyor\\up\\up56.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3952,30 +2299,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up57.png",
+                  "image": "assets\\Conveyor\\up\\up57.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3988,30 +2316,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up58.png",
+                  "image": "assets\\Conveyor\\up\\up58.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4024,30 +2333,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up59.png",
+                  "image": "assets\\Conveyor\\up\\up59.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4060,30 +2350,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up60.png",
+                  "image": "assets\\Conveyor\\up\\up60.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4096,30 +2367,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up61.png",
+                  "image": "assets\\Conveyor\\up\\up61.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4132,30 +2384,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up62.png",
+                  "image": "assets\\Conveyor\\up\\up62.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4168,30 +2401,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up63.png",
+                  "image": "assets\\Conveyor\\up\\up63.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4204,30 +2418,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\up\\up64.png",
+                  "image": "assets\\Conveyor\\up\\up64.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4240,26 +2435,7 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -4270,13 +2446,13 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
+              "looping": false,
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.05,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down.png",
+                  "image": "assets\\Conveyor\\down\\down.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4284,35 +2460,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down2.png",
+                  "image": "assets\\Conveyor\\down\\down2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4320,35 +2477,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down3.png",
+                  "image": "assets\\Conveyor\\down\\down3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4356,35 +2494,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down4.png",
+                  "image": "assets\\Conveyor\\down\\down4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4392,35 +2511,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down5.png",
+                  "image": "assets\\Conveyor\\down\\down5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4428,35 +2528,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down6.png",
+                  "image": "assets\\Conveyor\\down\\down6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4464,35 +2545,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down7.png",
+                  "image": "assets\\Conveyor\\down\\down7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4500,35 +2562,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down8.png",
+                  "image": "assets\\Conveyor\\down\\down8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4536,35 +2579,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down9.png",
+                  "image": "assets\\Conveyor\\down\\down9.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4572,35 +2596,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down10.png",
+                  "image": "assets\\Conveyor\\down\\down10.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4608,35 +2613,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down11.png",
+                  "image": "assets\\Conveyor\\down\\down11.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4644,35 +2630,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down12.png",
+                  "image": "assets\\Conveyor\\down\\down12.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4680,35 +2647,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down13.png",
+                  "image": "assets\\Conveyor\\down\\down13.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4716,35 +2664,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down14.png",
+                  "image": "assets\\Conveyor\\down\\down14.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4752,35 +2681,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down15.png",
+                  "image": "assets\\Conveyor\\down\\down15.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4788,35 +2698,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down16.png",
+                  "image": "assets\\Conveyor\\down\\down16.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4824,35 +2715,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down17.png",
+                  "image": "assets\\Conveyor\\down\\down17.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4860,35 +2732,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down18.png",
+                  "image": "assets\\Conveyor\\down\\down18.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4896,35 +2749,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down19.png",
+                  "image": "assets\\Conveyor\\down\\down19.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4932,35 +2766,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down20.png",
+                  "image": "assets\\Conveyor\\down\\down20.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4968,35 +2783,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down21.png",
+                  "image": "assets\\Conveyor\\down\\down21.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5004,35 +2800,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down22.png",
+                  "image": "assets\\Conveyor\\down\\down22.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5040,35 +2817,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down23.png",
+                  "image": "assets\\Conveyor\\down\\down23.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5076,35 +2834,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down24.png",
+                  "image": "assets\\Conveyor\\down\\down24.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5112,35 +2851,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down25.png",
+                  "image": "assets\\Conveyor\\down\\down25.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5148,35 +2868,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down26.png",
+                  "image": "assets\\Conveyor\\down\\down26.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5184,35 +2885,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down27.png",
+                  "image": "assets\\Conveyor\\down\\down27.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5220,35 +2902,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down28.png",
+                  "image": "assets\\Conveyor\\down\\down28.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5256,35 +2919,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down29.png",
+                  "image": "assets\\Conveyor\\down\\down29.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5292,35 +2936,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down30.png",
+                  "image": "assets\\Conveyor\\down\\down30.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5328,35 +2953,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down31.png",
+                  "image": "assets\\Conveyor\\down\\down31.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5364,35 +2970,16 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\down\\down32.png",
+                  "image": "assets\\Conveyor\\down\\down32.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5400,31 +2987,12 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -5733,13 +3301,12 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.05,
+              "looping": false,
+              "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right3",
+                  "image": "assets\\conveyorCenterer\\right\\right3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5775,7 +3342,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right4",
+                  "image": "assets\\conveyorCenterer\\right\\right4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5811,7 +3378,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right5",
+                  "image": "assets\\conveyorCenterer\\right\\right5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5847,7 +3414,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right6",
+                  "image": "assets\\conveyorCenterer\\right\\right6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5883,7 +3450,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right7",
+                  "image": "assets\\conveyorCenterer\\right\\right7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5919,7 +3486,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right8",
+                  "image": "assets\\conveyorCenterer\\right\\right8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5955,7 +3522,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right9",
+                  "image": "assets\\conveyorCenterer\\right\\right9.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5991,7 +3558,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right10",
+                  "image": "assets\\conveyorCenterer\\right\\right10.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6027,7 +3594,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right11",
+                  "image": "assets\\conveyorCenterer\\right\\right11.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6063,7 +3630,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right12",
+                  "image": "assets\\conveyorCenterer\\right\\right12.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6099,7 +3666,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right13",
+                  "image": "assets\\conveyorCenterer\\right\\right13.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6135,7 +3702,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right14",
+                  "image": "assets\\conveyorCenterer\\right\\right14.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6171,7 +3738,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right15",
+                  "image": "assets\\conveyorCenterer\\right\\right15.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6207,7 +3774,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right16",
+                  "image": "assets\\conveyorCenterer\\right\\right16.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6243,7 +3810,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right17",
+                  "image": "assets\\conveyorCenterer\\right\\right17.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6279,7 +3846,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right18",
+                  "image": "assets\\conveyorCenterer\\right\\right18.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6315,7 +3882,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right19",
+                  "image": "assets\\conveyorCenterer\\right\\right19.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6351,7 +3918,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right20",
+                  "image": "assets\\conveyorCenterer\\right\\right20.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6387,7 +3954,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right21",
+                  "image": "assets\\conveyorCenterer\\right\\right21.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6423,7 +3990,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right22",
+                  "image": "assets\\conveyorCenterer\\right\\right22.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6459,7 +4026,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right23",
+                  "image": "assets\\conveyorCenterer\\right\\right23.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6495,7 +4062,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right24",
+                  "image": "assets\\conveyorCenterer\\right\\right24.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6531,7 +4098,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right25",
+                  "image": "assets\\conveyorCenterer\\right\\right25.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6567,7 +4134,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right26",
+                  "image": "assets\\conveyorCenterer\\right\\right26.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6603,7 +4170,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right27",
+                  "image": "assets\\conveyorCenterer\\right\\right27.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6639,7 +4206,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right28",
+                  "image": "assets\\conveyorCenterer\\right\\right28.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6675,7 +4242,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right29",
+                  "image": "assets\\conveyorCenterer\\right\\right29.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6711,7 +4278,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right30",
+                  "image": "assets\\conveyorCenterer\\right\\right30.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6747,7 +4314,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right31",
+                  "image": "assets\\conveyorCenterer\\right\\right31.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6783,7 +4350,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right32",
+                  "image": "assets\\conveyorCenterer\\right\\right32.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6819,7 +4386,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right33",
+                  "image": "assets\\conveyorCenterer\\right\\right33.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6855,7 +4422,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right34",
+                  "image": "assets\\conveyorCenterer\\right\\right34.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6904,7 +4471,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left3",
+                  "image": "assets\\conveyorCenterer\\left\\left3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6940,7 +4507,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left4",
+                  "image": "assets\\conveyorCenterer\\left\\left4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6976,7 +4543,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left5",
+                  "image": "assets\\conveyorCenterer\\left\\left5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7012,7 +4579,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left6",
+                  "image": "assets\\conveyorCenterer\\left\\left6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7048,7 +4615,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left7",
+                  "image": "assets\\conveyorCenterer\\left\\left7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7084,7 +4651,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left8",
+                  "image": "assets\\conveyorCenterer\\left\\left8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7120,7 +4687,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left9",
+                  "image": "assets\\conveyorCenterer\\left\\left9.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7156,7 +4723,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left10",
+                  "image": "assets\\conveyorCenterer\\left\\left10.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7192,7 +4759,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left11",
+                  "image": "assets\\conveyorCenterer\\left\\left11.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7228,7 +4795,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left12",
+                  "image": "assets\\conveyorCenterer\\left\\left12.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7264,7 +4831,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left13",
+                  "image": "assets\\conveyorCenterer\\left\\left13.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7300,7 +4867,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left14",
+                  "image": "assets\\conveyorCenterer\\left\\left14.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7336,7 +4903,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left15",
+                  "image": "assets\\conveyorCenterer\\left\\left15.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7372,7 +4939,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left16",
+                  "image": "assets\\conveyorCenterer\\left\\left16.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7408,7 +4975,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left17",
+                  "image": "assets\\conveyorCenterer\\left\\left17.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7444,7 +5011,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left18",
+                  "image": "assets\\conveyorCenterer\\left\\left18.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7480,7 +5047,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left19",
+                  "image": "assets\\conveyorCenterer\\left\\left19.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7516,7 +5083,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left20",
+                  "image": "assets\\conveyorCenterer\\left\\left20.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7552,7 +5119,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left21",
+                  "image": "assets\\conveyorCenterer\\left\\left21.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7588,7 +5155,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left22",
+                  "image": "assets\\conveyorCenterer\\left\\left22.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7624,7 +5191,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left23",
+                  "image": "assets\\conveyorCenterer\\left\\left23.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7660,7 +5227,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left24",
+                  "image": "assets\\conveyorCenterer\\left\\left24.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7696,7 +5263,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left25",
+                  "image": "assets\\conveyorCenterer\\left\\left25.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7732,7 +5299,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left26",
+                  "image": "assets\\conveyorCenterer\\left\\left26.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7768,7 +5335,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left27",
+                  "image": "assets\\conveyorCenterer\\left\\left27.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7804,7 +5371,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left28",
+                  "image": "assets\\conveyorCenterer\\left\\left28.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7840,7 +5407,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left29",
+                  "image": "assets\\conveyorCenterer\\left\\left29.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7876,7 +5443,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left30",
+                  "image": "assets\\conveyorCenterer\\left\\left30.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7912,7 +5479,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left31",
+                  "image": "assets\\conveyorCenterer\\left\\left31.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7948,7 +5515,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left32",
+                  "image": "assets\\conveyorCenterer\\left\\left32.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7984,7 +5551,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left33",
+                  "image": "assets\\conveyorCenterer\\left\\left33.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8020,7 +5587,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left34",
+                  "image": "assets\\conveyorCenterer\\left\\left34.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8069,7 +5636,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up24",
+                  "image": "assets\\conveyorCenterer\\up\\up4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8105,7 +5672,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up25",
+                  "image": "assets\\conveyorCenterer\\up\\up5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8141,7 +5708,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up26",
+                  "image": "assets\\conveyorCenterer\\up\\up6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8177,7 +5744,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up27",
+                  "image": "assets\\conveyorCenterer\\up\\up7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8213,7 +5780,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up28",
+                  "image": "assets\\conveyorCenterer\\up\\up8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8249,7 +5816,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up29",
+                  "image": "assets\\conveyorCenterer\\up\\up9.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8285,7 +5852,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up30",
+                  "image": "assets\\conveyorCenterer\\up\\up10.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8321,7 +5888,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up31",
+                  "image": "assets\\conveyorCenterer\\up\\up11.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8357,7 +5924,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up32",
+                  "image": "assets\\conveyorCenterer\\up\\up12.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8393,7 +5960,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up33",
+                  "image": "assets\\conveyorCenterer\\up\\up13.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8429,7 +5996,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up34",
+                  "image": "assets\\conveyorCenterer\\up\\up14.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8465,7 +6032,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up35",
+                  "image": "assets\\conveyorCenterer\\up\\up15.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8501,7 +6068,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up36",
+                  "image": "assets\\conveyorCenterer\\up\\up16.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8537,7 +6104,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up37",
+                  "image": "assets\\conveyorCenterer\\up\\up17.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8573,7 +6140,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up38",
+                  "image": "assets\\conveyorCenterer\\up\\up18.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8609,7 +6176,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up39",
+                  "image": "assets\\conveyorCenterer\\up\\up19.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8645,7 +6212,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up40",
+                  "image": "assets\\conveyorCenterer\\up\\up20.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8681,7 +6248,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up41",
+                  "image": "assets\\conveyorCenterer\\up\\up21.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8717,7 +6284,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up42",
+                  "image": "assets\\conveyorCenterer\\up\\up22.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8753,7 +6320,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up43",
+                  "image": "assets\\conveyorCenterer\\up\\up23.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8789,7 +6356,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up44",
+                  "image": "assets\\conveyorCenterer\\up\\up44.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8825,7 +6392,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up45",
+                  "image": "assets\\conveyorCenterer\\up\\up45.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8861,7 +6428,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up46",
+                  "image": "assets\\conveyorCenterer\\up\\up46.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8897,7 +6464,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up47",
+                  "image": "assets\\conveyorCenterer\\up\\up47.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8933,7 +6500,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up48",
+                  "image": "assets\\conveyorCenterer\\up\\up48.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8969,7 +6536,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up49",
+                  "image": "assets\\conveyorCenterer\\up\\up49.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9005,7 +6572,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up50",
+                  "image": "assets\\conveyorCenterer\\up\\up50.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9041,7 +6608,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up51",
+                  "image": "assets\\conveyorCenterer\\up\\up51.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9077,7 +6644,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up52",
+                  "image": "assets\\conveyorCenterer\\up\\up52.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9113,7 +6680,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up53",
+                  "image": "assets\\conveyorCenterer\\up\\up53.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9149,7 +6716,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up54",
+                  "image": "assets\\conveyorCenterer\\up\\up54.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9185,7 +6752,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up55",
+                  "image": "assets\\conveyorCenterer\\up\\up55.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9230,11 +6797,11 @@
             {
               "looping": false,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.2,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down2",
+                  "image": "assets\\conveyorCenterer\\down\\down2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9270,7 +6837,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down3",
+                  "image": "assets\\conveyorCenterer\\down\\down3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9306,7 +6873,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down4",
+                  "image": "assets\\conveyorCenterer\\down\\down4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9342,7 +6909,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down5",
+                  "image": "assets\\conveyorCenterer\\down\\down5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9378,7 +6945,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down6",
+                  "image": "assets\\conveyorCenterer\\down\\down6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9414,7 +6981,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down7",
+                  "image": "assets\\conveyorCenterer\\down\\down7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9450,7 +7017,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down8",
+                  "image": "assets\\conveyorCenterer\\down\\down8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9486,7 +7053,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down9",
+                  "image": "assets\\conveyorCenterer\\down\\down9.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9522,7 +7089,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down10",
+                  "image": "assets\\conveyorCenterer\\down\\down10.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9558,7 +7125,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down11",
+                  "image": "assets\\conveyorCenterer\\down\\down11.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9594,7 +7161,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down12",
+                  "image": "assets\\conveyorCenterer\\down\\down12.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9630,7 +7197,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down13",
+                  "image": "assets\\conveyorCenterer\\down\\down13.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9666,7 +7233,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down14",
+                  "image": "assets\\conveyorCenterer\\down\\down14.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9702,7 +7269,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down15",
+                  "image": "assets\\conveyorCenterer\\down\\down15.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9738,7 +7305,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down16",
+                  "image": "assets\\conveyorCenterer\\down\\down16.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9774,7 +7341,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down17",
+                  "image": "assets\\conveyorCenterer\\down\\down17.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9810,7 +7377,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down18",
+                  "image": "assets\\conveyorCenterer\\down\\down18.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9846,7 +7413,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down19",
+                  "image": "assets\\conveyorCenterer\\down\\down19.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9882,7 +7449,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down20",
+                  "image": "assets\\conveyorCenterer\\down\\down20.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9918,7 +7485,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down21",
+                  "image": "assets\\conveyorCenterer\\down\\down21.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9954,7 +7521,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down22",
+                  "image": "assets\\conveyorCenterer\\down\\down22.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9990,7 +7557,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down23",
+                  "image": "assets\\conveyorCenterer\\down\\down23.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10026,7 +7593,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down24",
+                  "image": "assets\\conveyorCenterer\\down\\down24.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10062,7 +7629,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down25",
+                  "image": "assets\\conveyorCenterer\\down\\down25.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10098,7 +7665,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down26",
+                  "image": "assets\\conveyorCenterer\\down\\down26.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10134,7 +7701,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down27",
+                  "image": "assets\\conveyorCenterer\\down\\down27.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10170,7 +7737,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down28",
+                  "image": "assets\\conveyorCenterer\\down\\down28.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10206,7 +7773,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down29",
+                  "image": "assets\\conveyorCenterer\\down\\down29.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10242,7 +7809,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down30",
+                  "image": "assets\\conveyorCenterer\\down\\down30.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10278,7 +7845,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down31",
+                  "image": "assets\\conveyorCenterer\\down\\down31.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10314,7 +7881,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down32",
+                  "image": "assets\\conveyorCenterer\\down\\down33.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10350,7 +7917,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\conveyorCenterer\\down33.png",
+                  "image": "assets\\conveyorCenterer\\down\\down32.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10888,12 +8455,13 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\right\\right2.png",
+                  "image": "assets\\Conveyor\\right\\obj_conveyor36.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10941,7 +8509,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\conveyorCenterer\\right_center.png",
+                  "image": "assets\\conveyorCenterer\\right\\right_center.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

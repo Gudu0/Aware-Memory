@@ -11068,7 +11068,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\smelter\\right39.png",
+                  "image": "assets\\smelter\\right\\right35.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11116,7 +11116,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right",
+                  "image": "assets\\crusher\\right\\right.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11164,7 +11164,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right2",
+                  "image": "assets\\polisher\\right\\right36.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11237,7 +11237,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right35",
+                  "image": "assets\\smelter\\right\\right35.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11273,7 +11273,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\smelter\\right39.png",
+                  "image": "assets\\smelter\\right\\right39.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11322,7 +11322,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left35",
+                  "image": "assets\\smelter\\left\\left35.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11358,7 +11358,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\smelter\\left37.png",
+                  "image": "assets\\smelter\\left\\left37.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11407,7 +11407,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up56",
+                  "image": "assets\\smelter\\up\\up56.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11443,7 +11443,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\smelter\\up67.png",
+                  "image": "assets\\smelter\\up\\up67.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11492,7 +11492,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down33",
+                  "image": "assets\\smelter\\down\\down33.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11528,7 +11528,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\smelter\\down36.png",
+                  "image": "assets\\smelter\\down\\down36.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11750,14 +11750,12 @@
         {
           "hasMixedValues": true,
           "name": "rotation",
-          "persistentUuid": "18e623e4-6698-487e-8a5b-70bce36b1300",
           "type": "string",
           "value": "left"
         },
         {
           "hasMixedValues": true,
           "name": "type",
-          "persistentUuid": "d46b545a-2ef3-43f5-9545-76de7b0f8463",
           "type": "string",
           "value": "eee"
         }
@@ -11776,7 +11774,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right",
+                  "image": "assets\\crusher\\right\\right.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11825,7 +11823,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left",
+                  "image": "assets\\crusher\\left\\left.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11874,7 +11872,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up",
+                  "image": "assets\\crusher\\up\\up.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11923,7 +11921,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up2",
+                  "image": "assets\\crusher\\down\\down.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11993,11 +11991,11 @@
             {
               "looping": false,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right37",
+                  "image": "assets\\polisher\\right\\right36.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12033,7 +12031,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "right36",
+                  "image": "assets\\polisher\\right\\right37.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12082,7 +12080,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left36",
+                  "image": "assets\\polisher\\left\\left2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12118,7 +12116,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "left2",
+                  "image": "assets\\polisher\\left\\left36.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12167,7 +12165,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up57",
+                  "image": "assets\\polisher\\up\\up3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12203,7 +12201,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "up3",
+                  "image": "assets\\polisher\\up\\up57.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12252,7 +12250,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down34",
+                  "image": "assets\\polisher\\down\\down.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12288,7 +12286,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "down",
+                  "image": "assets\\polisher\\down\\down34.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

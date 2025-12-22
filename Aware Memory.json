@@ -2659,6 +2659,166 @@
         "name": "conveyor_sprites.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/crusher/right/right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\crusher\\right\\right.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crusher/left/left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\crusher\\left\\left.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crusher/up/up.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\crusher\\up\\up.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/crusher/down/down.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\crusher\\down\\down.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/polisher/right/right36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\polisher\\right\\right36.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/polisher/right/right37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\polisher\\right\\right37.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/polisher/left/left2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\polisher\\left\\left2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/polisher/left/left36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\polisher\\left\\left36.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/polisher/up/up3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\polisher\\up\\up3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/polisher/up/up57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\polisher\\up\\up57.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/polisher/down/down.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\polisher\\down\\down.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/polisher/down/down34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\polisher\\down\\down34.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/smelter/right/right35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\smelter\\right\\right35.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/smelter/right/right39.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\smelter\\right\\right39.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/smelter/left/left35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\smelter\\left\\left35.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/smelter/left/left37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\smelter\\left\\left37.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/smelter/up/up56.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\smelter\\up\\up56.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/smelter/up/up67.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\smelter\\up\\up67.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/smelter/down/down33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\smelter\\down\\down33.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/smelter/down/down36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\smelter\\down\\down36.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },

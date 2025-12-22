@@ -229,6 +229,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Conveyor Syncing",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -363,8 +364,8 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "grp_machine",
                         "manipulatable",
+                        "grp_machine",
                         "",
                         "",
                         ""

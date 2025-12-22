@@ -122,6 +122,24 @@
                 ""
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "PlayerData.EnableSound",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": []
+            }
           ]
         },
         {
@@ -370,6 +388,51 @@
               "parameters": [
                 "PlayerData.CanAfford",
                 "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.CanPlace",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::FillColor"
+              },
+              "parameters": [
+                "pnt_place_highlight",
+                "\"224;88;88\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PrimitiveDrawing::OutlineColor"
+              },
+              "parameters": [
+                "pnt_place_highlight",
+                "\"148;15;15\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Menu.OptionsOpen",
+                "True",
                 ""
               ]
             }

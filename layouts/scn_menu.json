@@ -20,62 +20,11 @@
     "gridColor": 10401023,
     "gridAlpha": 0.2,
     "snap": true,
-    "zoomFactor": 0.3300560049165935,
+    "zoomFactor": 0.31928945896901734,
     "windowMask": false,
     "selectedLayer": ""
   },
-  "objectsGroups": [
-    {
-      "name": "grp_options_menu",
-      "objects": [
-        {
-          "name": "spr_options_background"
-        },
-        {
-          "name": "tog_difficulty"
-        },
-        {
-          "name": "txt_difficulty_label"
-        },
-        {
-          "name": "txt_keybind_label_interact"
-        },
-        {
-          "name": "btn_keybind_interact"
-        },
-        {
-          "name": "btn_keybind_up_move"
-        },
-        {
-          "name": "txt_keybind_label_up_move"
-        },
-        {
-          "name": "txt_keybind_label_down_move"
-        },
-        {
-          "name": "btn_keybind_down_move"
-        },
-        {
-          "name": "btn_keybind_left_move"
-        },
-        {
-          "name": "btn_keybind_right_move"
-        },
-        {
-          "name": "txt_keybind_label_left_move"
-        },
-        {
-          "name": "txt_keybind_label_right_move"
-        },
-        {
-          "name": "sld_maxItems"
-        },
-        {
-          "name": "txt_maxItems_label"
-        }
-      ]
-    }
-  ],
+  "objectsGroups": [],
   "variables": [],
   "instances": [
     {
@@ -530,482 +479,6 @@
       }
     },
     {
-      "assetStoreId": "",
-      "height": 64,
-      "name": "spr_options_background",
-      "texture": "optionsMenuBackground",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 64,
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "Night",
-          "name": "Effect",
-          "doubleParameters": {
-            "intensity": 0.1,
-            "opacity": 0.3
-          },
-          "stringParameters": {},
-          "booleanParameters": {}
-        },
-        {
-          "effectType": "AdvancedBloom",
-          "name": "Effect2",
-          "doubleParameters": {
-            "bloomScale": 0.7,
-            "blur": 4,
-            "brightness": 0.7,
-            "padding": 0,
-            "quality": 7,
-            "threshold": 0.5
-          },
-          "stringParameters": {},
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "99f912de1cf5033ae934a8453c2f98a712955bcdb5ea1b1fda2fe2aa616de4a9",
-      "name": "tog_difficulty",
-      "persistentUuid": "4ed472d1-581b-454d-b4f5-e12677e7c46e",
-      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
-      "variant": "Small Green Plastic Round Switch 2 ",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "IsChecked": false
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "txt_difficulty_label",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "Outline",
-          "name": "Effect",
-          "doubleParameters": {
-            "padding": 0,
-            "thickness": 1
-          },
-          "stringParameters": {
-            "color": "255;255;255"
-          },
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": [],
-      "string": "Hard Mode",
-      "font": "assets\\fonts\\MetalMania-Regular.ttf",
-      "textAlignment": "left",
-      "characterSize": 60,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Hard Mode",
-        "font": "assets\\fonts\\MetalMania-Regular.ttf",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 60,
-        "lineHeight": 0,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "0d2644a425931f79026065835332ea795353d1f99fcd6ccd47ab7927bd0f35ed",
-      "name": "btn_keybind_interact",
-      "persistentUuid": "7892e5d0-bb4d-4e7b-8a84-bf9a5a2f12a2",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variant": "Black Square Decorated Button 2",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 6,
-        "BottomPadding": 24,
-        "TopPadding": 24,
-        "HoveredFadeOutDuration": 0.25,
-        "LabelText": "E"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "txt_keybind_label_interact",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "Outline",
-          "name": "Effect",
-          "doubleParameters": {
-            "padding": 0,
-            "thickness": 1
-          },
-          "stringParameters": {
-            "color": "255;255;255"
-          },
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": [],
-      "string": "Interact",
-      "font": "assets\\fonts\\MetalMania-Regular.ttf",
-      "textAlignment": "left",
-      "characterSize": 60,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Interact",
-        "font": "assets\\fonts\\MetalMania-Regular.ttf",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 60,
-        "lineHeight": 0,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "0d2644a425931f79026065835332ea795353d1f99fcd6ccd47ab7927bd0f35ed",
-      "name": "btn_keybind_up_move",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variant": "Black Square Decorated Button 2",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 6,
-        "BottomPadding": 24,
-        "TopPadding": 24,
-        "HoveredFadeOutDuration": 0.25,
-        "LabelText": "W"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "txt_keybind_label_up_move",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "Outline",
-          "name": "Effect",
-          "doubleParameters": {
-            "padding": 0,
-            "thickness": 1
-          },
-          "stringParameters": {
-            "color": "255;255;255"
-          },
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": [],
-      "string": "Move Up",
-      "font": "assets\\fonts\\MetalMania-Regular.ttf",
-      "textAlignment": "left",
-      "characterSize": 60,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Move Up",
-        "font": "assets\\fonts\\MetalMania-Regular.ttf",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 60,
-        "lineHeight": 0,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "0d2644a425931f79026065835332ea795353d1f99fcd6ccd47ab7927bd0f35ed",
-      "name": "btn_keybind_down_move",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variant": "Black Square Decorated Button 2",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 6,
-        "BottomPadding": 24,
-        "TopPadding": 24,
-        "HoveredFadeOutDuration": 0.25,
-        "LabelText": "S"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "txt_keybind_label_down_move",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "Outline",
-          "name": "Effect",
-          "doubleParameters": {
-            "padding": 0,
-            "thickness": 1
-          },
-          "stringParameters": {
-            "color": "255;255;255"
-          },
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": [],
-      "string": "Move Down",
-      "font": "assets\\fonts\\MetalMania-Regular.ttf",
-      "textAlignment": "left",
-      "characterSize": 60,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Move Down",
-        "font": "assets\\fonts\\MetalMania-Regular.ttf",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 60,
-        "lineHeight": 0,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "0d2644a425931f79026065835332ea795353d1f99fcd6ccd47ab7927bd0f35ed",
-      "name": "btn_keybind_left_move",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variant": "Black Square Decorated Button 2",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 6,
-        "BottomPadding": 24,
-        "TopPadding": 24,
-        "HoveredFadeOutDuration": 0.25,
-        "LabelText": "A"
-      }
-    },
-    {
-      "assetStoreId": "0d2644a425931f79026065835332ea795353d1f99fcd6ccd47ab7927bd0f35ed",
-      "name": "btn_keybind_right_move",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variant": "Black Square Decorated Button 2",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 6,
-        "BottomPadding": 24,
-        "TopPadding": 24,
-        "HoveredFadeOutDuration": 0.25,
-        "LabelText": "D"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "txt_keybind_label_left_move",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "Outline",
-          "name": "Effect",
-          "doubleParameters": {
-            "padding": 0,
-            "thickness": 1
-          },
-          "stringParameters": {
-            "color": "255;255;255"
-          },
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": [],
-      "string": "Move Left",
-      "font": "assets\\fonts\\MetalMania-Regular.ttf",
-      "textAlignment": "left",
-      "characterSize": 60,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Move Left",
-        "font": "assets\\fonts\\MetalMania-Regular.ttf",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 60,
-        "lineHeight": 0,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "txt_keybind_label_right_move",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "Outline",
-          "name": "Effect",
-          "doubleParameters": {
-            "padding": 0,
-            "thickness": 1
-          },
-          "stringParameters": {
-            "color": "255;255;255"
-          },
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": [],
-      "string": "Move Right",
-      "font": "assets\\fonts\\MetalMania-Regular.ttf",
-      "textAlignment": "left",
-      "characterSize": 60,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Move Right",
-        "font": "assets\\fonts\\MetalMania-Regular.ttf",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 60,
-        "lineHeight": 0,
-        "color": "0;0;0"
-      }
-    },
-    {
       "assetStoreId": "80b9ddd78c8727888bb53c7524f443682746667b1ba493c223114c04e7661bbf",
       "name": "btn_credits",
       "persistentUuid": "4598b058-b7ca-423e-87ed-8a93362470b5",
@@ -1017,49 +490,6 @@
       "content": {
         "LabelText": "Credits",
         "PressedLabelOffsetY": 2
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "txt_credit",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Credits:\nMe - Gudu0\nhttps://opengameart.org/content/conveyor-belt-spriteset - Gary Shaw",
-      "font": "assets\\fonts\\Roboto-Regular.ttf",
-      "textAlignment": "center",
-      "characterSize": 20,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Credits:\nMe - Gudu0\nhttps://opengameart.org/content/conveyor-belt-spriteset - Gary Shaw",
-        "font": "assets\\fonts\\Roboto-Regular.ttf",
-        "textAlignment": "center",
-        "verticalTextAlignment": "top",
-        "characterSize": 20,
-        "lineHeight": 0,
-        "color": "0;0;0"
       }
     },
     {
@@ -1079,66 +509,6 @@
         "align": "center",
         "verticalTextAlignment": "top"
       }
-    },
-    {
-      "assetStoreId": "05b0eb2d13ff37b70927d0184d4705e9c39c0b8fece7463127c4fe9eb65bb422",
-      "name": "sld_maxItems",
-      "persistentUuid": "dea0e9a7-fdc1-4bde-80c5-27501336d131",
-      "type": "PanelSpriteSlider::PanelSpriteSlider",
-      "variant": "Small Plastic Green Round Slider 2",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LabelMargin": 8,
-        "BarLeftPadding": 31,
-        "BarRightPadding": 31,
-        "InitialValue": 100,
-        "MaxValue": 1000
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "txt_maxItems_label",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Max Number of Items: 100",
-      "font": "assets\\fonts\\MetalMania-Regular.ttf",
-      "textAlignment": "left",
-      "characterSize": 60,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Max Number of Items: 100",
-        "font": "assets\\fonts\\MetalMania-Regular.ttf",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 60,
-        "lineHeight": 0,
-        "color": "0;0;0"
-      }
     }
   ],
   "objectsFolderStructure": {
@@ -1146,9 +516,6 @@
     "children": [
       {
         "objectName": "spr_mainMenuBackground"
-      },
-      {
-        "objectName": "tog_difficulty"
       },
       {
         "objectName": "btxt_mainMenu"
@@ -1163,60 +530,10 @@
         "objectName": "btn_quit"
       },
       {
-        "objectName": "spr_options_background"
-      },
-      {
-        "objectName": "sld_maxItems"
-      },
-      {
-        "objectName": "txt_difficulty_label"
-      },
-      {
-        "folderName": "keybindStuff",
-        "children": [
-          {
-            "objectName": "txt_keybind_label_interact"
-          },
-          {
-            "objectName": "txt_keybind_label_up_move"
-          },
-          {
-            "objectName": "txt_keybind_label_down_move"
-          },
-          {
-            "objectName": "txt_keybind_label_left_move"
-          },
-          {
-            "objectName": "txt_keybind_label_right_move"
-          },
-          {
-            "objectName": "btn_keybind_interact"
-          },
-          {
-            "objectName": "btn_keybind_up_move"
-          },
-          {
-            "objectName": "btn_keybind_down_move"
-          },
-          {
-            "objectName": "btn_keybind_left_move"
-          },
-          {
-            "objectName": "btn_keybind_right_move"
-          }
-        ]
-      },
-      {
         "objectName": "btn_credits"
       },
       {
-        "objectName": "txt_credit"
-      },
-      {
         "objectName": "btxt_credit"
-      },
-      {
-        "objectName": "txt_maxItems_label"
       }
     ]
   },
@@ -1257,7 +574,16 @@
             "value": "Cache"
           },
           "parameters": [
-            "txt_credit"
+            "btxt_credit"
+          ]
+        },
+        {
+          "type": {
+            "value": "PrioritizeLoadingOfScene"
+          },
+          "parameters": [
+            "",
+            "\"scn_game\""
           ]
         }
       ]
@@ -2624,46 +1950,46 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+              },
+              "parameters": [
+                "sld_maxItems",
+                "="
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "PlayerData.MaxItems",
+                "=",
+                "sld_maxItems.Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "txt_maxItems_label",
+                "Text",
+                "=",
+                "\"Max Number of Items: \" + ToString(sld_maxItems.Value())"
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
-          },
-          "parameters": [
-            "sld_maxItems",
-            "="
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "PlayerData.MaxItems",
-            "=",
-            "sld_maxItems.Value()"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "txt_maxItems_label",
-            "Text",
-            "=",
-            "\"Max Number of Items: \" + ToString(sld_maxItems.Value())"
-          ]
-        }
-      ]
     }
   ],
   "layers": [

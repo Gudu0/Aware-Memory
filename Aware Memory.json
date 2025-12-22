@@ -13,7 +13,7 @@
     "folderProject": true,
     "orientation": "default",
     "packageName": "org.gudu0",
-    "pixelsRounding": false,
+    "pixelsRounding": true,
     "projectUuid": "cebfcbdd-9298-4fa3-8e76-3c93b127c2be",
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
@@ -143,7 +143,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/gold_ore.png\"}",
         "name": "gold_ore",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1167,7 +1167,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\conveyorCenterer\\down33.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1175,7 +1175,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\conveyorCenterer\\up65.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1183,7 +1183,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\conveyorCenterer\\left34.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1223,39 +1223,39 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\seller\\right34.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
         "file": "assets/spawner/down34.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/spawner/down34.png\",\"extension\":\".png\"}",
         "name": "assets\\spawner\\down34.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
         "file": "assets/spawner/up66.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/spawner/up66.png\",\"extension\":\".png\"}",
         "name": "assets\\spawner\\up66.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
         "file": "assets/spawner/left35.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/spawner/left35.png\",\"extension\":\".png\"}",
         "name": "assets\\spawner\\left35.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
         "file": "assets/spawner/right33.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/spawner/right33.png\",\"extension\":\".png\"}",
         "name": "assets\\spawner\\right33.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1453,7 +1453,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/right.png\"}",
         "name": "right",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1461,7 +1461,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "left",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1469,7 +1469,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "up",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1477,7 +1477,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "up2",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1485,7 +1485,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "down",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1493,7 +1493,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "right2",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1501,7 +1501,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "left2",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1509,7 +1509,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "up3",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1517,7 +1517,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/dust.png\"}",
         "name": "dust",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1538,14 +1538,1177 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/63ed629ffceb2e323f5c3b471bdc70d24d2188f548e8ab5520bd2321a331c791_Tangerine-Bold.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "assets/ore.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ore",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/gold.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gold.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ore2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ore2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ingot.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ingot",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right18",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right19",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right20",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right21",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right22",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right23",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right24",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right25",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right26",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right27",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right28",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right29",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right30",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right31",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right32",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right33",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right34",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sounds/smelt.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\smelt.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Small Plastic Green Round Switch_Off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Switch_Off.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/80b157db1711ebc0166b1e42ff29bbf8837b5c9a0b1d62494e8eb5ca06837a31_Small Plastic Green Round Switch_Off.png",
+          "name": "Small Plastic Green Round Switch_Off.png"
+        }
+      },
+      {
+        "file": "assets/Small Plastic Green Round Switch_On.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Switch_On.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/0af9e04c0c382482aeeaa36bc713a626249d6f6df3280bbccc6a042973ad555c_Small Plastic Green Round Switch_On.png",
+          "name": "Small Plastic Green Round Switch_On.png"
+        }
+      },
+      {
+        "file": "assets/sounds/place.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\place.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sounds/sell.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\sell.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Small Plastic Green Round Slider Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Slider Border.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/308609c5db4c7f741d0ea6ce46b7245524c9e48682f23c670ec81ea08f5917e5_Small Plastic Green Round Slider Border.png",
+          "name": "Small Plastic Green Round Slider Border.png"
+        }
+      },
+      {
+        "file": "assets/Small Plastic Green Round Slider Thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Slider Thumb.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/f1fe4aaaa4d6da59e2bf6b9411de1f013b5d86c5cacda01f99226c78f427f606_Small Plastic Green Round Slider Thumb.png",
+          "name": "Small Plastic Green Round Slider Thumb.png"
+        }
+      },
+      {
+        "file": "assets/Transparent.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
+          "name": "Transparent.png"
+        }
       }
     ]
   },
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "height": 64,
+      "name": "spr_options_background",
+      "texture": "optionsMenuBackground",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 64,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Night",
+          "name": "Effect",
+          "doubleParameters": {
+            "intensity": 0.1,
+            "opacity": 0.3
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "AdvancedBloom",
+          "name": "Effect2",
+          "doubleParameters": {
+            "bloomScale": 0.7,
+            "blur": 4,
+            "brightness": 0.7,
+            "padding": 0,
+            "quality": 7,
+            "threshold": 0.5
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "txt_keybind_label_interact",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 1
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "string": "Interact",
+      "font": "assets\\fonts\\MetalMania-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Interact",
+        "font": "assets\\fonts\\MetalMania-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "txt_keybind_label_up_move",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 1
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "string": "Move Up",
+      "font": "assets\\fonts\\MetalMania-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Move Up",
+        "font": "assets\\fonts\\MetalMania-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "txt_keybind_label_down_move",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 1
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "string": "Move Down",
+      "font": "assets\\fonts\\MetalMania-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Move Down",
+        "font": "assets\\fonts\\MetalMania-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "txt_keybind_label_left_move",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 1
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "string": "Move Left",
+      "font": "assets\\fonts\\MetalMania-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Move Left",
+        "font": "assets\\fonts\\MetalMania-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "txt_keybind_label_right_move",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 1
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "string": "Move Right",
+      "font": "assets\\fonts\\MetalMania-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Move Right",
+        "font": "assets\\fonts\\MetalMania-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "0d2644a425931f79026065835332ea795353d1f99fcd6ccd47ab7927bd0f35ed",
+      "name": "btn_keybind_interact",
+      "persistentUuid": "7892e5d0-bb4d-4e7b-8a84-bf9a5a2f12a2",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Black Square Decorated Button 2",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 6,
+        "BottomPadding": 24,
+        "TopPadding": 24,
+        "HoveredFadeOutDuration": 0.25,
+        "LabelText": "E"
+      }
+    },
+    {
+      "assetStoreId": "0d2644a425931f79026065835332ea795353d1f99fcd6ccd47ab7927bd0f35ed",
+      "name": "btn_keybind_up_move",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Black Square Decorated Button 2",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 6,
+        "BottomPadding": 24,
+        "TopPadding": 24,
+        "HoveredFadeOutDuration": 0.25,
+        "LabelText": "W"
+      }
+    },
+    {
+      "assetStoreId": "0d2644a425931f79026065835332ea795353d1f99fcd6ccd47ab7927bd0f35ed",
+      "name": "btn_keybind_down_move",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Black Square Decorated Button 2",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 6,
+        "BottomPadding": 24,
+        "TopPadding": 24,
+        "HoveredFadeOutDuration": 0.25,
+        "LabelText": "S"
+      }
+    },
+    {
+      "assetStoreId": "0d2644a425931f79026065835332ea795353d1f99fcd6ccd47ab7927bd0f35ed",
+      "name": "btn_keybind_left_move",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Black Square Decorated Button 2",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 6,
+        "BottomPadding": 24,
+        "TopPadding": 24,
+        "HoveredFadeOutDuration": 0.25,
+        "LabelText": "A"
+      }
+    },
+    {
+      "assetStoreId": "0d2644a425931f79026065835332ea795353d1f99fcd6ccd47ab7927bd0f35ed",
+      "name": "btn_keybind_right_move",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Black Square Decorated Button 2",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 6,
+        "BottomPadding": 24,
+        "TopPadding": 24,
+        "HoveredFadeOutDuration": 0.25,
+        "LabelText": "D"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "txt_maxItems_label",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Max Number of Items: 100",
+      "font": "assets\\fonts\\MetalMania-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Max Number of Items: 100",
+        "font": "assets\\fonts\\MetalMania-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "txt_difficulty_label",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 1
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "string": "Hard Mode",
+      "font": "assets\\fonts\\MetalMania-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Hard Mode",
+        "font": "assets\\fonts\\MetalMania-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "99f912de1cf5033ae934a8453c2f98a712955bcdb5ea1b1fda2fe2aa616de4a9",
+      "name": "tog_difficulty",
+      "persistentUuid": "4ed472d1-581b-454d-b4f5-e12677e7c46e",
+      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variant": "Small Green Plastic Round Switch 2 ",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "IsChecked": false
+      }
+    },
+    {
+      "assetStoreId": "05b0eb2d13ff37b70927d0184d4705e9c39c0b8fece7463127c4fe9eb65bb422",
+      "name": "sld_maxItems",
+      "persistentUuid": "dea0e9a7-fdc1-4bde-80c5-27501336d131",
+      "type": "PanelSpriteSlider::PanelSpriteSlider",
+      "variant": "Small Plastic Green Round Slider 2",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LabelMargin": 8,
+        "BarLeftPadding": 31,
+        "BarRightPadding": 31,
+        "InitialValue": 100,
+        "MaxValue": 1000
+      }
+    },
+    {
+      "assetStoreId": "99f912de1cf5033ae934a8453c2f98a712955bcdb5ea1b1fda2fe2aa616de4a9",
+      "name": "tog_sound",
+      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variant": "Small Green Plastic Round Switch",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "IsChecked": true
+      }
+    },
+    {
+      "assetStoreId": "05b0eb2d13ff37b70927d0184d4705e9c39c0b8fece7463127c4fe9eb65bb422",
+      "name": "sld_spawnCooldown",
+      "type": "PanelSpriteSlider::PanelSpriteSlider",
+      "variant": "Small Plastic Green Round Slider",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LabelMargin": 8,
+        "BarLeftPadding": 31,
+        "BarRightPadding": 31,
+        "InitialValue": 0.8,
+        "MinValue": 0,
+        "MaxValue": 10,
+        "StepSize": 0.05
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "txt_sound_label",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Enable Sounds",
+      "font": "assets\\fonts\\MetalMania-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Enable Sounds",
+        "font": "assets\\fonts\\MetalMania-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "txt_spawnCooldown_label",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Spawn Cooldown: 0.8s",
+      "font": "assets\\fonts\\MetalMania-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Spawn Cooldown: 0.8s",
+        "font": "assets\\fonts\\MetalMania-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "folderName": "OptionsMenu",
+        "children": [
+          {
+            "folderName": "Keybinds",
+            "children": [
+              {
+                "objectName": "btn_keybind_right_move"
+              },
+              {
+                "objectName": "btn_keybind_left_move"
+              },
+              {
+                "objectName": "btn_keybind_down_move"
+              },
+              {
+                "objectName": "btn_keybind_up_move"
+              },
+              {
+                "objectName": "btn_keybind_interact"
+              },
+              {
+                "objectName": "txt_keybind_label_right_move"
+              },
+              {
+                "objectName": "txt_keybind_label_left_move"
+              },
+              {
+                "objectName": "txt_keybind_label_down_move"
+              },
+              {
+                "objectName": "txt_keybind_label_up_move"
+              },
+              {
+                "objectName": "txt_keybind_label_interact"
+              }
+            ]
+          },
+          {
+            "objectName": "sld_maxItems"
+          },
+          {
+            "objectName": "tog_difficulty"
+          },
+          {
+            "objectName": "txt_difficulty_label"
+          },
+          {
+            "objectName": "txt_maxItems_label"
+          },
+          {
+            "objectName": "spr_options_background"
+          }
+        ]
+      },
+      {
+        "objectName": "tog_sound"
+      },
+      {
+        "objectName": "sld_spawnCooldown"
+      },
+      {
+        "objectName": "txt_sound_label"
+      },
+      {
+        "objectName": "txt_spawnCooldown_label"
+      }
+    ]
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "grp_options_menu",
+      "objects": [
+        {
+          "name": "spr_options_background"
+        },
+        {
+          "name": "tog_difficulty"
+        },
+        {
+          "name": "txt_difficulty_label"
+        },
+        {
+          "name": "txt_keybind_label_interact"
+        },
+        {
+          "name": "btn_keybind_interact"
+        },
+        {
+          "name": "btn_keybind_up_move"
+        },
+        {
+          "name": "txt_keybind_label_up_move"
+        },
+        {
+          "name": "txt_keybind_label_down_move"
+        },
+        {
+          "name": "btn_keybind_down_move"
+        },
+        {
+          "name": "btn_keybind_left_move"
+        },
+        {
+          "name": "btn_keybind_right_move"
+        },
+        {
+          "name": "txt_keybind_label_left_move"
+        },
+        {
+          "name": "txt_keybind_label_right_move"
+        },
+        {
+          "name": "sld_maxItems"
+        },
+        {
+          "name": "txt_maxItems_label"
+        },
+        {
+          "name": "tog_sound"
+        },
+        {
+          "name": "txt_sound_label"
+        },
+        {
+          "name": "sld_spawnCooldown"
+        },
+        {
+          "name": "txt_spawnCooldown_label"
+        }
+      ]
+    }
+  ],
   "variables": [
     {
       "folded": true,
@@ -1586,22 +2749,6 @@
     },
     {
       "folded": true,
-      "name": "Menu",
-      "type": "structure",
-      "children": [
-        {
-          "name": "RebindAction",
-          "type": "string",
-          "value": "\"\""
-        },
-        {
-          "name": "RebindActive",
-          "type": "boolean",
-          "value": false
-        }
-      ]
-    },
-    {
       "name": "PlayerData",
       "type": "structure",
       "children": [
@@ -1634,6 +2781,11 @@
           "name": "CellY",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "EnableSound",
+          "type": "boolean",
+          "value": true
         },
         {
           "name": "HardMode",
@@ -1674,6 +2826,32 @@
           "name": "PlacingMachine",
           "type": "string",
           "value": "obj_conveyor"
+        },
+        {
+          "name": "SpawnCooldown",
+          "type": "number",
+          "value": 0.8
+        }
+      ]
+    },
+    {
+      "name": "Menu",
+      "type": "structure",
+      "children": [
+        {
+          "name": "OptionsOpen",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "RebindAction",
+          "type": "string",
+          "value": "\"\""
+        },
+        {
+          "name": "RebindActive",
+          "type": "boolean",
+          "value": false
         }
       ]
     },
@@ -1700,23 +2878,6 @@
       "value": -1
     },
     {
-      "name": "Grid",
-      "type": "structure",
-      "children": [
-        {
-          "name": "0",
-          "type": "structure",
-          "children": [
-            {
-              "name": "0",
-              "type": "structure",
-              "children": []
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "conveyorTimerL",
       "type": "number",
       "value": 33
@@ -1740,6 +2901,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/ext_machines"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/ext_processing"
     }
   ],
   "eventsFunctionsExtensions": [

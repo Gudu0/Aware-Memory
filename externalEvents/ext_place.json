@@ -17,15 +17,6 @@
       "actions": [
         {
           "type": {
-            "value": "PrimitiveDrawing::ClearBetweenFrames"
-          },
-          "parameters": [
-            "pnt_place_highlight",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "Create"
           },
           "parameters": [
@@ -34,6 +25,15 @@
             "0",
             "0",
             "\"player\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PrimitiveDrawing::ClearBetweenFrames"
+          },
+          "parameters": [
+            "pnt_place_highlight",
+            ""
           ]
         },
         {
@@ -105,11 +105,28 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyFromTextReleased"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "",
-                "KeyboardControls.interact"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "KeyboardControls.interact"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenToggled"
+                  },
+                  "parameters": [
+                    "tog_place_mobile",
+                    ""
+                  ]
+                }
               ]
             }
           ],
@@ -1241,11 +1258,28 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyFromTextJustPressed"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "",
-                "KeyboardControls.rotate_item"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextJustPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "KeyboardControls.rotate_item"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "btn_rotate_mobile",
+                    ""
+                  ]
+                }
               ]
             }
           ],
@@ -1320,594 +1354,623 @@
           "comment": "Place"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::And"
+                "value": "BuiltinCommonInstructions::Not"
               },
               "parameters": [],
               "subInstructions": [
                 {
                   "type": {
-                    "value": "MouseButtonFromTextPressed"
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
+                    "grp_mobile",
+                    "=",
                     "",
-                    "\"Left\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.PlaceOn",
-                    "True",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.CanPlace",
-                    "True",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.CanAfford",
-                    "True",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"place\"",
-                    ">",
-                    "0.03"
                   ]
                 }
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "CreateByName"
-              },
-              "parameters": [
-                "",
-                "grp_machine",
-                "PlayerData.PlacingMachine",
-                "PlayerData.CellX * 32",
-                "PlayerData.CellY * 32",
-                "\"Decor\""
-              ]
-            },
-            {
-              "type": {
-                "value": "PickNearest"
-              },
-              "parameters": [
-                "grp_machine",
-                "CursorX(\"Decor\")",
-                "CursorY(\"Decor\")"
-              ]
-            }
-          ],
+          "actions": [],
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "StringVariable"
+                    "value": "BuiltinCommonInstructions::And"
                   },
-                  "parameters": [
-                    "PlayerData.PlacingMachine",
-                    "=",
-                    "\"obj_sell\""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.PlaceOn",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.CanPlace",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.CanAfford",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"place\"",
+                        ">",
+                        "0.03"
+                      ]
+                    }
                   ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.Money",
-                    "-",
-                    "100"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
+                    "value": "CreateByName"
                   },
                   "parameters": [
                     "",
-                    "txt_sellpad_label",
-                    "txt_money.X()+ txt_money.Width() - txt_sellpad_label.Width() - 64",
-                    "txt_money.Y() + 64",
-                    "\"UI\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "txt_sellpad_label",
-                    "Text",
-                    "=",
-                    "\"0$\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "txt_sellpad_label"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "LinkedObjects::LinkObjects"
-                  },
-                  "parameters": [
-                    "",
-                    "obj_sell",
-                    "txt_sellpad_label"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "obj_sell",
-                    "earned",
-                    "=",
-                    "0"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
+                    "grp_machine",
                     "PlayerData.PlacingMachine",
-                    "=",
-                    "\"obj_spawner\""
+                    "PlayerData.CellX * 32",
+                    "PlayerData.CellY * 32",
+                    "\"Decor\""
                   ]
                 },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
                 {
                   "type": {
                     "value": "PickNearest"
                   },
                   "parameters": [
-                    "obj_spawner",
+                    "grp_machine",
                     "CursorX(\"Decor\")",
                     "CursorY(\"Decor\")"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "obj_spawner",
-                    "\"time_since_spawned\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.Money",
-                    "-",
-                    "100"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringObjectVariable"
-                  },
-                  "parameters": [
-                    "obj_spawner",
-                    "type",
-                    "=",
-                    "\"obj_spawner\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.PlacingMachine",
-                    "=",
-                    "\"obj_smelter\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
                 }
               ],
-              "actions": [
+              "events": [
                 {
-                  "type": {
-                    "value": "PickNearest"
-                  },
-                  "parameters": [
-                    "obj_smelter",
-                    "CursorX(\"Decor\")",
-                    "CursorY(\"Decor\")"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.PlacingMachine",
+                        "=",
+                        "\"obj_sell\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.Money",
+                        "-",
+                        "100"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "txt_sellpad_label",
+                        "txt_money.X()+ txt_money.Width() - txt_sellpad_label.Width() - 64",
+                        "txt_money.Y() + 64",
+                        "\"UI\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "txt_sellpad_label",
+                        "Text",
+                        "=",
+                        "\"0$\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "txt_sellpad_label"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LinkedObjects::LinkObjects"
+                      },
+                      "parameters": [
+                        "",
+                        "obj_sell",
+                        "txt_sellpad_label"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "obj_sell",
+                        "earned",
+                        "=",
+                        "0"
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.Money",
-                    "-",
-                    "35"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.PlacingMachine",
+                        "=",
+                        "\"obj_spawner\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PickNearest"
+                      },
+                      "parameters": [
+                        "obj_spawner",
+                        "CursorX(\"Decor\")",
+                        "CursorY(\"Decor\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "obj_spawner",
+                        "\"time_since_spawned\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.Money",
+                        "-",
+                        "100"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "obj_spawner",
+                        "type",
+                        "=",
+                        "\"obj_spawner\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "SetStringObjectVariable"
-                  },
-                  "parameters": [
-                    "obj_smelter",
-                    "type",
-                    "=",
-                    "\"obj_smelter\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.PlacingMachine",
-                    "=",
-                    "\"obj_conveyor\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.Money",
-                    "-",
-                    "10"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringObjectVariable"
-                  },
-                  "parameters": [
-                    "obj_conveyor",
-                    "type",
-                    "=",
-                    "\"obj_conveyor\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.PlacingMachine",
-                    "=",
-                    "\"obj_conveyorCenterer\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.PlacingMachine",
+                        "=",
+                        "\"obj_smelter\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PickNearest"
+                      },
+                      "parameters": [
+                        "obj_smelter",
+                        "CursorX(\"Decor\")",
+                        "CursorY(\"Decor\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.Money",
+                        "-",
+                        "35"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "obj_smelter",
+                        "type",
+                        "=",
+                        "\"obj_smelter\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.Money",
-                    "-",
-                    "15"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.PlacingMachine",
+                        "=",
+                        "\"obj_conveyor\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.Money",
+                        "-",
+                        "10"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "obj_conveyor",
+                        "type",
+                        "=",
+                        "\"obj_conveyor\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "SetStringObjectVariable"
-                  },
-                  "parameters": [
-                    "obj_conveyorCenterer",
-                    "type",
-                    "=",
-                    "\"obj_conveyorCenterer\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.PlacingMachine",
-                    "=",
-                    "\"obj_crusher\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.Money",
-                    "-",
-                    "55"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringObjectVariable"
-                  },
-                  "parameters": [
-                    "obj_crusher",
-                    "type",
-                    "=",
-                    "\"obj_crusher\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.PlacingMachine",
-                    "=",
-                    "\"obj_polisher\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.PlacingMachine",
+                        "=",
+                        "\"obj_conveyorCenterer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.Money",
+                        "-",
+                        "15"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "obj_conveyorCenterer",
+                        "type",
+                        "=",
+                        "\"obj_conveyorCenterer\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.Money",
-                    "-",
-                    "85"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.PlacingMachine",
+                        "=",
+                        "\"obj_crusher\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.Money",
+                        "-",
+                        "55"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "obj_crusher",
+                        "type",
+                        "=",
+                        "\"obj_crusher\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "SetStringObjectVariable"
-                  },
-                  "parameters": [
-                    "obj_polisher",
-                    "type",
-                    "=",
-                    "\"obj_polisher\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.PlacingMachine",
+                        "=",
+                        "\"obj_polisher\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.Money",
+                        "-",
+                        "85"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "obj_polisher",
+                        "type",
+                        "=",
+                        "\"obj_polisher\""
+                      ]
+                    }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+                },
                 {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.PlaceRotation",
-                    "=",
-                    "0"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.PlaceRotation",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "grp_machine",
+                        "Animation",
+                        "=",
+                        "\"right\""
+                      ]
+                    }
                   ]
-                }
-              ],
-              "actions": [
+                },
                 {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "grp_machine",
-                    "Animation",
-                    "=",
-                    "\"right\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.PlaceRotation",
+                        "=",
+                        "90"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "grp_machine",
+                        "Animation",
+                        "=",
+                        "\"down\""
+                      ]
+                    }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+                },
                 {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.PlaceRotation",
-                    "=",
-                    "90"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.PlaceRotation",
+                        "=",
+                        "180"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "grp_machine",
+                        "Animation",
+                        "=",
+                        "\"left\""
+                      ]
+                    }
                   ]
-                }
-              ],
-              "actions": [
+                },
                 {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "grp_machine",
-                    "Animation",
-                    "=",
-                    "\"down\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.PlaceRotation",
+                        "=",
+                        "270"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "grp_machine",
+                        "Animation",
+                        "=",
+                        "\"up\""
+                      ]
+                    }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+                },
                 {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.PlaceRotation",
-                    "=",
-                    "180"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "grp_machine",
-                    "Animation",
-                    "=",
-                    "\"left\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "PlayerData.PlaceRotation",
-                    "=",
-                    "270"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "grp_machine",
-                    "Animation",
-                    "=",
-                    "\"up\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"place\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"place\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -1927,16 +1990,76 @@
           "comment": "Delete"
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.DeleteMode",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::IsChecked"
+                  },
+                  "parameters": [
+                    "tog_delete_mobile",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Right\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.DeleteMode",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
           "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextPressed"
+                "value": "BooleanVariable"
               },
               "parameters": [
-                "",
-                "\"Right\""
+                "PlayerData.HoverMachine",
+                "True",
+                ""
               ]
             },
             {
@@ -1944,7 +2067,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "PlayerData.HoverMachine",
+                "PlayerData.DeleteMode",
                 "True",
                 ""
               ]

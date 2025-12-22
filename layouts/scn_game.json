@@ -18,11 +18,11 @@
     "gridOffsetY": 0,
     "gridOffsetZ": 0,
     "gridColor": 10401023,
-    "gridAlpha": 0.4,
+    "gridAlpha": 0.3,
     "snap": true,
-    "zoomFactor": 0.3205770882812521,
+    "zoomFactor": 0.49336942119507216,
     "windowMask": false,
-    "selectedLayer": "Decor"
+    "selectedLayer": "UI"
   },
   "objectsGroups": [
     {
@@ -59,6 +59,32 @@
         },
         {
           "name": "obj_player"
+        }
+      ]
+    },
+    {
+      "name": "grp_mobile",
+      "objects": [
+        {
+          "name": "btn_rotate_mobile"
+        },
+        {
+          "name": "tog_place_mobile"
+        },
+        {
+          "name": "joy_joystick_mobile"
+        },
+        {
+          "name": "spr_UI_blocker"
+        },
+        {
+          "name": "btn_zoomPlus_mobile"
+        },
+        {
+          "name": "btn_zoomMinus_mobile"
+        },
+        {
+          "name": "tog_delete_mobile"
         }
       ]
     }
@@ -589,6 +615,191 @@
       "x": 224,
       "y": 864,
       "zOrder": 64,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "joy_joystick_mobile",
+      "persistentUuid": "f642b970-3da4-4ca2-97ab-7275a7dfe1d0",
+      "width": 0,
+      "x": 1584,
+      "y": 784,
+      "zOrder": 65,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "tog_place_mobile",
+      "persistentUuid": "f849c92f-dbd2-4ea2-8832-6c95662f4bda",
+      "width": 96,
+      "x": 1664,
+      "y": 608,
+      "zOrder": 66,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "btn_rotate_mobile",
+      "persistentUuid": "5df0a8d4-660e-4f79-8353-8ee6c58d077d",
+      "width": 96,
+      "x": 1792,
+      "y": 544,
+      "zOrder": 67,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 224,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "spr_UI_blocker",
+      "persistentUuid": "7c202ed3-2816-4be3-a728-d5be0c7ce634",
+      "width": 224,
+      "x": 1472,
+      "y": 672,
+      "zOrder": 68,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 160,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "spr_UI_blocker",
+      "persistentUuid": "c4d27144-b82d-414a-be37-93c3b471bf8f",
+      "width": 160,
+      "x": 1760,
+      "y": 512,
+      "zOrder": 69,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 160,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "spr_UI_blocker",
+      "persistentUuid": "1c6ac190-a691-4ff2-8c30-76478d3834b6",
+      "width": 160,
+      "x": 1632,
+      "y": 576,
+      "zOrder": 70,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "btn_zoomPlus_mobile",
+      "persistentUuid": "1dbf1ece-98cf-4775-8513-c0135eb1abde",
+      "width": 48,
+      "x": 1728,
+      "y": 736,
+      "zOrder": 71,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 96,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "btn_zoomMinus_mobile",
+      "persistentUuid": "83004dbb-aecc-402c-ba62-1c4c4e06169a",
+      "width": 48,
+      "x": 1792,
+      "y": 736,
+      "zOrder": 72,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "spr_UI_blocker",
+      "persistentUuid": "21469f11-afd0-4b2f-af9a-1f8aa7eb8bd4",
+      "width": 160,
+      "x": 1708,
+      "y": 711,
+      "zOrder": 73,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "tog_delete_mobile",
+      "persistentUuid": "19aadd19-85a1-4353-90df-6509c4829905",
+      "width": 0,
+      "x": 1761,
+      "y": 806,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "spr_UI_blocker",
+      "persistentUuid": "8251e06a-766b-4c9f-b7cf-a0cec76bc508",
+      "width": 128,
+      "x": 1728,
+      "y": 768,
+      "zOrder": 75,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -12471,6 +12682,223 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "9be1b0d0d5a1afad4537db989ea5e3a4a4564dfd123630a9bf61330a73803c63",
+      "name": "joy_joystick_mobile",
+      "type": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+      "variant": "",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {},
+      "childrenContent": {
+        "Border": {
+          "adaptCollisionMaskAutomatically": false,
+          "updateIfNotVisible": false,
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Shaded dark joystick border.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "Thumb": {
+          "adaptCollisionMaskAutomatically": false,
+          "updateIfNotVisible": false,
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Shaded dark joystick thumb.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assetStoreId": "deeb36c461a35cfd1fb5ce2b218309ebb70bb7d34193cc53ccbc113b8f99615a",
+      "name": "tog_place_mobile",
+      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variant": "Small Green Plastic Round Toggle",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "IsChecked": false
+      }
+    },
+    {
+      "assetStoreId": "b28c05f3b4aaa786d8b5ade96f7734795d2c3ef78e22e0b998713143fa556389",
+      "name": "btn_rotate_mobile",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Tiny Red Button",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LabelText": "ROTATE",
+        "PressedLabelOffsetY": 2
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "spr_UI_blocker",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "UIBLOCKER",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "UIBLOCKER",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "a48315b9a9c655af87118d7bb8f6be03b4dbb14e066387849b2d2d4c3600573c",
+      "name": "btn_zoomPlus_mobile",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Purple Button With Shadow",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 3,
+        "BottomPadding": 32,
+        "TopPadding": 32,
+        "HoveredFadeOutDuration": 0.25,
+        "LabelText": "+"
+      }
+    },
+    {
+      "assetStoreId": "a48315b9a9c655af87118d7bb8f6be03b4dbb14e066387849b2d2d4c3600573c",
+      "name": "btn_zoomMinus_mobile",
+      "persistentUuid": "3077233f-57c6-4da8-b94e-5ad9d4e1bfbe",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Purple Button With Shadow 2",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 3,
+        "BottomPadding": 32,
+        "TopPadding": 32,
+        "HoveredFadeOutDuration": 0.25,
+        "LabelText": "-"
+      }
+    },
+    {
+      "assetStoreId": "8a32586f22107a27e3e7921c10aa594c0473c25813c8c18574d5444f734f87b2",
+      "name": "tog_delete_mobile",
+      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variant": "Small Green Plastic Square Toggle",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "IsChecked": false
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -12531,6 +12959,32 @@
           },
           {
             "objectName": "obj_conveyor"
+          }
+        ]
+      },
+      {
+        "folderName": "mobile",
+        "children": [
+          {
+            "objectName": "spr_UI_blocker"
+          },
+          {
+            "objectName": "btn_rotate_mobile"
+          },
+          {
+            "objectName": "tog_place_mobile"
+          },
+          {
+            "objectName": "joy_joystick_mobile"
+          },
+          {
+            "objectName": "btn_zoomPlus_mobile"
+          },
+          {
+            "objectName": "tog_delete_mobile"
+          },
+          {
+            "objectName": "btn_zoomMinus_mobile"
           }
         ]
       },
@@ -12611,6 +13065,196 @@
           "parameters": [
             "grp_options_menu"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "grp_mobile"
+          ]
+        },
+        {
+          "type": {
+            "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::ActivateControl"
+          },
+          "parameters": [
+            "joy_joystick_mobile",
+            "",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
+          },
+          "parameters": [
+            "tog_place_mobile",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "btn_zoomPlus_mobile",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "btn_zoomMinus_mobile",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
+          },
+          "parameters": [
+            "tog_delete_mobile",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "btn_rotate_mobile",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
+          },
+          "parameters": [
+            "tog_delete_mobile",
+            "no",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "SystemInfo::HasTouchScreen"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "grp_mobile",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::ActivateControl"
+              },
+              "parameters": [
+                "joy_joystick_mobile",
+                "yes",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
+              },
+              "parameters": [
+                "tog_place_mobile",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+              },
+              "parameters": [
+                "btn_rotate_mobile",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+              },
+              "parameters": [
+                "btn_zoomPlus_mobile",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+              },
+              "parameters": [
+                "btn_zoomMinus_mobile",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
+              },
+              "parameters": [
+                "tog_delete_mobile",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "PlayerData.CamZoom",
+                "=",
+                "1.8"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "spr_UI_blocker"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -12646,6 +13290,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Player Movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -12655,7 +13300,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Multi Way",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12716,11 +13360,29 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "KeyFromTextPressed"
+                        "value": "BuiltinCommonInstructions::Or"
                       },
-                      "parameters": [
-                        "",
-                        "GlobalVariableString(KeyboardControls.up_move)"
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "KeyFromTextPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "GlobalVariableString(KeyboardControls.up_move)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
+                          },
+                          "parameters": [
+                            "joy_joystick_mobile",
+                            "\"Up\"",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ],
@@ -12753,11 +13415,29 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "KeyFromTextPressed"
+                        "value": "BuiltinCommonInstructions::Or"
                       },
-                      "parameters": [
-                        "",
-                        "GlobalVariableString(KeyboardControls.down_move)"
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "KeyFromTextPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "GlobalVariableString(KeyboardControls.down_move)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
+                          },
+                          "parameters": [
+                            "joy_joystick_mobile",
+                            "\"Down\"",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ],
@@ -12790,11 +13470,29 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "KeyFromTextPressed"
+                        "value": "BuiltinCommonInstructions::Or"
                       },
-                      "parameters": [
-                        "",
-                        "GlobalVariableString(KeyboardControls.left_move)"
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "KeyFromTextPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "GlobalVariableString(KeyboardControls.left_move)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
+                          },
+                          "parameters": [
+                            "joy_joystick_mobile",
+                            "\"Left\"",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ],
@@ -12837,11 +13535,29 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "KeyFromTextPressed"
+                        "value": "BuiltinCommonInstructions::Or"
                       },
-                      "parameters": [
-                        "",
-                        "GlobalVariableString(KeyboardControls.right_move)"
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "KeyFromTextPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "GlobalVariableString(KeyboardControls.right_move)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
+                          },
+                          "parameters": [
+                            "joy_joystick_mobile",
+                            "\"Right\"",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ],
@@ -14522,6 +15238,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Camera",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -14652,11 +15369,28 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "",
-                "\"Equal\""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Equal\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+                  },
+                  "parameters": [
+                    "btn_zoomPlus_mobile",
+                    ""
+                  ]
+                }
               ]
             }
           ],
@@ -14678,11 +15412,28 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "",
-                "\"Dash\""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dash\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+                  },
+                  "parameters": [
+                    "btn_zoomMinus_mobile",
+                    ""
+                  ]
+                }
               ]
             }
           ],
@@ -15074,7 +15825,7 @@
       "isLocked": false,
       "name": "options",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {

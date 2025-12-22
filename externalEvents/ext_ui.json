@@ -7,7 +7,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Update SellPad sold amount label",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

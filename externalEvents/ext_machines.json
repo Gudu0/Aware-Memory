@@ -251,19 +251,7 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                  },
-                  "parameters": [
-                    "obj_conveyor",
-                    "Animation",
-                    "!=",
-                    "\"left\""
-                  ]
-                }
-              ],
+              "conditions": [],
               "actions": [
                 {
                   "type": {
@@ -282,44 +270,6 @@
                   "parameters": [
                     "conveyorTimerNL",
                     "+",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                  },
-                  "parameters": [
-                    "obj_conveyor",
-                    "Animation",
-                    "=",
-                    "\"left\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ChangeSprite"
-                  },
-                  "parameters": [
-                    "obj_conveyor",
-                    "=",
-                    "conveyorTimerL"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "conveyorTimerL",
-                    "-",
                     "1"
                   ]
                 }
@@ -351,33 +301,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "conveyorTimerL",
-                    "<",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "conveyorTimerL",
-                    "=",
-                    "32"
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -393,35 +316,15 @@
                 "obj_conveyor",
                 "obj_conveyorCenterer"
               ]
-            }
-          ],
-          "events": [
+            },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                  },
-                  "parameters": [
-                    "obj_conveyorCenterer",
-                    "Animation",
-                    "=",
-                    "\"right\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ChangeSprite"
-                  },
-                  "parameters": [
-                    "obj_conveyorCenterer",
-                    "=",
-                    "conveyorTimerNL"
-                  ]
-                }
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "obj_conveyorCenterer",
+                "=",
+                "conveyorTimerNL"
               ]
             }
           ]
@@ -434,7 +337,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Checks and movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1058,7 +960,7 @@
                   },
                   "parameters": [
                     "",
-                    "txt_test",
+                    "txt_sellpad_label",
                     "obj_sell",
                     ""
                   ]
@@ -1068,7 +970,7 @@
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
-                    "txt_test",
+                    "txt_sellpad_label",
                     "Text",
                     "=",
                     "ToString(floorTo(obj_sell.earned,1)) + \"$\""
@@ -1086,6 +988,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Item Spawning",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

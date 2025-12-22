@@ -94,11 +94,13 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Set Highlight",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -476,6 +478,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Afford",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -799,6 +802,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "PlacedMachine Setting",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1316,7 +1320,6 @@
           "comment": "Place"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1441,10 +1444,10 @@
                   },
                   "parameters": [
                     "",
-                    "txt_test",
-                    "obj_sell.X()",
-                    "obj_sell.Y() - 24",
-                    "\"Decor\""
+                    "txt_sellpad_label",
+                    "txt_money.X() + txt_money.Width() - txt_sellpad_label.Width() - 64",
+                    "txt_money.Y() + 64",
+                    "\"UI\""
                   ]
                 },
                 {
@@ -1452,10 +1455,18 @@
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
-                    "txt_test",
+                    "txt_sellpad_label",
                     "Text",
                     "=",
                     "\"0$\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "txt_sellpad_label"
                   ]
                 },
                 {
@@ -1465,7 +1476,7 @@
                   "parameters": [
                     "",
                     "obj_sell",
-                    "txt_test"
+                    "txt_sellpad_label"
                   ]
                 },
                 {
@@ -1990,7 +2001,7 @@
                   },
                   "parameters": [
                     "",
-                    "txt_test",
+                    "txt_sellpad_label",
                     "obj_sell",
                     ""
                   ]
@@ -2000,7 +2011,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "txt_test",
+                    "txt_sellpad_label",
                     ""
                   ]
                 }

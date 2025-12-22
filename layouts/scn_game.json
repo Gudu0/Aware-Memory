@@ -5544,36 +5544,28 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "ore2",
+                  "image": "assets\\item\\ore2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 16,
-                    "y": 16
+                    "y": 17
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
                     "x": 16,
-                    "y": 16
+                    "y": 17
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 16.5
-                      },
-                      {
-                        "x": 13,
+                        "x": 12,
                         "y": 12
                       },
                       {
-                        "x": 19,
+                        "x": 20,
                         "y": 12
-                      },
-                      {
-                        "x": 24,
-                        "y": 16.5
                       },
                       {
                         "x": 24,
@@ -5601,7 +5593,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "dust",
+                  "image": "assets\\item\\dust.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5617,11 +5609,11 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
+                        "x": 13.5,
                         "y": 13
                       },
                       {
-                        "x": 17,
+                        "x": 17.5,
                         "y": 13
                       },
                       {
@@ -5650,28 +5642,36 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "ingot",
+                  "image": "assets\\item\\ingot.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 16,
-                    "y": 16
+                    "y": 17
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 17
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
+                        "x": 5.5,
+                        "y": 17.5
+                      },
+                      {
+                        "x": 12,
                         "y": 12
                       },
                       {
-                        "x": 24,
+                        "x": 20,
                         "y": 12
+                      },
+                      {
+                        "x": 26,
+                        "y": 17.5
                       },
                       {
                         "x": 24,

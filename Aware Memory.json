@@ -2819,6 +2819,30 @@
         "name": "assets\\smelter\\down\\down36.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/item/ore2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\item\\ore2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/item/dust.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\item\\dust.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/item/ingot.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\item\\ingot.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },

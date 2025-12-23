@@ -3121,6 +3121,42 @@
         "name": "ingot2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Small Grey Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small Grey Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/71391fe38e15db05bf2b1c97baa7614d29fa5356eb85768828d008ee642adf54_Small Grey Button_Hovered.png",
+          "name": "Small Grey Button_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Small Grey Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small Grey Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/1364d145f941a32e4bd4525752a92c7e6ea2d66aef650a338e5f3313aff024b2_Small Grey Button_Idle.png",
+          "name": "Small Grey Button_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Small Grey Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small Grey Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/4a58f1d4e9a5a11004575379038809b9c41a54f30b5ce046de45a45786d9a95f_Small Grey Button_Pressed.png",
+          "name": "Small Grey Button_Pressed.png"
+        }
       }
     ]
   },

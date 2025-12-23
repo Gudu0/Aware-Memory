@@ -18,9 +18,9 @@
     "gridOffsetY": 0,
     "gridOffsetZ": 0,
     "gridColor": 10401023,
-    "gridAlpha": 0.4,
+    "gridAlpha": 1,
     "snap": true,
-    "zoomFactor": 0.3541128223539222,
+    "zoomFactor": 0.43207585526463926,
     "windowMask": false,
     "selectedLayer": "UI"
   },
@@ -91,6 +91,9 @@
         },
         {
           "name": "sld_machine_mobile"
+        },
+        {
+          "name": "btn_pause"
         }
       ]
     },
@@ -851,6 +854,40 @@
       "x": 1792,
       "y": 96,
       "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "btn_pause",
+      "persistentUuid": "3c054182-8738-4c50-afe7-81c72930d719",
+      "width": 64,
+      "x": 64,
+      "y": 64,
+      "zOrder": 78,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "spr_UI_blocker",
+      "persistentUuid": "244167ec-2724-4543-927a-2b51adf68e1d",
+      "width": 128,
+      "x": 32,
+      "y": 32,
+      "zOrder": 79,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -13190,6 +13227,19 @@
       "effects": [],
       "behaviors": [],
       "content": {}
+    },
+    {
+      "assetStoreId": "860f615c499d9f7a950c00d49bfbd07aaca580a888ff83eb80e30760603a5d12",
+      "name": "btn_pause",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Tiny Grey Button",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LabelText": "options",
+        "PressedLabelOffsetY": 2
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -13268,6 +13318,9 @@
         "folderName": "mobile",
         "children": [
           {
+            "objectName": "btn_pause"
+          },
+          {
             "objectName": "spr_UI_blocker"
           },
           {
@@ -13322,7 +13375,6 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -13452,6 +13504,16 @@
             },
             {
               "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+              },
+              "parameters": [
+                "btn_pause",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
               },
               "parameters": [
@@ -13548,6 +13610,16 @@
                   },
                   "parameters": [
                     "btn_zoomMinus_mobile",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "btn_pause",
                     "yes",
                     ""
                   ]
@@ -14172,7 +14244,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Options Menu",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -14182,12 +14253,35 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyFromTextJustPressed"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "",
-                "\"Escape\""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextJustPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Escape\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+                  },
+                  "parameters": [
+                    "btn_pause",
+                    ""
+                  ]
+                }
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -14406,6 +14500,15 @@
                       "parameters": [
                         "Menu.RebindActive",
                         "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "SystemInfo::HasTouchScreen"
+                      },
+                      "parameters": [
                         ""
                       ]
                     }
@@ -14644,6 +14747,15 @@
                         "False",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "SystemInfo::HasTouchScreen"
+                      },
+                      "parameters": [
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -14878,6 +14990,15 @@
                       "parameters": [
                         "Menu.RebindActive",
                         "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "SystemInfo::HasTouchScreen"
+                      },
+                      "parameters": [
                         ""
                       ]
                     }
@@ -15116,6 +15237,15 @@
                         "False",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "SystemInfo::HasTouchScreen"
+                      },
+                      "parameters": [
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -15351,6 +15481,15 @@
                       },
                       "parameters": [
                         "grp_options_menu"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "SystemInfo::HasTouchScreen"
+                      },
+                      "parameters": [
+                        ""
                       ]
                     }
                   ],

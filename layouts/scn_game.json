@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.3,
     "snap": true,
-    "zoomFactor": 0.49336942119507216,
+    "zoomFactor": 1.3343321683311982,
     "windowMask": false,
     "selectedLayer": "UI"
   },
@@ -85,6 +85,9 @@
         },
         {
           "name": "tog_delete_mobile"
+        },
+        {
+          "name": "sld_machine_mobile"
         }
       ]
     }
@@ -800,6 +803,40 @@
       "x": 1728,
       "y": 768,
       "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 64,
+      "height": 63,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "sld_machine_mobile",
+      "persistentUuid": "a15ec238-c9a3-4b1f-8b10-47ce13f012d9",
+      "width": 385,
+      "x": 1663,
+      "y": 288,
+      "zOrder": 76,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 416,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "spr_UI_blocker",
+      "persistentUuid": "b22cd174-ab53-4f17-ac9a-ba4a5a295a57",
+      "width": 128,
+      "x": 1792,
+      "y": 96,
+      "zOrder": 77,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -12899,6 +12936,23 @@
       "content": {
         "IsChecked": false
       }
+    },
+    {
+      "assetStoreId": "05b0eb2d13ff37b70927d0184d4705e9c39c0b8fece7463127c4fe9eb65bb422",
+      "name": "sld_machine_mobile",
+      "type": "PanelSpriteSlider::PanelSpriteSlider",
+      "variant": "Small Plastic Green Round Slider",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LabelMargin": 8,
+        "BarLeftPadding": 31,
+        "BarRightPadding": 31,
+        "InitialValue": 1,
+        "MinValue": 1,
+        "MaxValue": 7
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -12982,6 +13036,9 @@
           },
           {
             "objectName": "tog_delete_mobile"
+          },
+          {
+            "objectName": "sld_machine_mobile"
           },
           {
             "objectName": "btn_zoomMinus_mobile"
@@ -13136,6 +13193,16 @@
         },
         {
           "type": {
+            "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+          },
+          "parameters": [
+            "sld_machine_mobile",
+            "no",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
           },
           "parameters": [
@@ -13161,6 +13228,17 @@
                   },
                   "parameters": [
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "Animation",
+                    "=",
+                    "\"player_forward\""
                   ]
                 }
               ]
@@ -13232,6 +13310,16 @@
               },
               "parameters": [
                 "tog_delete_mobile",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+              },
+              "parameters": [
+                "sld_machine_mobile",
                 "yes",
                 ""
               ]

@@ -3029,6 +3029,42 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/2f9378611f391b8228cac337e39ecacacd720b59716e7dd9e56cce73adb60f69_Small Plastic Green Square Toggle_On.png",
           "name": "Small Plastic Green Square Toggle_On.png"
         }
+      },
+      {
+        "file": "assets/Small Plastic Green Round Slider Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Slider Border.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/308609c5db4c7f741d0ea6ce46b7245524c9e48682f23c670ec81ea08f5917e5_Small Plastic Green Round Slider Border.png",
+          "name": "Small Plastic Green Round Slider Border.png"
+        }
+      },
+      {
+        "file": "assets/Small Plastic Green Round Slider Thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Slider Thumb.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/f1fe4aaaa4d6da59e2bf6b9411de1f013b5d86c5cacda01f99226c78f427f606_Small Plastic Green Round Slider Thumb.png",
+          "name": "Small Plastic Green Round Slider Thumb.png"
+        }
+      },
+      {
+        "file": "assets/Transparent.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
+          "name": "Transparent.png"
+        }
       }
     ]
   },

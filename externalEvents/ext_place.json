@@ -819,7 +819,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "PlacedMachine Setting",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -829,11 +828,47 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "KeyFromTextJustPressed"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "",
-                    "\"Num1\""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextJustPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Num1\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+                          },
+                          "parameters": [
+                            "sld_machine_mobile",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteSlider::PanelSpriteSlider::Value"
+                          },
+                          "parameters": [
+                            "sld_machine_mobile",
+                            "=",
+                            "1",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 }
               ],
@@ -888,11 +923,47 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "KeyFromTextJustPressed"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "",
-                    "\"Num2\""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextJustPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Num2\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+                          },
+                          "parameters": [
+                            "sld_machine_mobile",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteSlider::PanelSpriteSlider::Value"
+                          },
+                          "parameters": [
+                            "sld_machine_mobile",
+                            "=",
+                            "2",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 }
               ],
@@ -947,11 +1018,47 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "KeyFromTextJustPressed"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "",
-                    "\"Num3\""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextJustPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Num3\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+                          },
+                          "parameters": [
+                            "sld_machine_mobile",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteSlider::PanelSpriteSlider::Value"
+                          },
+                          "parameters": [
+                            "sld_machine_mobile",
+                            "=",
+                            "3",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 }
               ],
@@ -1006,11 +1113,47 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "KeyFromTextJustPressed"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "",
-                    "\"Num4\""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextJustPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Num4\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+                          },
+                          "parameters": [
+                            "sld_machine_mobile",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteSlider::PanelSpriteSlider::Value"
+                          },
+                          "parameters": [
+                            "sld_machine_mobile",
+                            "=",
+                            "4",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 }
               ],
@@ -1065,11 +1208,47 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "KeyFromTextJustPressed"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "",
-                    "\"Num5\""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextJustPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Num5\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+                          },
+                          "parameters": [
+                            "sld_machine_mobile",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteSlider::PanelSpriteSlider::Value"
+                          },
+                          "parameters": [
+                            "sld_machine_mobile",
+                            "=",
+                            "3",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 }
               ],
@@ -1124,11 +1303,47 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "KeyFromTextJustPressed"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "",
-                    "\"Num6\""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextJustPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Num6\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+                          },
+                          "parameters": [
+                            "sld_machine_mobile",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteSlider::PanelSpriteSlider::Value"
+                          },
+                          "parameters": [
+                            "sld_machine_mobile",
+                            "=",
+                            "6",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 }
               ],
@@ -1183,11 +1398,47 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "KeyFromTextJustPressed"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "",
-                    "\"Num7\""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextJustPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Num7\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+                          },
+                          "parameters": [
+                            "sld_machine_mobile",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteSlider::PanelSpriteSlider::Value"
+                          },
+                          "parameters": [
+                            "sld_machine_mobile",
+                            "=",
+                            "7",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 }
               ],

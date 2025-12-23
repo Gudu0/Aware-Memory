@@ -614,7 +614,7 @@
       "layer": "options",
       "name": "btxt_Version",
       "persistentUuid": "2bdfb336-5d25-4a8f-9c02-68c7b40b46d4",
-      "width": 288,
+      "width": 320,
       "x": 224,
       "y": 864,
       "zOrder": 64,
@@ -13228,17 +13228,6 @@
                   },
                   "parameters": [
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                  },
-                  "parameters": [
-                    "obj_player",
-                    "Animation",
-                    "=",
-                    "\"player_forward\""
                   ]
                 }
               ]

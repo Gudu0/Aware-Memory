@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.3,
     "snap": true,
-    "zoomFactor": 1.3343321683311982,
+    "zoomFactor": 0.49336942119507343,
     "windowMask": false,
     "selectedLayer": "UI"
   },
@@ -614,7 +614,7 @@
       "layer": "options",
       "name": "btxt_Version",
       "persistentUuid": "2bdfb336-5d25-4a8f-9c02-68c7b40b46d4",
-      "width": 256,
+      "width": 288,
       "x": 224,
       "y": 864,
       "zOrder": 64,
@@ -15913,7 +15913,7 @@
       "isLocked": false,
       "name": "options",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {

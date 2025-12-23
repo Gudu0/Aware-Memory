@@ -3727,7 +3727,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "[outline=yellow][shadow=red][b]Version 0.1.19[/b][/shadow][/outline]\n\n",
+        "text": "[outline=yellow][shadow=red][b]Version 0.2.20[/b][/shadow][/outline]\n\n",
         "opacity": 255,
         "fontSize": 50,
         "visible": true,

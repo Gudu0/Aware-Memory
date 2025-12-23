@@ -819,6 +819,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "PlacedMachine Setting",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1605,7 +1606,6 @@
           "comment": "Place"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1688,6 +1688,16 @@
                         "\"place\"",
                         ">",
                         "0.03"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.DeleteMode",
+                        "=",
+                        ""
                       ]
                     }
                   ]

@@ -801,6 +801,43 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "PlayerData.PlacingMachine",
+                "=",
+                "\"obj_press\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PlayerData.Money",
+                "<",
+                "90"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.CanAfford",
+                "False",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -810,7 +847,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Placement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -820,6 +856,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "PlacedMachine Setting",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1488,6 +1525,101 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextJustPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Num8\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+                          },
+                          "parameters": [
+                            "sld_machine_mobile",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteSlider::PanelSpriteSlider::Value"
+                          },
+                          "parameters": [
+                            "sld_machine_mobile",
+                            "=",
+                            "8",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "PlayerData.PlacingMachine",
+                    "=",
+                    "\"obj_press\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "obj_machine_ghost",
+                    "Animation",
+                    "=",
+                    "\"obj_press\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "obj_machine_ghost",
+                    "Resizable",
+                    "96",
+                    "96"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "txt_machine_cost",
+                    "Text",
+                    "=",
+                    "\"Press - 90$\""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -1631,6 +1763,7 @@
           "actions": [],
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -2132,6 +2265,50 @@
                         "type",
                         "=",
                         "\"obj_polisher\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.PlacingMachine",
+                        "=",
+                        "\"obj_press\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.Money",
+                        "-",
+                        "90"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "obj_press",
+                        "type",
+                        "=",
+                        "\"obj_press\""
                       ]
                     }
                   ]
@@ -2649,6 +2826,40 @@
                     "PlayerData.Money",
                     "+",
                     "85"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "grp_machine",
+                    "type",
+                    "=",
+                    "\"obj_press\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PlayerData.Money",
+                    "+",
+                    "90"
                   ]
                 }
               ]

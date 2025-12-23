@@ -3157,6 +3157,70 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/4a58f1d4e9a5a11004575379038809b9c41a54f30b5ce046de45a45786d9a95f_Small Grey Button_Pressed.png",
           "name": "Small Grey Button_Pressed.png"
         }
+      },
+      {
+        "file": "assets/right3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\right3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\right4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/plate.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "plate",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/plate2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "plate2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/plate3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/plate3.png\"}",
+        "name": "plate3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/plate4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "plate4",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -3819,7 +3883,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "[outline=yellow][shadow=red][b]Version 0.2.25[/b][/shadow][/outline]\n\n",
+        "text": "[outline=yellow][shadow=red][b]Version 0.2.28[/b][/shadow][/outline]\n\n",
         "opacity": 255,
         "fontSize": 50,
         "visible": true,

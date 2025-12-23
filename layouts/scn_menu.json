@@ -407,6 +407,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "btxt_Version",
+      "persistentUuid": "7f775da4-8b45-49d2-b403-c5c3872976ff",
+      "width": 0,
+      "x": 832,
+      "y": 864,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [

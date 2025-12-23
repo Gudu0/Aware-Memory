@@ -3,68 +3,56 @@
   "name": "ext_processing",
   "events": [
     {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "Polish Check",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "grp_items",
+      "conditions": [],
+      "actions": [],
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "grp_items",
-                "obj_polisher",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "grp_items",
-                "polished",
-                "False",
-                ""
-              ]
-            }
-          ],
-          "actions": [],
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Sell Check",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                    "value": "CollisionNP"
                   },
                   "parameters": [
                     "grp_items",
-                    "Animation",
-                    "=",
-                    "\"ingot\""
+                    "obj_sell",
+                    "",
+                    "",
+                    ""
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "SetBooleanObjectVariable"
+                    "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "grp_items",
-                    "polished",
-                    "True",
-                    "1.5"
+                    "PlayerData.Money",
+                    "+",
+                    "grp_items.value"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PlayerData.ItemCount",
+                    "-",
+                    "1"
                   ]
                 },
                 {
@@ -72,157 +60,255 @@
                     "value": "SetNumberObjectVariable"
                   },
                   "parameters": [
-                    "grp_items",
-                    "value",
-                    "*",
-                    "1.5"
+                    "obj_sell",
+                    "earned",
+                    "+",
+                    "grp_items.value"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.EnableSound",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\sounds\\sell.wav",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "grp_items",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "txt_sellpad_label",
+                        "obj_sell",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "txt_sellpad_label",
+                        "Text",
+                        "=",
+                        "ToString(floorTo(obj_sell.earned,1)) + \"$\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "txt_sellpad_label",
+                        "=",
+                        "txt_money.X() + txt_money.Width() - txt_sellpad_label.Width()"
+                      ]
+                    }
                   ]
                 }
               ]
             }
-          ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "Crush Check",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
+          ],
+          "parameters": []
+        },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "grp_items",
-                "obj_crusher",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "grp_items",
-                "crushed",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::Name"
-              },
-              "parameters": [
-                "grp_items",
-                "Animation",
-                "=",
-                "\"ore\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "grp_items",
-                "value",
-                "*",
-                "1.2"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "grp_items",
-                "crushed",
-                "True",
-                "1.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "grp_items",
-                "Animation",
-                "=",
-                "\"dust\""
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "Smelt Check",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "grp_items",
-                "obj_smelter",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "grp_items",
-                "smelted",
-                "False",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangeSprite"
-              },
-              "parameters": [
-                "obj_smelter",
-                "=",
-                "1"
-              ]
-            }
-          ],
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Polish Check",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "grp_items",
+                    "obj_polisher",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "grp_items",
+                    "polished",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "grp_items",
+                        "Animation",
+                        "=",
+                        "\"ingot\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "grp_items",
+                        "polished",
+                        "True",
+                        "1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "grp_items",
+                        "value",
+                        "*",
+                        "1.5"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "grp_items",
+                        "Animation",
+                        "=",
+                        "\"plate\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "grp_items",
+                        "polished",
+                        "True",
+                        "1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "grp_items",
+                        "value",
+                        "*",
+                        "1.2"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Crush Check",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "grp_items",
+                    "obj_crusher",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "grp_items",
+                    "crushed",
+                    "False",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::Name"
@@ -244,7 +330,7 @@
                     "grp_items",
                     "value",
                     "*",
-                    "1.5"
+                    "1.2"
                   ]
                 },
                 {
@@ -253,7 +339,7 @@
                   },
                   "parameters": [
                     "grp_items",
-                    "smelted",
+                    "crushed",
                     "True",
                     "1.5"
                   ]
@@ -261,40 +347,6 @@
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "grp_items",
-                    "Animation",
-                    "=",
-                    "\"ingot\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.01"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeSprite"
-                  },
-                  "parameters": [
-                    "obj_smelter",
-                    "=",
-                    "0"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
                   },
                   "parameters": [
                     "grp_items",
@@ -303,49 +355,49 @@
                     "\"dust\""
                   ]
                 }
-              ],
-              "actions": [
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Smelt Check",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
                   "type": {
-                    "value": "SetNumberObjectVariable"
+                    "value": "CollisionNP"
                   },
                   "parameters": [
                     "grp_items",
-                    "value",
-                    "*",
-                    "1.8"
+                    "obj_smelter",
+                    "",
+                    "",
+                    ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "SetBooleanObjectVariable"
+                    "value": "BooleanObjectVariable"
                   },
                   "parameters": [
                     "grp_items",
                     "smelted",
-                    "True",
-                    "1.5"
+                    "False",
+                    ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "grp_items",
-                    "Animation",
-                    "=",
-                    "\"ingot\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.01"
-                  ]
-                },
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "value": "ChangeSprite"
@@ -353,44 +405,330 @@
                   "parameters": [
                     "obj_smelter",
                     "=",
-                    "0"
+                    "1"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "grp_items",
+                        "Animation",
+                        "=",
+                        "\"ore\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "grp_items",
+                        "value",
+                        "*",
+                        "1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "grp_items",
+                        "smelted",
+                        "True",
+                        "1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "grp_items",
+                        "Animation",
+                        "=",
+                        "\"ingot\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.01"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeSprite"
+                      },
+                      "parameters": [
+                        "obj_smelter",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "grp_items",
+                        "Animation",
+                        "=",
+                        "\"dust\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "grp_items",
+                        "value",
+                        "*",
+                        "1.8"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "grp_items",
+                        "smelted",
+                        "True",
+                        "1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "grp_items",
+                        "Animation",
+                        "=",
+                        "\"ingot\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.01"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeSprite"
+                      },
+                      "parameters": [
+                        "obj_smelter",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.EnableSound",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\sounds\\smelt.wav",
+                        "no",
+                        "20",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
-            },
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Press Check",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "BooleanVariable"
+                    "value": "CollisionNP"
                   },
                   "parameters": [
-                    "PlayerData.EnableSound",
-                    "True",
+                    "grp_items",
+                    "obj_press",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "grp_items",
+                    "pressed",
+                    "False",
                     ""
                   ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "assets\\sounds\\smelt.wav",
-                    "no",
-                    "20",
-                    ""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "grp_items",
+                        "Animation",
+                        "=",
+                        "\"ore\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "grp_items",
+                        "value",
+                        "*",
+                        "1.4"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "grp_items",
+                        "pressed",
+                        "True",
+                        "1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "grp_items",
+                        "Animation",
+                        "=",
+                        "\"dust\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "grp_items",
+                        "Animation",
+                        "=",
+                        "\"ingot\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "grp_items",
+                        "value",
+                        "*",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "grp_items",
+                        "pressed",
+                        "True",
+                        "1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "grp_items",
+                        "Animation",
+                        "=",
+                        "\"ingot\""
+                      ]
+                    }
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         }
-      ],
-      "parameters": []
+      ]
     }
   ]
 }

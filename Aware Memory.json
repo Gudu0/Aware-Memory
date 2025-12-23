@@ -2839,7 +2839,7 @@
       {
         "file": "assets/item/ingot.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/item/ingot.png\",\"extension\":\".png\"}",
         "name": "assets\\item\\ingot.png",
         "smoothed": true,
         "userAdded": false
@@ -3065,6 +3065,22 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
           "name": "Transparent.png"
         }
+      },
+      {
+        "file": "assets/ore.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ore",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/dust2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/dust2.png\"}",
+        "name": "dust2",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },

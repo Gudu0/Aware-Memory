@@ -337,7 +337,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Checks and movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -855,77 +854,28 @@
                 }
               ],
               "parameters": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Link",
-              "include": {
-                "includeConfig": 0
-              },
-              "target": "ext_processing"
             }
           ]
         },
         {
           "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Item",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Item",
-                "obj_sell",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "PlayerData.Money",
-                "+",
-                "Item.value"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "PlayerData.ItemCount",
-                "-",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "obj_sell",
-                "earned",
-                "+",
-                "Item.value"
-              ]
-            }
-          ],
+          "object": "grp_items",
+          "conditions": [],
+          "actions": [],
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "BooleanVariable"
+                    "value": "CollisionNP"
                   },
                   "parameters": [
-                    "PlayerData.EnableSound",
-                    "True",
+                    "grp_items",
+                    "obj_sell",
+                    "",
+                    "",
                     ""
                   ]
                 }
@@ -933,64 +883,121 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PlaySound"
+                    "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "",
-                    "assets\\sounds\\sell.wav",
-                    "",
-                    "",
-                    ""
+                    "PlayerData.Money",
+                    "+",
+                    "grp_items.value"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PlayerData.ItemCount",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "obj_sell",
+                    "earned",
+                    "+",
+                    "grp_items.value"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "PlayerData.EnableSound",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\sounds\\sell.wav",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "grp_items",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "txt_sellpad_label",
+                        "obj_sell",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "txt_sellpad_label",
+                        "Text",
+                        "=",
+                        "ToString(floorTo(obj_sell.earned,1)) + \"$\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "txt_sellpad_label",
+                        "=",
+                        "txt_money.X() + txt_money.Width() - txt_sellpad_label.Width()"
+                      ]
+                    }
                   ]
                 }
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Item",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "LinkedObjects::PickObjectsLinkedTo"
-                  },
-                  "parameters": [
-                    "",
-                    "txt_sellpad_label",
-                    "obj_sell",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "txt_sellpad_label",
-                    "Text",
-                    "=",
-                    "ToString(floorTo(obj_sell.earned,1)) + \"$\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MettreX"
-                  },
-                  "parameters": [
-                    "txt_sellpad_label",
-                    "=",
-                    "txt_money.X() + txt_money.Width() - txt_sellpad_label.Width()"
-                  ]
-                }
-              ]
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "ext_processing"
             }
           ]
         }
@@ -1002,19 +1009,18 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
-      "name": "Item Spawning",
+      "name": "Item Spawning / Setting",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "obj_spawner",
           "conditions": [],
           "actions": [],
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -1089,11 +1095,12 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "Create"
+                        "value": "CreateByName"
                       },
                       "parameters": [
                         "",
-                        "Item",
+                        "grp_items",
+                        "obj_spawner.spawn_type",
                         "obj_spawner.CenterX() + 8",
                         "obj_spawner.CenterY()",
                         "\"items\""
@@ -1129,11 +1136,12 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "Create"
+                        "value": "CreateByName"
                       },
                       "parameters": [
                         "",
-                        "Item",
+                        "grp_items",
+                        "obj_spawner.spawn_type",
                         "obj_spawner.CenterX() - 8",
                         "obj_spawner.CenterY()",
                         "\"items\""
@@ -1169,11 +1177,12 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "Create"
+                        "value": "CreateByName"
                       },
                       "parameters": [
                         "",
-                        "Item",
+                        "grp_items",
+                        "obj_spawner.spawn_type",
                         "obj_spawner.CenterX()",
                         "obj_spawner.CenterY() - 8",
                         "\"items\""
@@ -1209,11 +1218,12 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "Create"
+                        "value": "CreateByName"
                       },
                       "parameters": [
                         "",
-                        "Item",
+                        "grp_items",
+                        "obj_spawner.spawn_type",
                         "obj_spawner.CenterX()",
                         "obj_spawner.CenterY() + 8",
                         "\"items\""
@@ -1258,7 +1268,7 @@
           },
           "parameters": [
             "",
-            "Item"
+            "grp_items"
           ]
         },
         {
@@ -1266,7 +1276,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "Item",
+            "grp_items",
             "Item"
           ]
         },

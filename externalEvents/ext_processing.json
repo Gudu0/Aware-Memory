@@ -19,7 +19,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Item",
+                "grp_items",
                 "obj_polisher",
                 "",
                 "",
@@ -31,7 +31,7 @@
                 "value": "BooleanObjectVariable"
               },
               "parameters": [
-                "Item",
+                "grp_items",
                 "polished",
                 "False",
                 ""
@@ -48,7 +48,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::Name"
                   },
                   "parameters": [
-                    "Item",
+                    "grp_items",
                     "Animation",
                     "=",
                     "\"ingot\""
@@ -61,7 +61,7 @@
                     "value": "SetBooleanObjectVariable"
                   },
                   "parameters": [
-                    "Item",
+                    "grp_items",
                     "polished",
                     "True",
                     "1.5"
@@ -72,7 +72,7 @@
                     "value": "SetNumberObjectVariable"
                   },
                   "parameters": [
-                    "Item",
+                    "grp_items",
                     "value",
                     "*",
                     "1.5"
@@ -102,7 +102,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Item",
+                "grp_items",
                 "obj_crusher",
                 "",
                 "",
@@ -114,7 +114,7 @@
                 "value": "BooleanObjectVariable"
               },
               "parameters": [
-                "Item",
+                "grp_items",
                 "crushed",
                 "False",
                 ""
@@ -125,7 +125,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::Name"
               },
               "parameters": [
-                "Item",
+                "grp_items",
                 "Animation",
                 "=",
                 "\"ore\""
@@ -138,7 +138,7 @@
                 "value": "SetNumberObjectVariable"
               },
               "parameters": [
-                "Item",
+                "grp_items",
                 "value",
                 "*",
                 "1.2"
@@ -149,7 +149,7 @@
                 "value": "SetBooleanObjectVariable"
               },
               "parameters": [
-                "Item",
+                "grp_items",
                 "crushed",
                 "True",
                 "1.5"
@@ -160,7 +160,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "Item",
+                "grp_items",
                 "Animation",
                 "=",
                 "\"dust\""
@@ -188,7 +188,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Item",
+                "grp_items",
                 "obj_smelter",
                 "",
                 "",
@@ -200,7 +200,7 @@
                 "value": "BooleanObjectVariable"
               },
               "parameters": [
-                "Item",
+                "grp_items",
                 "smelted",
                 "False",
                 ""
@@ -228,7 +228,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::Name"
                   },
                   "parameters": [
-                    "Item",
+                    "grp_items",
                     "Animation",
                     "=",
                     "\"ore\""
@@ -241,7 +241,7 @@
                     "value": "SetNumberObjectVariable"
                   },
                   "parameters": [
-                    "Item",
+                    "grp_items",
                     "value",
                     "*",
                     "1.5"
@@ -252,7 +252,7 @@
                     "value": "SetBooleanObjectVariable"
                   },
                   "parameters": [
-                    "Item",
+                    "grp_items",
                     "smelted",
                     "True",
                     "1.5"
@@ -263,7 +263,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "Item",
+                    "grp_items",
                     "Animation",
                     "=",
                     "\"ingot\""
@@ -297,7 +297,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::Name"
                   },
                   "parameters": [
-                    "Item",
+                    "grp_items",
                     "Animation",
                     "=",
                     "\"dust\""
@@ -310,7 +310,7 @@
                     "value": "SetNumberObjectVariable"
                   },
                   "parameters": [
-                    "Item",
+                    "grp_items",
                     "value",
                     "*",
                     "1.8"
@@ -321,7 +321,7 @@
                     "value": "SetBooleanObjectVariable"
                   },
                   "parameters": [
-                    "Item",
+                    "grp_items",
                     "smelted",
                     "True",
                     "1.5"
@@ -332,7 +332,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "Item",
+                    "grp_items",
                     "Animation",
                     "=",
                     "\"ingot\""

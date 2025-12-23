@@ -20,9 +20,9 @@
     "gridColor": 10401023,
     "gridAlpha": 0.3,
     "snap": true,
-    "zoomFactor": 0.49336942119507343,
+    "zoomFactor": 0.43207585526463554,
     "windowMask": false,
-    "selectedLayer": "UI"
+    "selectedLayer": "Decor"
   },
   "objectsGroups": [
     {
@@ -55,10 +55,13 @@
       "name": "manipulatable",
       "objects": [
         {
-          "name": "Item"
+          "name": "obj_itm_gold"
         },
         {
           "name": "obj_player"
+        },
+        {
+          "name": "obj_itm_iron"
         }
       ]
     },
@@ -88,6 +91,17 @@
         },
         {
           "name": "sld_machine_mobile"
+        }
+      ]
+    },
+    {
+      "name": "grp_items",
+      "objects": [
+        {
+          "name": "obj_itm_gold"
+        },
+        {
+          "name": "obj_itm_iron"
         }
       ]
     }
@@ -5733,7 +5747,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "Item",
+      "name": "obj_itm_gold",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -10636,6 +10650,11 @@
           "name": "type",
           "type": "string",
           "value": "eee"
+        },
+        {
+          "name": "spawn_type",
+          "type": "string",
+          "value": "obj_itm_iron"
         }
       ],
       "effects": [],
@@ -12953,11 +12972,230 @@
         "MinValue": 1,
         "MaxValue": 7
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "obj_itm_iron",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "crushed",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "washed",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "polished",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "risked",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "recycled",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "value",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "smelted",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "value": "ore"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "ore",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ore",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 16,
+                    "y": 17
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 12
+                      },
+                      {
+                        "x": 20,
+                        "y": 12
+                      },
+                      {
+                        "x": 24,
+                        "y": 22
+                      },
+                      {
+                        "x": 8,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "dust",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "dust2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 18.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 16,
+                    "y": 18.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.5,
+                        "y": 13
+                      },
+                      {
+                        "x": 17.5,
+                        "y": 13
+                      },
+                      {
+                        "x": 27,
+                        "y": 23
+                      },
+                      {
+                        "x": 6,
+                        "y": 23
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ingot",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\item\\ingot.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 17
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 16,
+                    "y": 17
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5.5,
+                        "y": 17.5
+                      },
+                      {
+                        "x": 12,
+                        "y": 12
+                      },
+                      {
+                        "x": 20,
+                        "y": 12
+                      },
+                      {
+                        "x": 26,
+                        "y": 17.5
+                      },
+                      {
+                        "x": 24,
+                        "y": 22
+                      },
+                      {
+                        "x": 8,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
+      {
+        "folderName": "items",
+        "children": [
+          {
+            "objectName": "obj_itm_gold"
+          },
+          {
+            "objectName": "obj_itm_iron"
+          }
+        ]
+      },
       {
         "folderName": "txts",
         "children": [
@@ -13055,192 +13293,88 @@
         "objectName": "spr_game_background"
       },
       {
-        "objectName": "Item"
-      },
-      {
         "objectName": "obj_machine_ghost"
       }
     ]
   },
   "events": [
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "conveyorTimerNL",
-            "+",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "conveyorTimerL",
-            "-",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "OpacityCapability::OpacityBehavior::SetValue"
-          },
-          "parameters": [
-            "obj_machine_ghost",
-            "Opacity",
-            "=",
-            "220"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "txt_player_message"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "grp_options_menu"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "grp_mobile"
-          ]
-        },
-        {
-          "type": {
-            "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::ActivateControl"
-          },
-          "parameters": [
-            "joy_joystick_mobile",
-            "",
-            "no"
-          ]
-        },
-        {
-          "type": {
-            "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
-          },
-          "parameters": [
-            "tog_place_mobile",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
-          },
-          "parameters": [
-            "btn_zoomPlus_mobile",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
-          },
-          "parameters": [
-            "btn_zoomMinus_mobile",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
-          },
-          "parameters": [
-            "tog_delete_mobile",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
-          },
-          "parameters": [
-            "btn_rotate_mobile",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
-          },
-          "parameters": [
-            "sld_machine_mobile",
-            "no",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
-          },
-          "parameters": [
-            "tog_delete_mobile",
-            "no",
-            ""
-          ]
-        }
-      ],
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "beginning of scene",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Or"
+                "value": "DepartScene"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "SystemInfo::HasTouchScreen"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
+              "parameters": [
+                ""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Montre"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "grp_mobile",
-                ""
+                "conveyorTimerNL",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "conveyorTimerL",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "obj_machine_ghost",
+                "Opacity",
+                "=",
+                "220"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "txt_player_message"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "grp_options_menu"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "grp_mobile"
               ]
             },
             {
@@ -13249,7 +13383,7 @@
               },
               "parameters": [
                 "joy_joystick_mobile",
-                "yes",
+                "",
                 "no"
               ]
             },
@@ -13259,17 +13393,7 @@
               },
               "parameters": [
                 "tog_place_mobile",
-                "yes",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::Activate"
-              },
-              "parameters": [
-                "btn_rotate_mobile",
-                "yes",
+                "",
                 ""
               ]
             },
@@ -13279,7 +13403,7 @@
               },
               "parameters": [
                 "btn_zoomPlus_mobile",
-                "yes",
+                "",
                 ""
               ]
             },
@@ -13289,7 +13413,7 @@
               },
               "parameters": [
                 "btn_zoomMinus_mobile",
-                "yes",
+                "",
                 ""
               ]
             },
@@ -13299,7 +13423,17 @@
               },
               "parameters": [
                 "tog_delete_mobile",
-                "yes",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+              },
+              "parameters": [
+                "btn_rotate_mobile",
+                "",
                 ""
               ]
             },
@@ -13309,31 +13443,146 @@
               },
               "parameters": [
                 "sld_machine_mobile",
-                "yes",
+                "no",
                 ""
               ]
             },
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
               },
               "parameters": [
-                "PlayerData.CamZoom",
-                "=",
-                "1.8"
+                "tog_delete_mobile",
+                "no",
+                ""
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "spr_UI_blocker"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "SystemInfo::HasTouchScreen"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "grp_mobile",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::ActivateControl"
+                  },
+                  "parameters": [
+                    "joy_joystick_mobile",
+                    "yes",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
+                  },
+                  "parameters": [
+                    "tog_place_mobile",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "btn_rotate_mobile",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "btn_zoomPlus_mobile",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "btn_zoomMinus_mobile",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
+                  },
+                  "parameters": [
+                    "tog_delete_mobile",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+                  },
+                  "parameters": [
+                    "sld_machine_mobile",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PlayerData.CamZoom",
+                    "=",
+                    "1.8"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "spr_UI_blocker"
+                  ]
+                }
               ]
             }
           ]
         }
-      ]
+      ],
+      "parameters": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -13377,6 +13626,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Multi Way",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13396,6 +13646,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {

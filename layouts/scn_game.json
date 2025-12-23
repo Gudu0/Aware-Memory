@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.4,
     "snap": true,
-    "zoomFactor": 0.9577085846562149,
+    "zoomFactor": 0.3541128223539222,
     "windowMask": false,
     "selectedLayer": "UI"
   },
@@ -13008,7 +13008,7 @@
         {
           "name": "value",
           "type": "number",
-          "value": 1
+          "value": 2
         },
         {
           "name": "smelted",
@@ -14303,6 +14303,14 @@
                 "tog_difficulty",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "grp_options_menu"
+              ]
             }
           ],
           "actions": [
@@ -14329,6 +14337,14 @@
                 "tog_sound",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "grp_options_menu"
+              ]
             }
           ],
           "actions": [
@@ -14349,7 +14365,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "keybind",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -14367,6 +14382,14 @@
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
+                    {
+                      "type": {
+                        "value": "Visible"
+                      },
+                      "parameters": [
+                        "grp_options_menu"
+                      ]
+                    },
                     {
                       "type": {
                         "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
@@ -14597,6 +14620,14 @@
                   "conditions": [
                     {
                       "type": {
+                        "value": "Visible"
+                      },
+                      "parameters": [
+                        "grp_options_menu"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
                       },
                       "parameters": [
@@ -14825,6 +14856,14 @@
                   "conditions": [
                     {
                       "type": {
+                        "value": "Visible"
+                      },
+                      "parameters": [
+                        "grp_options_menu"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
                       },
                       "parameters": [
@@ -15051,6 +15090,14 @@
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
+                    {
+                      "type": {
+                        "value": "Visible"
+                      },
+                      "parameters": [
+                        "grp_options_menu"
+                      ]
+                    },
                     {
                       "type": {
                         "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
@@ -15297,6 +15344,14 @@
                         "False",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "Visible"
+                      },
+                      "parameters": [
+                        "grp_options_menu"
+                      ]
                     }
                   ],
                   "actions": [
@@ -15508,6 +15563,14 @@
                 "sld_maxItems",
                 "="
               ]
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "grp_options_menu"
+              ]
             }
           ],
           "actions": [
@@ -15544,6 +15607,14 @@
               "parameters": [
                 "sld_spawnCooldown",
                 "="
+              ]
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "grp_options_menu"
               ]
             }
           ],
@@ -16166,7 +16237,7 @@
       "isLocked": false,
       "name": "options",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {

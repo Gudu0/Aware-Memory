@@ -18,11 +18,11 @@
     "gridOffsetY": 0,
     "gridOffsetZ": 0,
     "gridColor": 10401023,
-    "gridAlpha": 0.3,
+    "gridAlpha": 0.4,
     "snap": true,
-    "zoomFactor": 0.43207585526463554,
+    "zoomFactor": 0.9577085846562149,
     "windowMask": false,
-    "selectedLayer": "Decor"
+    "selectedLayer": "UI"
   },
   "objectsGroups": [
     {
@@ -5904,7 +5904,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\item\\ingot.png",
+                  "image": "ingot2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13180,6 +13180,16 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "spr_item_selector_panel",
+      "type": "selector::spr_item_selector_panel",
+      "variant": "",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {}
     }
   ],
   "objectsFolderStructure": {
@@ -13294,6 +13304,9 @@
       },
       {
         "objectName": "obj_machine_ghost"
+      },
+      {
+        "objectName": "spr_item_selector_panel"
       }
     ]
   },
@@ -16153,7 +16166,7 @@
       "isLocked": false,
       "name": "options",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {

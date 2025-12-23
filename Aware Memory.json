@@ -2831,7 +2831,7 @@
       {
         "file": "assets/item/dust.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/item/dust.png\",\"extension\":\".png\"}",
         "name": "assets\\item\\dust.png",
         "smoothed": true,
         "userAdded": false
@@ -3079,6 +3079,46 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/dust2.png\"}",
         "name": "dust2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/item_selector_background.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "item_selector_background",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/item_selector_background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\item_selector_background.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_item_selector_background.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\item_selector_background",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_item_selector_background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\assets_item_selector_background.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ingot2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ingot2.png\"}",
+        "name": "ingot2",
         "smoothed": true,
         "userAdded": false
       }
@@ -3994,6 +4034,11 @@
           "value": 1
         },
         {
+          "name": "ItemSelectorOpen",
+          "type": "boolean",
+          "value": false
+        },
+        {
           "name": "MaxItems",
           "type": "number",
           "value": 100
@@ -4119,6 +4164,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/spritemultitouchjoystick"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/selector"
     }
   ],
   "externalLayouts": []

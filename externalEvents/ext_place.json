@@ -95,6 +95,362 @@
       "colorR": 74,
       "creationTime": 0,
       "folded": true,
+      "name": "Afford",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.CanAfford",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PlayerData.Money",
+                "<",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.CanAfford",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "PlayerData.PlacingMachine",
+                "=",
+                "\"obj_conveyor\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PlayerData.Money",
+                "<",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.CanAfford",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "PlayerData.PlacingMachine",
+                "=",
+                "\"obj_conveyorCenterer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PlayerData.Money",
+                "<",
+                "15"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.CanAfford",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "PlayerData.PlacingMachine",
+                "=",
+                "\"obj_spawner\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PlayerData.Money",
+                "<",
+                "100"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.CanAfford",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "PlayerData.PlacingMachine",
+                "=",
+                "\"obj_smelter\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PlayerData.Money",
+                "<",
+                "35"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.CanAfford",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "PlayerData.PlacingMachine",
+                "=",
+                "\"obj_sell\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PlayerData.Money",
+                "<",
+                "100"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.CanAfford",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "PlayerData.PlacingMachine",
+                "=",
+                "\"obj_crusher\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PlayerData.Money",
+                "<",
+                "55"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.CanAfford",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "PlayerData.PlacingMachine",
+                "=",
+                "\"obj_polisher\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PlayerData.Money",
+                "<",
+                "85"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.CanAfford",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "PlayerData.PlacingMachine",
+                "=",
+                "\"obj_press\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PlayerData.Money",
+                "<",
+                "90"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "PlayerData.CanAfford",
+                "False",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
       "name": "Set Highlight",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -495,358 +851,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
-      "name": "Afford",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "PlayerData.CanAfford",
-                "True",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "PlayerData.Money",
-                "<",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "PlayerData.CanAfford",
-                "False",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "PlayerData.PlacingMachine",
-                "=",
-                "\"obj_conveyor\""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "PlayerData.Money",
-                "<",
-                "10"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "PlayerData.CanAfford",
-                "False",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "PlayerData.PlacingMachine",
-                "=",
-                "\"obj_conveyorCenterer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "PlayerData.Money",
-                "<",
-                "15"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "PlayerData.CanAfford",
-                "False",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "PlayerData.PlacingMachine",
-                "=",
-                "\"obj_spawner\""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "PlayerData.Money",
-                "<",
-                "100"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "PlayerData.CanAfford",
-                "False",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "PlayerData.PlacingMachine",
-                "=",
-                "\"obj_smelter\""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "PlayerData.Money",
-                "<",
-                "35"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "PlayerData.CanAfford",
-                "False",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "PlayerData.PlacingMachine",
-                "=",
-                "\"obj_sell\""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "PlayerData.Money",
-                "<",
-                "100"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "PlayerData.CanAfford",
-                "False",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "PlayerData.PlacingMachine",
-                "=",
-                "\"obj_crusher\""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "PlayerData.Money",
-                "<",
-                "55"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "PlayerData.CanAfford",
-                "False",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "PlayerData.PlacingMachine",
-                "=",
-                "\"obj_polisher\""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "PlayerData.Money",
-                "<",
-                "85"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "PlayerData.CanAfford",
-                "False",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "PlayerData.PlacingMachine",
-                "=",
-                "\"obj_press\""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "PlayerData.Money",
-                "<",
-                "90"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "PlayerData.CanAfford",
-                "False",
-                ""
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
       "name": "Placement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1141,7 +1145,7 @@
                     "txt_machine_cost",
                     "Text",
                     "=",
-                    "\"Spawner - 100$\""
+                    "\"Spawner - \" + ToString(round(100 * pow(1 + 0.12 * MachineData.SpawnerCount, 1.6) * pow(1.03, MachineData.SpawnerCount))\n) + \"$\""
                   ]
                 }
               ]
@@ -1763,7 +1767,6 @@
           "actions": [],
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {

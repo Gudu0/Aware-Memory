@@ -4075,6 +4075,7 @@
       ]
     },
     {
+      "folded": true,
       "name": "PlayerData",
       "type": "structure",
       "children": [
@@ -4167,6 +4168,42 @@
           "name": "SpawnCooldown",
           "type": "number",
           "value": 0.8
+        }
+      ]
+    },
+    {
+      "name": "MachineData",
+      "type": "structure",
+      "children": [
+        {
+          "name": "CrusherCount",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "PolisherCount",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "PressCount",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "SellpadCount",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "SmelterCount",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "SpawnerCount",
+          "type": "number",
+          "value": 0
         }
       ]
     },

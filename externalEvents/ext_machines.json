@@ -337,6 +337,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Checks and movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -887,7 +888,6 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "obj_spawner",
           "conditions": [],

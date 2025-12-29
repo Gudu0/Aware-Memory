@@ -1,5 +1,0 @@
-Aware Memory Suggestions
-
-borg - also an idea - maybe instead of centering, allow treating belts as two "channels" - so players can double the throughput if they are using both sides (that assumes you'll put limits on belt's throughput in the first place)
-
-vast -  why we have a belt that moves items to the center of the belt - so I ask the question why not just have the belts do it anyway

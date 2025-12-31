@@ -1,5 +1,5 @@
 d:assets:assets:0:application/unknown:1
-t:assets.txt:assets-8f11bddb45a897fa939f39e347728835.txt:6268:text/plain:1
+t:assets.txt:assets-0c53ea02e8d107d5b81c6338f061b07a.txt:6405:text/plain:1
 d:Conveyor:Conveyor:0:application/unknown:1
 d:Conveyor/down:Conveyor/down:0:application/unknown:1
 i:Conveyor/down/conveyor_down1.png:Conveyor/down/conveyor_down1-6d7301bc74c7676f7ef686eb32cb445e.png:200:image/png:1
@@ -171,6 +171,8 @@ i:crusher/right/crusher_right1.png:crusher/right/crusher_right1-785cc0b5bc17f6b8
 d:crusher/up:crusher/up:0:application/unknown:1
 i:crusher/up/crusher_up1.png:crusher/up/crusher_up1-6381fad89f720a073f75cd22428a74da.png:203:image/png:1
 d:item:item:0:application/unknown:1
+i:item/crushedOre.png:item/crushedOre-1eb75be7be6c62f018fe6a61ae52cc9d.png:235:image/png:1
+i:item/gear.png:item/gear-bf263dbfaf019cbd6f3009009ffe58c5.png:258:image/png:1
 d:item/gold:item/gold:0:application/unknown:1
 i:item/gold/dust.png:item/gold/dust-cbf3240ed94d10670e1c9009124a03cd.png:232:image/png:1
 i:item/gold/ingot.png:item/gold/ingot-8aec0af186a3136155b016c4e7f86d9f.png:201:image/png:1
@@ -179,11 +181,19 @@ d:item/iron:item/iron:0:application/unknown:1
 i:item/iron/dust.png:item/iron/dust-3248cef87b221309a17edc310c3f97cb.png:229:image/png:1
 i:item/iron/ingot.png:item/iron/ingot-08ef3635f4b3c4927c82e4b4634d2e37.png:201:image/png:1
 i:item/iron/ore.png:item/iron/ore-ee359b50ace5394bce8379d2fc0a1b64.png:268:image/png:1
+i:item/machineParts.png:item/machineParts-790b893c60ef50e620982f98fe89536b.png:248:image/png:1
+i:item/plate.png:item/plate-a03e8caa8e5baa478ac744d079e2b78e.png:250:image/png:1
+i:item/rod.png:item/rod-578edd40bae28e724a37a570d3956680.png:236:image/png:1
 i:libgdx.png:libgdx-6ce2ac53bc1738a1e5ac95f05dceb4a5.png:2456:image/png:1
 d:META-INF:META-INF:0:application/unknown:1
 b:META-INF/MANIFEST.MF:META-INF/MANIFEST-1a4376f41d5daac34c6e44e5ec35279b.MF:82:application/unknown:1
 i:player.png:player-98324069d345ad327d69e2328f799100.png:731:image/png:1
-b:save2:save2-b281c50bad4739163529070661b2592c:48257:application/unknown:1
+d:press:press:0:application/unknown:1
+i:press/press1.png:press/press1-0b525b2388edd266e8cdf0fdc663889c.png:231:image/png:1
+i:press/press2.png:press/press2-35b656036e679c021ab2057b71e7b223.png:230:image/png:1
+d:roller:roller:0:application/unknown:1
+i:roller/roller1.png:roller/roller1-298f2cefefb8045d3ec2ee1a5453984e.png:228:image/png:1
+b:save2:save2-a04438a894f5eb9d9d35793ef4cfeb3a:23401:application/unknown:1
 d:seller:seller:0:application/unknown:1
 i:seller/sellpad1.png:seller/sellpad1-20fd110270f36b02d40072d82362189b.png:297:image/png:1
 d:smelter:smelter:0:application/unknown:1

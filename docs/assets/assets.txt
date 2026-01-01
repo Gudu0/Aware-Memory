@@ -221,7 +221,7 @@ i:press/press1.png:press/press1-0b525b2388edd266e8cdf0fdc663889c.png:231:image/p
 i:press/press2.png:press/press2-35b656036e679c021ab2057b71e7b223.png:230:image/png:1
 d:roller:roller:0:application/unknown:1
 i:roller/roller1.png:roller/roller1-298f2cefefb8045d3ec2ee1a5453984e.png:228:image/png:1
-b:save2:save2-a04438a894f5eb9d9d35793ef4cfeb3a:23401:application/unknown:1
+b:save2:save2-cdde4b1113a26c9ef4d15b1f9030c88c:23209:application/unknown:1
 d:seller:seller:0:application/unknown:1
 i:seller/sellpad1.png:seller/sellpad1-20fd110270f36b02d40072d82362189b.png:297:image/png:1
 d:smelter:smelter:0:application/unknown:1

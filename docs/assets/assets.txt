@@ -1,5 +1,5 @@
 d:assets:assets:0:application/unknown:1
-t:assets.txt:assets-7bb246cf5d19cf78a9123d5c27fe306b.txt:6987:text/plain:1
+t:assets.txt:assets-a53f26af98aa0384ce71a3d64032105e.txt:7063:text/plain:1
 d:Conveyor:Conveyor:0:application/unknown:1
 d:Conveyor/down:Conveyor/down:0:application/unknown:1
 i:Conveyor/down/conveyor_down1.png:Conveyor/down/conveyor_down1-6d7301bc74c7676f7ef686eb32cb445e.png:200:image/png:1
@@ -198,6 +198,11 @@ d:filter/filterLR/right:filter/filterLR/right:0:application/unknown:1
 i:filter/filterLR/right/filterLR_right1.png:filter/filterLR/right/filterLR_right1-7d3f8819d0b940c05538e0aed476462f.png:237:image/png:1
 d:filter/filterLR/up:filter/filterLR/up:0:application/unknown:1
 i:filter/filterLR/up/filterLR_up1.png:filter/filterLR/up/filterLR_up1-fc06124661c1e3babc95ef120d356c1d.png:209:image/png:1
+d:fonts:fonts:0:application/unknown:1
+t:fonts/UI_large.fnt:fonts/UI_large-d37e24cbecf9a62fe9c0460a5a95df58.fnt:21630:application/unknown:1
+i:fonts/UI_large.png:fonts/UI_large-d4cfaec0409cad701b805d5ad885c3f2.png:55589:image/png:1
+t:fonts/UI_small.fnt:fonts/UI_small-30ab1f090e7a51695bfd7a0d2e04fcd7.fnt:11101:application/unknown:1
+i:fonts/UI_small.png:fonts/UI_small-d0af4b7ed611be19f62d1d90b363b866.png:12176:image/png:1
 d:item:item:0:application/unknown:1
 i:item/crushedOre.png:item/crushedOre-1eb75be7be6c62f018fe6a61ae52cc9d.png:235:image/png:1
 i:item/gear.png:item/gear-bf263dbfaf019cbd6f3009009ffe58c5.png:258:image/png:1

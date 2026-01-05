@@ -1,5 +1,5 @@
 d:assets:assets:0:application/unknown:1
-t:assets.txt:assets-a53f26af98aa0384ce71a3d64032105e.txt:7063:text/plain:1
+t:assets.txt:assets-140af639dfce6fa210caf6bbd5412e14.txt:7091:text/plain:1
 d:Conveyor:Conveyor:0:application/unknown:1
 d:Conveyor/down:Conveyor/down:0:application/unknown:1
 i:Conveyor/down/conveyor_down1.png:Conveyor/down/conveyor_down1-6d7301bc74c7676f7ef686eb32cb445e.png:200:image/png:1
@@ -226,9 +226,12 @@ i:press/press1.png:press/press1-0b525b2388edd266e8cdf0fdc663889c.png:231:image/p
 i:press/press2.png:press/press2-35b656036e679c021ab2057b71e7b223.png:230:image/png:1
 d:roller:roller:0:application/unknown:1
 i:roller/roller1.png:roller/roller1-298f2cefefb8045d3ec2ee1a5453984e.png:228:image/png:1
-b:save2:save2-11d440559e2fc94e4c210cdd61f8ef81:376:application/unknown:1
+b:save2:save2-83f356a6209e2e854d11734e3a0024a9:20:application/unknown:1
 d:seller:seller:0:application/unknown:1
 i:seller/sellpad1.png:seller/sellpad1-20fd110270f36b02d40072d82362189b.png:297:image/png:1
+d:sfx:sfx:0:application/unknown:1
+a:sfx/claim.mp3:sfx/claim-434cbeb41b17eb5dd7c35ee3661a141d.mp3:28003:audio/mpeg:1
+a:sfx/place.mp3:sfx/place-4f54219e54e6bba3422ce54e31d4b04b.mp3:23270:audio/mpeg:1
 d:smelter:smelter:0:application/unknown:1
 d:smelter/down:smelter/down:0:application/unknown:1
 i:smelter/down/smelter_down1.png:smelter/down/smelter_down1-c8a1a953ba252b4d9510945be31d48a4.png:346:image/png:1

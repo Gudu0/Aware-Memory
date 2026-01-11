@@ -1,5 +1,7 @@
 d:assets:assets:0:application/unknown:1
-t:assets.txt:assets-140af639dfce6fa210caf6bbd5412e14.txt:7091:text/plain:1
+d:assembler:assembler:0:application/unknown:1
+i:assembler/assembler1.png:assembler/assembler1-4014f27ce807660da8aa8452788f2a24.png:390:image/png:1
+t:assets.txt:assets-fdd168a72fb465904bc9bcdcf52976fd.txt:7116:text/plain:1
 d:Conveyor:Conveyor:0:application/unknown:1
 d:Conveyor/down:Conveyor/down:0:application/unknown:1
 i:Conveyor/down/conveyor_down1.png:Conveyor/down/conveyor_down1-6d7301bc74c7676f7ef686eb32cb445e.png:200:image/png:1
@@ -226,7 +228,7 @@ i:press/press1.png:press/press1-0b525b2388edd266e8cdf0fdc663889c.png:231:image/p
 i:press/press2.png:press/press2-35b656036e679c021ab2057b71e7b223.png:230:image/png:1
 d:roller:roller:0:application/unknown:1
 i:roller/roller1.png:roller/roller1-298f2cefefb8045d3ec2ee1a5453984e.png:228:image/png:1
-b:save2:save2-7f45596af35369172fa11cf76a429c27:312:application/unknown:1
+b:save2:save2-7270512a3e9d936a91bf75c2f1881d9b:336:application/unknown:1
 d:seller:seller:0:application/unknown:1
 i:seller/sellpad1.png:seller/sellpad1-20fd110270f36b02d40072d82362189b.png:297:image/png:1
 d:sfx:sfx:0:application/unknown:1
